@@ -187,19 +187,19 @@
   </name>
 
   <name id="Biter" tags="n">
-    { #plural Biters | Biter }
+    { #plural Croqueurs | Croqueurs }
   </name>
 
   <name id="Squirrel" tags="n">
-    { #plural Squirrels | Squirrel }
+    { #plural Écureuils | Écureuil }
   </name>
 
   <name id="Raccoon" tags="n">
-    { #plural Raccoons | Raccoon }
+    { #plural Ratons Laveurs | Raton Laveur }
   </name>
 
   <name id="Duckbill" tags="n">
-    { #plural Duckbills | Duckbill }
+    { #plural Ornithorynques | Ornithorynque }
   </name>
 
   <name id="Crocodile" tags="n">
@@ -207,76 +207,75 @@
   </name>
 
   <name id="Owl" tags="n an">
-    { #plural Owls | Owl }
+    { #plural Hiboux | Hibou }
   </name>
 
   <name id="Crab" tags="n">
-    { #plural Crabs | Crab }
+    { #plural Crabes | Crabe }
   </name>
 
   <name id="Crawler" tags="n">
-    { #plural Crawlers | Crawler }
+    { #plural Rampants | Rampant }
   </name>
 
   <name id="BarkBeetle" tags="n">
-    { #plural Bark Beetles | Bark Beetle }
+    { #plural Scarabées D'Écorce | Scarabée D'Écorce }
   </name>
 
   <name id="Caterpillar" tags="n">
-    { #plural Caterpillars | Caterpillar }
+    { #plural Chenilles | Chenille }
   </name>
 
   <name id="EarthCaterpillar" tags="n">
-    { #plural Earth Caterpillars | Earth Caterpillar }
+    { #plural Chenilles De Terre | Chenille De Terre }
   </name>
 
   <name id="Snail" tags="n">
-    { #plural Snails | Snail }
+    { #plural Escargots | Escargot }
   </name>
   
   <name id="SnoutBeetle" tags="n">
-    { #plural Snout Beetles | Snout Beetle }
+    { #plural Scarabées À Groin | Scarabée À Groin }
   </name>
 
   <name id="LemonBeetle" tags="n">
-    { #plural Lemon Beetles | Lemon Beetle }
+    { #plural Scarabées Jaune-Citron | Scarabée Jaune-Citron }
   </name>
 
   <name id="FireBeetle" tags="n">
-    { #plural Fire Beetles | Fire Beetle }
+    { #plural Scarabées De Feu | Scarabée De Feu }
   </name>
 
   <name id="LemonFish" tags="n">
-    { #plural Lemon Fishes | Lemon Fish }
+    { #plural Poissons Jaune-Citron | Poisson Jaune-Citron }
   </name>
 
   <name id="SapphireFish" tags="n">
-    { #plural Sapphire Fishes | Sapphire Fish }
+    { #plural Poissons Bleu-Saphir | Poisson Bleu-Saphir }
   </name>
 
   <name id="Shark" tags="n">
-    { #plural Sharks | Shark }
+    { #plural Requins | Requin }
   </name>
 
   <name id="LanternFish" tags="n">
-    { #plural Lantern Fishes | Lantern Fish }
+    { #plural Poissons Lanternes | Poisson Lanterne }
   </name>
 
   <name id="MawFish" tags="n">
-    { #plural Maw Fishes | Maw Fish }
+    { #plural Lottes | Lotte }
   </name>
 
   <name id="Piranha" tags="n">
     { #plural Piranhas | Piranha }
   </name>
 
-
   <name id="Blowfish" tags="n">
-    { #plural Blowfishes | Blowfish }
+    { #plural Poissons-Globes | Poisson-Globe }
   </name>
 
   <name id="Seahorse" tags="n">
-    { #plural Seahorses | Seahorse }
+    { #plural Hippocampes | Hippocampe }
   </name>
   
   <name id="ArtifactVase" tags="n">
@@ -284,67 +283,67 @@
   </name>
   
   <name id="ArtifactAmulet" tags="n">
-      Amulet of @
+      Amulette de @
   </name>
   
   <name id="ArtifactRing" tags="n">
-    Ring of @
+    Anneau of @
   </name>
   
   <name id="ArtifactStone" tags="n">
-    @ Stone
+    Pierre de @ 
   </name>
 
   <name id="ArtifactGem" tags="n">
-    @ Gem
+    Gemme de @
   </name>
 
   <name id="ArtifactCrown" tags="n">
-    Crown of @
+    Couronne de @
   </name>
 
   <name id="ArtifactScepter" tags="n">
-    Scepter of @
+    Sceptre de @
   </name>
 
    <name id="SeaCrab" tags="n">
-    { #plural Sea Crabs | Sea Crab }
+    { #plural Crabes Des Mers | Crabe De Mer }
   </name>
 
   <name id="Penguin" tags="n">
-    { #plural Penguins | Penguin }
+    { #plural Pingouins | Pingouin }
   </name>
 
   <name id="OrcMale" tags="m an">
-    { #plural Orcs | Orc }
+    { #plural Orques | Orque }
   </name>
 
   <name id="OrcFemale" tags="f an">
-    { #plural Orcs | Orc }
+    { #plural Orques | Orque }
   </name>
 
   <name id="UndeadMale" tags="m an">
-    { #plural Undeads | Undead }
+    { #plural Morts-Vivants | Mort-Vivant }
   </name>
 
   <name id="UndeadFemale" tags="f an">
-    { #plural Undeads | Undead }
+    { #plural Mortes-Vivantes | Morte-Vivante }
   </name>
 
   <name id="Skeleton" tags="n">
-    { #plural Skeletons | Skeleton }
+    { #plural Squelettes | Squelette }
   </name>
 
   <name id="SkeletonKnight" tags="m">
-    { #plural Skeleton Knights | Skeleton Knight }
+    { #plural Chevaliers Squelettes | Chevalier Squelette }
   </name>
 
   <name id="SkeletonHorse" tags="n">
-    { #plural Skeleton Horses | Skeleton Horse }
+    { #plural Chevaux Squelettes | Cheval Squelette }
   </name>
 
   <name id="GoldKnightHorse" tags="n">
-    { #plural Horses | Horse }
+    { #plural Chevaux | Cheval }
   </name>
 
   <name id="Dragon" tags="n">
@@ -352,99 +351,99 @@
   </name>
 
   <name id="IronDeposit" tags="n">
-    { #plural Iron Deposits | Iron Deposit }
+    { #plural Gisements De Fer | Gisement De Fer }
   </name>
 
   <name id="GoldDeposit" tags="n">
-    { #plural Gold Deposits | Gold Deposit }
+    { #plural Gisements D'Or | Gisement D'Or }
   </name>
 
   <name id="SilverDeposit" tags="n">
-    { #plural Silver Deposits | Silver Deposit }
+    { #plural Gisements D'Argent | Gisement D'Argent }
   </name>
 
   <name id="SandstoneDeposit" tags="n">
-    { #plural Sandstone Deposits | Sandstone Deposit }
+    { #plural Gisements De Grès | Gisement De Grès }
   </name>
 
   <name id="IceCrystalDeposit" tags="n">
-    { #plural Ice Crystal Deposits | Ice Crystal Deposit }
+    { #plural Gisements De Cristal De Glace | Gisement De Cristal De Glace }
   </name>
 
   <name id="EmeraldDeposit" tags="n">
-    { #plural Emerald Deposits | Emerald Deposit }
+    { #plural Gisements D'Émeraude | Gisement D'Émeraude }
   </name>
 
   <name id="DiamondDeposit" tags="n">
-    { #plural Diamond Deposits | Diamond Deposit }
+    { #plural Gisements De Diamant | Gisement De Diamant }
   </name>
 
   <name id="RubyDeposit" tags="n">
-    { #plural Ruby Deposits | Ruby Deposit }
+    { #plural Gisements De Rubis | Gisement De Rubis }
   </name>
 
   <name id="SapphireDeposit" tags="n">
-    { #plural Sapphire Deposits | Sapphire Deposit }
+    { #plural Gisements De Saphir | Gisement De Saphir }
   </name>
 
   <name id="Emerald" tags="n">
-    { #plural Emeralds | Emerald }
+    { #plural Émeraudes | Émeraude }
   </name>
 
   <name id="Sapphire" tags="n">
-    { #plural Sapphires | Sapphire }
+    { #plural Saphirs | Saphir }
   </name>
 
   <name id="Ruby" tags="n">
-    { #plural Rubies | Ruby }
+    Rubis
   </name>
 
   <name id="Diamond" tags="n">
-    { #plural Diamonds | Diamond }
+    { #plural Diamants | Diamant }
   </name>
 
   <name id="HumanMale" tags="m">
-    { #plural Humans | Human }
+    { #plural Humains | Humain }
   </name>
 
   <name id="HumanFemale" tags="f">
-    { #plural Humans | Human }
+    { #plural Humaines | Humaines }
   </name>
 
   <name id="ElfMale" tags="m an">
-    { #plural Elves | Elf }
+    { #plural Elfes | Elfe }
   </name>
 
   <name id="ElfFemale" tags="f an">
-    { #plural Elves | Elf }
+    { #plural Elfes | Elfe }
   </name>
 
   <name id="Bunny" tags="n">
-    { #plural Bunnies | Bunny }
+    { #plural Lapins | Lapin }
   </name>
 
   <name id="Porcupine" tags="n">
-    { #plural Porcupines | Porcupine }
+    { #plural Porcs-Épics | Porc-Épic }
   </name>
 
   <name id="Collie" tags="n">
-    { #plural Collies | Collie }
+    { #plural Colleys | Colley }
   </name>
 
   <name id="SavageDog" tags="n">
-    { #plural Savage Dogs | Savage Dog }
+    { #plural Chiens Sauvages | Chien Sauvage }
   </name>
 
   <name id="AlphaDog" tags="n">
-    { #plural Alpha Dogs | Alpha Dog }
+    { #plural Chiens Alphas | Chien Alpha }
   </name>
 
   <name id="ShepherdDog" tags="n">
-    { #plural Shepherd Dogs | Shepherd Dog }
+    { #plural Bergers Allemands | Berger Allemand }
   </name>
 
   <name id="Cow" tags="n">
-    { #plural Cows | Cow }
+    { #plural Vaches | Vache }
   </name>
 
   <name id="Alpaca" tags="n">
@@ -456,23 +455,23 @@
   </name>
 
   <name id="SkullBull" tags="n">
-    { #plural Skull Bulls | Skull Bull }
+    { #plural Taureaux À Crâne | Taureau À Crâne }
   </name>
 
   <name id="Egg" tags="n">
-    { #plural Eggs | Egg }
+    { #plural Oeufs | Oeuf }
   </name>
 
   <name id="Turtle" tags="n">
-    { #plural Turtles | Turtle }
+    { #plural Tortues | Tortue }
   </name>
 
   <name id="BlueTurtle" tags="n">
-    { #plural Turtles | Turtle }
+    { #plural Tortues | Tortue }
   </name>
   
   <name id="LavaTurtle" tags="n">
-    { #plural Lava Turtles | Lava Turtle }
+    { #plural Tortues De Lave | Tortue De Lave }
   </name>
 
   <name id="Terrier" tags="n">
@@ -480,111 +479,111 @@
   </name>
 
   <name id="ScottishTerrier" tags="n">
-    { #plural Scottish Terriers | Scottish Terrier }
+    { #plural Terriers Écossais | Terrier Écossai }
   </name>
 
   <name id="Panther" tags="n">
-    { #plural Panthers | Panther }
+    { #plural Panthères | Panthère }
   </name>
 
   <name id="Cat" tags="n">
-    { #plural Cats | Cat }
+    { #plural Chats | Chat }
   </name>
 
   <name id="BrownCat" tags="n">
-    { #plural Cats | Cat }
+    { #plural Chats | Chat }
   </name>
 
   <name id="WhiteCat" tags="n">
-    { #plural Cats | Cat }
+    { #plural Chats | Chat }
   </name>
 
   <name id="Pig" tags="n">
-    { #plural Pigs | Pig }
+    { #plural Cochons | Cochon }
   </name>
 
   <name id="Sheep" tags="n">
-    { #plural Sheeps | Sheep }
+    { #plural Moutons | Mouton }
   </name>
 
   <name id="Horse" tags="n">
-    { #plural Horses | Horse }
+    { #plural Chevaux | Cheval }
   </name>
 
   <name id="Camel" tags="n">
-    { #plural Camels | Camel }
+    { #plural Chameaux | Chameau }
   </name>
 
   <name id="Monkey" tags="n">
-    { #plural Monkeys | Monkey }
+    { #plural Singes | Singe }
   </name>
 
   <name id="Makake" tags="n">
-    { #plural Makakes | Makake }
+    { #plural Macaques | Macaque }
   </name>
 
   <name id="SkeletonDog" tags="n">
-    { #plural Skeleton Dogs | Skeleton Dog }
+    { #plural Chiens Squelettes | Chien Squelette }
   </name>
 
   <name id="Chicken" tags="n">
-    { #plural Chickens | Chicken }
+    { #plural Poulets | Poulet }
   </name>
 
   <name id="Wolf" tags="n">
-    { #plural Wolves | Wolf }
+    { #plural Loups | Loup }
   </name>
 
   <name id="Hyena" tags="n">
-    { #plural Hyenas | Hyena }
+    { #plural Hyènes | Hyène }
   </name>
 
   <name id="Giraffe" tags="n">
-    { #plural Giraffes | Giraffe }
+    { #plural Girafes | Girafe }
   </name>
 
   <name id="Warthog" tags="n">
-    { #plural Warthogs | Warthog }
+    { #plural Phacochères | Phacochère }
   </name>
 
   <name id="Antelope" tags="n">
-    { #plural Antelopes | Antelope }
+    { #plural Antilopes | Antilope }
   </name>
 
   <name id="Devourer" tags="n">
-    { #plural Devourers | Devourer }
+    { #plural Dévoreurs | Dévoreur }
   </name>
 
   <name id="Fly" tags="n">
-    { #plural Flies | Fly }
+    { #plural Mouches | Mouche }
   </name>
 
   <name id="Midge" tags="n">
-    { #plural Midges | Midge }
+    { #plural Moucherons | Moucheron }
   </name>
 
   <name id="Mosquito" tags="n">
-    { #plural Mosquitos | Mosquito }
+    { #plural Moustiques | Moustique }
   </name>
 
   <name id="GreenSlime" tags="n">
-    { #plural Slimes | Slime }
+    { #plural Vaseux | Vaseu }
   </name>
 
   <name id="PinkSlime" tags="n">
-    { #plural Slimes | Slime }
+    { #plural Vaseux | Vaseu }
   </name>
 
   <name id="YellowSlime" tags="n">
-    { #plural Slimes | Slime }
+    { #plural Vaseux | Vaseu }
   </name>
 
   <name id="BlueSlime" tags="n">
-    { #plural Slimes | Slime }
+    { #plural Vaseux | Vaseu }
   </name>
 
   <name id="Witch" tags="f">
-    { #plural Witches | Witch }
+    { #plural Sorcières | Sorcière }
   </name>
 
   <name id="Gnobold" tags="m">
@@ -592,7 +591,7 @@
   </name>
 
   <name id="SnowGnobold" tags="m">
-    { #plural Snow Gnobolds | Snow Gnobold }
+    { #plural Gnobolds des Neiges | Gnobold des Neiges }
   </name>
 
   <name id="Gnome" tags="m">
@@ -600,15 +599,15 @@
   </name>
 
   <name id="Insectoid" tags="m an">
-    { #plural Insectoids | Insectoid }
+    { #plural Insectoïdes | Insectoïde }
   </name>
 
   <name id="Jester" tags="m">
-    { #plural Jesters | Jester }
+    { #plural Bouffons | Bouffon }
   </name>
 
   <name id="DarkJester" tags="m">
-    { #plural Dark Jesters | Dark Jester }
+    { #plural Vils Bouffons | Vil Bouffon }
   </name>
   
   <name id="Gnoll" tags="m">
@@ -616,76 +615,76 @@
   </name>
 
   <name id="PolarGnoll" tags="m">
-    { #plural Polar Gnolls | Polar Gnoll }
+    { #plural Gnolls Polaires | Gnoll Polaire }
   </name>
 
   <name id="Mermaid" tags="f">
-    { #plural Mermaids | Mermaid }
+    { #plural Sirènes | Sirène }
   </name>
 
   <name id="Merman" tags="m">
-    { #plural Mermen | Merman }
+    { #plural Tritons | Triton }
   </name>
 
   <name id="EmpireSoldierMale" tags="m">
-    { #plural Soldiers | Soldier }
+    { #plural Soldats | Soldat }
   </name>
 
   <name id="EmpireSoldierFemale" tags="f">
-    { #plural Soldiers | Soldier }
+    { #plural Soldats | Soldat }
   </name>
 
   <name id="Empress" tags="f">
-    { #plural Empresses | Empress }
+    { #plural Impératrices | Impératrice }
   </name>
 
   <name id="HalfDemon" tags="m">
-    { #plural Half-Demon | Half-Demon }
+    { #plural Demi-Démons | Demi-Démon }
   </name>
 
   <name id="Archdruid" tags="m">
-    { #plural Archdruids | Archdruid }
+    { #plural Archidruides | Archidruides }
   </name>
 
   <name id="GhostPreacher" tags="m">
-    { #plural GhostPreachers | GhostPreacher }
+    { #plural Prêcheurs Fantômes | Prêcheur Fantôme }
   </name>
 
   <name id="LegendaryPaladin" tags="m">
-    { #plural Legendary Paladins | Legendary Paladin }
+    { #plural Paladins Légendaires | Paladin Légendaire }
   </name>
 
   <name id="Angel" tags="f">
-    { #plural Angels | Angel }
+    { #plural Anges | Angel}
   </name>
 
   <name id="ManaMech" tags="m">
-    { #plural Mana Mechs | Mana Mech }
+    { #plural Mechas De Mana | Mecha De Mana }
   </name>
 
   <name id="Treant" tags="m">
-    { #plural Treants | Treant }
+    { #plural Tréants | Tréant }
   </name>
 
   <name id="FireRunestone" tags="m">
-    { #plural Fire Runestones | Fire Runestone }
+    { #plural Pierres Runiques De Feu | Pierre Runique De Feu }
   </name>
   <name id="WaterRunestone" tags="m">
-    { #plural Water Runestones | Water Runestone }
+    { #plural Pierres Runiques D'Eau | Pierre Runique D'Eau }
   </name>
   <name id="IceRunestone" tags="m">
-    { #plural Ice Runestones | Ice Runestone }
+    { #plural Pierres Runiques De Glace | Pierre Runique De Glace }
   </name>
   <name id="WindRunestone" tags="m">
-    { #plural Wind Runestones | Wind Runestone }
+    { #plural Pierres Runiques De Vent | Pierre Runique De Vent }
   </name>
 
   <name id="RunePortal" tags="n">
-    { #plural Rune Portals | Rune Portal }
+    { #plural Portails Runiques | Portail Runique }
   </name>
 
   <name id="Monstrosity" tags="n">
-    { #plural Monstrosities | Monstrosity }
+    { #plural Monstruosités | Monstruosité }
   </name>
 
   <name id="SkullSlater" tags="n">
