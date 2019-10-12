@@ -357,7 +357,7 @@
   </name>
 
   <name id="GoldDeposit" tags="m">
-    { #plural Gisement d'Or | Gisement d'Or }
+    { #plural Gisements d'Or | Gisement d'Or }
   </name>
 
   <name id="SilverDeposit" tags="m">
@@ -429,7 +429,7 @@
   </name>
 
   <name id="Collie" tags="m">
-    { #plural Collies | Collie }
+    { #plural Colleys | Colley }
   </name>
 
   <name id="SavageDog" tags="m">
@@ -481,7 +481,7 @@
   </name>
 
   <name id="ScottishTerrier" tags="m">
-    { #plural Scottish Terriers | Scottish Terrier }
+    { #plural Terriers Écossais | Terrier Écossai }
   </name>
 
   <name id="Panther" tags="f">
@@ -561,7 +561,7 @@
   </name>
 
   <name id="Midge" tags="m">
-    { #plural Midges | Midge }
+    { #plural Moucherons | Moucheron }
   </name>
 
   <name id="Mosquito" tags="m">
@@ -870,7 +870,7 @@
   </name>
 
   <name id="Dummy" tags="m">
-    { #plural Dummies | Dummy }
+    { #plural Mannequins | Mannequin }
   </name>
 
   <name id="Aim" tags="f">
@@ -882,11 +882,11 @@
   </name>
 
   <name id="SlimeWell" tags="m">
-    { #plural Puits de Slime | Puits de Slime }
+    { #plural Puits de Vases | Puit de Vases }
   </name>
 
   <name id="HornetsNest" tags="m">
-    { #plural Nids de Frelons | Nid de Frelon }
+    { #plural Nids de Frelons | Nid de Frelons }
   </name>
 
   <name id="UnholyTomb" tags="f">
@@ -918,7 +918,7 @@
   </name>
 
   <name id="CobwebScrub" tags="f">
-    { #plural Broussailles | Broussaille }
+    { #plural Broussailles Entoilées | Broussaille Entoilée }
   </name>
 
   <name id="FireScrub" tags="f">
@@ -942,7 +942,7 @@
   </name>
 
   <name id="DarkCultistFemale" tags="f">
-    { #plural Cultistes Noires | Cultistes Noires }
+    { #plural Cultistes Noires | Cultiste Noire }
   </name>
 
   <name id="PirateMale" tags="m">
@@ -990,7 +990,7 @@
   </name>
 
   <name id="Artifact" tags="m">
-    { #plural Artefacts | Artefact }
+    { #plural Artéfacts | Artéfact }
   </name>
 
   <name id="Amulet" tags="f an">
@@ -1127,7 +1127,7 @@
   </name>
 
   <name id="BedTable" tags="f">
-    { #plural Tables de Lit | Table de Lit }
+    { #plural Tables de Nuit | Table de Nuit }
   </name>
 
   <name id="MarketStand1" tags="m an">
@@ -1187,7 +1187,7 @@
   </name>
 
   <name id="Corpse" tags="m">
-    { #plural Corps | Corps }
+    { #plural Cadavres | Cadavre }
   </name>
 
 
@@ -1196,7 +1196,7 @@
   </name>
 
   <name id="Artifact" tags="m">
-    { #plural Artefacts | Artefact }
+    { #plural Artéfacts | Artéfact }
   </name>
 
   <name id="FlowerBox1" tags="m">
@@ -1673,7 +1673,7 @@
   </name>
 
   <name id="Bait" tags="f an s">
-    { #plural Aliments pour animaux | Nourriture pour animaux }
+    { #plural Appâts | Appât }
   </name>
 
   <name id="BlueJelly" tags="f s">
@@ -1705,7 +1705,7 @@
   </name>
 
   <name id="MixedSalad" tags="f s">
-    { #plural Salades Mixets | Salade Mixte }
+    { #plural Salades Mixtes | Salade Mixte }
   </name>
 
   <name id="RadicchioSalad" tags="f s">
@@ -1837,7 +1837,7 @@
   </name>
 
   <name id="SugarCandy" tags="m s">
-    { #plural Sucre Candi | Sucre Candi }
+    { #plural Sucre d'Orge | Sucre d'Orge }
   </name>
 
   <name id="BlackberryMarmelade" tags="f s">
@@ -4139,11 +4139,11 @@
   </speech>
 
   <speech id="random:11">
-    Mon [@pet_singular $creature] est adorable!
+    { #m Mon |#f Ma } [@pet_singular $creature] est adorable!
   </speech>
 
   <speech id="random:12">
-    J'ai un nouvel [Animal $stress]. C'est un [@pet_singular $creature]. Je l'adore!
+    J'ai { #m un nouvel |#f une nouvelle } [Animal $stress]. C'est { #m un |#f une } [@pet_singular $creature]. Je l'adore!
   </speech>
 
   <speech id="random:13">
@@ -4171,7 +4171,7 @@
   </speech>
 
   <speech id="random:19">
-    J'adorerais avoir un [@pet_singular $creature] apprivoisé.
+    J'adorerais avoir { #m un |#f une } [@pet_singular $creature] apprivoisé{#f e}.
   </speech>
 
   <speech id="random:20">
@@ -4179,7 +4179,7 @@
   </speech>
 
   <speech id="random:21">
-    Les [@monster_plural $creature] sont très forts.
+    Les [@monster_plural $creature] sont très fort{ #f e }s.
   </speech>
 
   <speech id="random:22">
@@ -4261,11 +4261,11 @@
   </macro>
 
   <macro id="mob_him">
-    { #mob_f elle | #mob_m lui | #mob_p_f elles | eux }
+    { #mob_f la | #mob_m le | #mob_p les | les }
   </macro>
 
   <macro id="mob_his">
-    { #mob_f her | #mob_m his | #mob_p their | its }
+    { #mob_f sa | #mob_m son | #mob_p leur | leurs }
   </macro>
   
   <macro id="mob_name">
@@ -4297,7 +4297,7 @@
   </macro>
 
   <macro id="mob2_his">
-    { #mob2_f her | #mob2_m his | its }
+    { #mob2_f sa | #mob2_m son | son }
   </macro>
 
   <macro id="mob2_name">
@@ -4329,7 +4329,7 @@
   </macro>
 
   <macro id="mob3_his">
-    { #mob3_f her | #mob3_m his | its }
+    { #mob3_f sa | #mob3_m son | son }
   </macro>
 
   <macro id="mob3_name">
@@ -4381,7 +4381,7 @@
   </macro>
 
   <macro id="item2_it">
-    { #item2_p them | it }
+    { #item2_p les | #item2_f la | le }
   </macro>
 
   <macro id="items2">
@@ -4405,7 +4405,7 @@
   </macro>
   
   <macro id="in_the_unnamed_zone">
-    { #zone_on on | #zone_at at | in } the {@zone() $zone}
+    { #zone_on sur | #zone_at à | dans } { #zone_f la | #zone_m le | #zone_v l´ } {@zone() $zone}
   </macro>
   
   <macro id="from_the_zone">
@@ -4417,31 +4417,31 @@
   </macro>
 
   <macro id="zone_it">
-    { #zone_p them | it }
+    { #zone_p les | #zone_f la | #zone_m le }
   </macro>
 
   <macro id="this_zone">
-    { #zone_p these | this } {@zone() $zone}
+    { #zone_p ces | #zone_f cette | #zone_m ce } {@zone() $zone}
   </macro>
 
   <macro id="this_zone2">
-    { #zone2_p these | this } {@zone2() $zone}
+    { #zone2_p ces | #zone_f cette | #zone_m ce } {@zone2() $zone}
   </macro>
 
   <macro id="in_this_zone2">
-    { #zone2_on on | #zone2_at at | in } { #zone2_p these | this } {@zone2() $zone}
+    { #zone2_on sur | #zone2_at à | dans } { #zone2_p ces | #zone_f cette | #zone_m ce } {@zone2() $zone}
   </macro>
 
   <macro id="in_the_zone2">
-    { #zone2_on on | #zone2_at at | in } { #zone2_the the } {@zone2(named) $zone}
+    { #zone2_on sur | #zone2_at à | dans } { #zone2_p les | #zone_f la | #zone_m le }  {@zone2(named) $zone}
   </macro>
 
   <macro id="that_zone">
-    { #zone_p those | that } {@zone() $zone}
+    { #zone_p ces | #zone_f cette | #zone_m ce } {@zone() $zone}
   </macro>
 
   <macro id="a_zone">
-    { #zone_an an | #zone_p | a} {@zone(*) $zone}
+    { #zone_f une | #zone_p Des | Un} {@zone(*) $zone}
   </macro>
 
   <macro id="land">
@@ -4457,7 +4457,7 @@
   </macro>
 
   <macro id="the_faction">
-    { the @faction() $stress }
+    { Les @faction() $stress }
   </macro>
 
 
@@ -5034,7 +5034,7 @@
   </speech>
 
   <speech id="i_wonder_where_it_could_be">
-    { Je me demande où {#item_fp elles | #item_mp il | #item_f elle | il } { se trouve | peut bien être | { #item_p sont | est } {#item_fp cachées | #item_mp cachés | #item_f cachée | caché } } {.|...} | Savez-vous où {#item_fp elles | #item_mp il | #item_f elle | il } { pourrait être | peut se trouver | {#item_fp sont cachées | #item_mp sont cachés | #item_f est cachée | est caché } }? }
+    { Je me demande où {#item_fp elles | #item_mp ils | #item_f elle | il } { se trouve | peut bien être | { #item_p sont | est } {#item_fp cachées | #item_mp cachés | #item_f cachée | caché } } {.|...} | Savez-vous où {#item_fp elles | #item_mp il | #item_f elle | il } { pourrait être | peut se trouver | {#item_fp sont cachées | #item_mp sont cachés | #item_f est cachée | est caché } }? }
   </speech>
   
    <speech id="you_found_the_artifact">
@@ -5104,15 +5104,15 @@
 
 
   <speech id="you_can_find_realm_ruins_everywhere">
-    { You can { find | discover } | There are }  *realm_adjective { ruins | buildings | structures | sanctuaries | remnants | relics } { everywhere | in many places | all over [the place] | anywhere | all about }.
+    { Vous pouvez { trouver | découvrir } | Il existe } des *realm_adjective { ruines | bâtiments | structures | sanctuaires | vestiges | reliques } { partout | dans plusieurs lieux | tout autour de [the place] | n'importe où | ici et là }.
   </speech>
 
   <speech id="you_can_still_find_realm_ruins_everywhere">
-    { You can still { find | discover } | There are still }  *realm_adjective { ruins | buildings | structures | sanctuaries | remnants | relics } { everywhere | in many places | all over [the place] | anywhere | all about }.
+    { Vous pouvez encore { trouver | découvrir } | Il y a encore } des *realm_adjective { ruines | bâtiments | structures | sanctuaires | vestiges | reliques } { partout | dans plusieurs lieux | tout autour de [the place] | n'importe où | ici et là }.
   </speech>
 
   <speech id="there_are_legends_about_realm_artifacts">
-    { There are { legends | stories | tales | rumors | myths } about | { legends | stories | tales | myths } are told about } { old | ancient | magic | mighty | valuable | invaluable | powerful | mysterious }  { *realm_adjective { artifacts $realm} | { artifacts $realm} *from_named_realm }  {.|...}
+    { Il existe des { légendes | histoires | contes | rumeurs | mythes } sur | { légendes | histoires | contes | mythes } qui racontent } { de vieux | d'antiques | de magiques | de forts | de précieux | d'inestimables | de puissants | de mystérieurs }  { *realm_adjective { artéfacts $realm} | { artéfacts $realm} *from_named_realm }  {.|...}
   </speech>
 
   <speech id="do_you_know_what_creatures_eat">
@@ -5124,7 +5124,7 @@
   </speech>
 
   <speech id="my_favorite_pet_is">
-    { My favourite pet is *mob! | *mobs are my favourite pets! }
+    { Mon compagnon favoris est { #mob_f la | #mob_m le } *mob! | *mobs sont mes compagnons favoris ! }
   </speech>
   
    <speech id="i_like_your_style">
@@ -5136,7 +5136,7 @@
   </speech>
 
   <speech id="do_we_know_each_other">
-    { Do I know you? | Do you know me? | Do we know each other? | Have we met before? }
+    { Est-ce que je vous connais? | Vous me connaissez? | Est-ce qu'on se connait? | S'est-on déjà rencontré avant? }
   </speech>
   
   <speech id="dont_you_have_a_pet">
@@ -5144,23 +5144,23 @@
   </speech>
 
   <speech id="your_pet_is_adorable">
-    { Your *mob is {really | so | very | } { adorable | cute | lovely }! | I [really] like your *mob! | Nice *mob! }
+    { Votre *mob est { vraiment | telment | très | } { adorable | { #mob_f mignonne | #mob_m mignon } | { #mob_f charmante | #mob_m charmant } }! | J'aime [beaucoup] votre *mob! | { #mob_f Jolie | #mob_m Joli } *mob! }
   </speech>
   
   <speech id="may_i_pet_it">
-    { May I | Can I | Am I allowed to } pet *mob_him?
+    { Pourrais-je | Puis-je | Suis-je autorisé à } *mob_him caresser ?
   </speech>
 
   <speech id="i_have_a_new_pet">
-    { I have a new {pet $stress} {.|!} It's a *mob {!|.} | I have a new *mob {.|!}}
+    { J'ai { #mob_f une nouvelle | #mob_m un nouveau } {compagnon $stress} {.|!} C'est { #mob_f une | #mob_m un } *mob {!|.} | J'ai { #mob_f une nouvelle | #mob_m un nouveau } *mob {.|!}}
   </speech>
   
   <speech id="i_love_him">
-    I love *mob_him!
+    Je l'adore !
   </speech>
   
   <speech id="he_is_cheeky">
-    *mob_he is { very | so } { cheeky | wild | impertinent }!
+    *mob_he est { très | tellement } { { #mob_f effrontée | #mob_m effronté } | sauvage | { #mob_f impertinente | #mob_m impertinent } }!
   </speech>
 
   <speech id="i_like_your_name">
@@ -5168,19 +5168,19 @@
   </speech>
 
   <speech id="are_you_an_adventurer">
-    { Are you { an adventurer | an explorer | a traveler | a treasure hunter }? | You look like  { an adventurer | an explorer | a traveler | a treasure hunter }! }
+    { Êtes-vous { aventurier | explorateur | voyageur | chasseur de trésors }? | Vous ressemblez à un { aventurier | explorateur | voyageur | chasseur de trésors }! }
   </speech>
 
   <speech id="i_love_hang_gliding">
-    { I love | My favourite sport is | I like } {hang gliding $stress}!
+    { J'adore | Mon sport favoris est | J'aime } le {deltaplane $stress}!
   </speech>
   
   <speech id="do_you_like_hang_gliding">
-     { Do you like | Are you interested in } {hang gliding $stress}?
+     { Aimez-vous | Êtes-vous intéressés par } le {deltaplane $stress}?
   </speech>
 
   <speech id="are_you_a_good_climber">
-    { Are you { a good {climber $stress} | good at {climbing $stress} }? | Do you like {climbing $stress}? }
+    { Êtes-vous { un bon {grimpeur $stress} | bon à {l'escalade $stress} }? | Aime-vous {l'escalade $stress}? }
   </speech>
 
   <speech id="do_you_like_sailing">
@@ -5192,27 +5192,27 @@
   </speech>
 
   <speech id="i_love_nature">
-    I love nature!
+    J'aime la nature!
   </speech>
   
   <speech id="i_love_the_beach">
-    I { love | like } { going to | lying on | } the beach!
+    J'{ adore | aime } { aller à | m'étendre à | } la plage!
   </speech>
   
   <speech id="i_love_the_river">
-    I { love | like } { going to | swimming in | sitting by | the sounds of } the river!
+    J'{ adore | aime } { aller à | nager dans | m'assoir près de | le son de } la rivière!
   </speech>
 
   <speech id="i_love_the_lake">
-    I { love | like } { going to | swimming in | sitting by } the lake!
+    J'{ adore | aime } { aller au | nager dans le | m'assoir près du } lac!
   </speech>
   
   <speech id="i_love_the_forest">
-    I { love | like } { going to | walking in | } the forest!
+    J'{ adore | aime } { aller à | marcher dans | } la forêt!
   </speech>
   
   <speech id="i_love_the_mountains">
-    I { love | like } { going to | hiking in | } the mountains!
+    J'{ adore | aime } { aller à | me promener dans | } les montagnes!
   </speech>
 
  
@@ -5245,33 +5245,35 @@
   
 
   <speech id="hello_listener">
-    Hey there, {@listener_name $name}!
+    Hé salut, {@listener_name $name}!
   </speech>
 
   <speech id="attention">
-    { Attention! | Caution! | Look out! | Oh, look! | What the... }
+    { Attention! | Prudence! | Faites attention! | Eh, regardez! | Qu'est ce que... }
   </speech>
 
   <speech id="hey_you">
-    { Hey! | Hey you! | Hey, you over there! | Uhm... }
+    { Hé! | Hé vous! | Hé, vous là-bas! | Euh... }
   </speech>
 
   <speech id="help">
-    { { Help! | [Please] help me! | { Can | Could } you [please] help me? | I need help! | I need your help.
-    | Maybe you can help me. | Could you maybe help me? } $shake }
+    { { A l'aide! | [S'il vous plait] aidez-moi! | { Pouvez- | Pourrie- }vous [s'il vous plait] m'aider? | J'ai besoin d'aide! | J'ai besoin de votre aide.
+    | Peut-être pourriez-vous m'aider. | Serait-il possible que vous m'aidiez? } $shake }
   </speech>
 
   <speech id="hahaha">
-    { Hah! | Hahaha! | Huhuhu! | Mwahaha! }
+    { Ah! | Ahahah! | Uhuhuh! | Mouahahah! }
   </speech>
 
   <speech id="are_you_looking_for_the_item">
-    { Are you { looking | searching } for the *item? | Do you want the *item? | { So | It seems } you're looking for the *item! }
+    { Est-ce que vous { cherchez | recherchez } *the_item *item? | Voulez-vous *the_item *item? | { Donc | Il semble que } vous êtes en train de chercher the_item *item! }
   </speech>
 
   <speech id="come_and_get_it">
-    { Come and get it! | I won't give it to you [voluntarily]! | First you need to take it from me! }
+    { Venez le chercher! | Je ne vous le donnerai pas [volontairement]! | Vous devrez d'abord me le prendre! }
   </speech>
+
+  <!-- @GHOMERR -->
 
   <speech id="you_wont_take_my_item">
     { You won't { take | get } { my | the } *item! | I won't give you { my | the } *item ! | You won't get the *item from me! }
@@ -7078,7 +7080,7 @@
   </speech>
 
   <speech id="it_has_a_nice_sound">
-    { It has a nice sound! | It sounds nice! | I { love | like } its sound! }
+    { It has a nice sound! | It sounds nice! | J'{ adore | aime } its sound! }
   </speech>
 
   <speech id="it_looks_so_nice">
