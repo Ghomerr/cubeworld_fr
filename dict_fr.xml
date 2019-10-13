@@ -5266,61 +5266,59 @@
   </speech>
 
   <speech id="are_you_looking_for_the_item">
-    { Est-ce que vous { cherchez | recherchez } *the_item *item? | Voulez-vous *the_item *item? | { Donc | Il semble que } vous êtes en train de chercher the_item *item! }
+    { Est-ce que vous { cherchez | recherchez } *item? | Voulez-vous *item? | { Donc | Il semble que } vous êtes en train de chercher *item! }
   </speech>
 
   <speech id="come_and_get_it">
     { Venez le chercher! | Je ne vous le donnerai pas [volontairement]! | Vous devrez d'abord me le prendre! }
   </speech>
 
-  <!-- @GHOMERR -->
-
   <speech id="you_wont_take_my_item">
-    { You won't { take | get } { my | the } *item! | I won't give you { my | the } *item ! | You won't get the *item from me! }
+    { Vous { ne prendrez | n'aurez } pas { #item_f ma | #item_m mon | mes } *item! | Je ne vous donnerai pas { #item_f ma | #item_m mon | mes } *item! | Vous ne me prendrez pas *item! }
   </speech>
 
   <speech id="the_enemies_are_attacking">
-    The *mobs are attacking!
+    Les *mobs attaquent!
   </speech>
 
   <speech id="someone_is_approaching">
-    [ { i think | it believe | it seems like } ] someone is approaching {!|...}
+    [ { je pense | je crois | on dirait } ] que quelqu'un approche {!|...}
   </speech>
 
   <speech id="i_hear_footsteps">
-    [ { i think | it believe } ] i hear footsteps {!|...}
+    [ { je pense | je crois } ] entendre des bruits de pas {!|...}
   </speech>
 
   <speech id="enemies_are_attacking_npc">
-    { *mobs are attacking *mob2_name! | *mob2_name is attacked by *mobs! }
+    { *mobs attaquent *mob2_name! | *mob2_name est { #mob2_f attaquée | attaqué } par des *mobs! }
   </speech>
 
   <speech id="they_are_attacking_npc">
-    { They are attacking *mob2_name! | *mob2_name is attacked by them! }
+    { Ils attaquent *mob2_name! | *mob2_name est { #mob2_f attaquée | attaqué } par eux! }
   </speech>
 
   <speech id="enemies_are_attacking_him">
-    { *mobs are attacking *mob2_him! | *mob2_he is attacked by *mobs! }
+    { *mobs attaquent *mob2_him! | *mob2_he est { #mob2_f attaquée | attaqué } par des *mobs! }
   </speech>
 
   <speech id="boss_is_attacking">
-    *mob_name is attacking!
+    *mob_name attaque!
   </speech>
 
   <speech id="boss_is_attacking_npc">
-    { *mob_name is attacking *mob2_name! | *mob2_name is attacked by *mob_name! }
+    { *mob_name attaque *mob2_name! | *mob2_name est { #mob2_f attaquée | attaqué } par *mob_name! }
   </speech>
 
   <speech id="he_is_attacking_npc">
-    { *mob_he is attacking *mob2_name! | *mob2_name is attacked by *mob_him! }
+    { *mob_he attaque *mob2_name! | *mob2_name est { #mob2_f attaquée | attaqué } par *mob_him! }
   </speech>
 
   <speech id="boss_is_attacking_him">
-    { *mob_name is attacking *mob2_him! | *mob2_h is attacked by *mob_name! }
+    { *mob_name attaque *mob2_him! | *mob2_h est attaqué par *mob_name! }
   </speech>
 
   <speech id="you_found_the_item">
-    Vous avez trouvé the *item.
+    Vous avez trouvé *item.
   </speech>
 
   <speech id="you_found_an_item">
@@ -5328,7 +5326,7 @@
   </speech>
 
   <speech id="you_received_the_item">
-    Vous avez reçu *the_item.
+    Vous avez reçu *item.
   </speech>
   
   <speech id="you_received_an_item">
@@ -5336,67 +5334,69 @@
   </speech>
 
   <speech id="you_learned_how_to_craft_the_item">
-    You learned how to craft the *item.
+    Vous avez appris comment fabriquer *the_item.
   </speech>
 
   <speech id="you_opened_the_object_with_the_item">
-    You opened the *mob with the *item.
+    Vous ouvrez *mob_him *mob avec *the_item.
   </speech>
 
   <speech id="so_you_found_the_item">
-    So you { found | obtained } the *item {!|.|?}
+    Donc vous avez { trouvé | obtenu } *the_item {!|.|?}
   </speech>
 
   <speech id="you_should_bring_it_to_npc">
-    [You should] bring it to *mob_name.	
+    [Vous devriez] l'apporter à *mob_name.	
   </speech>
 
   <speech id="you_should_show_it_to_npc">
-    [You should] show it to *mob_name.
+    [Vous devriez] le montrer à *mob_name.
   </speech>
 
   <speech id="you_should_bring_it_to_the_object">
-    [You should] bring it to the *mob.
+    [Vous devriez] l'apporter au *mob.
   </speech>
 
   <speech id="you_should_bring_them_to_npc">
-    [You should] bring them to *mob_name.
+    [Vous devriez] les apporter à *mob_name.
   </speech>
 
   <speech id="you-should-bring-them2-to-npc">
-    [You should] bring them to *mob_name.
+    [Vous devriez] les apporter à *mob_name.
   </speech>
 
   <speech id="good_work">
-   { { [That was] { Good | Nice | Great } work! | Well done! | [Very] Nice! | Great! | [That was] awesome! | [That was] amazing! | Fantastic! } $shake }
+   { { [C'était du] { Bon | Beau | Super } travail! | Bien joué! | [Très] Joli! | Super! | [C'était] génial! | [C'était] incroyable! | Fantastique! } $shake }
   </speech>
 
   <speech id="thank_you">
-    { Thank you [{very | so} much]! | Thanks { a lot | so much } ! | Thank you, thank you! | I'm [very] grateful {.|!} | I appreciate it [very much] {!|.} }
+    { Merci [{beaucoup | infiniment}]! | { Mille mercis | Merci mille fois } ! | Merci, merci! | Je vous suis [très] reconnaissant {.|!} | J'apprécie [énormément] {!|.} }
   </speech>
 
   <speech id="npc_needs_your_help">
-    { *mob_name [the *mob] needs your help.
-    | It seems that *mob_name [the *mob] needs you help.
-    | *a_mob named *mob_name needs your help.
-    | *mob_name seems to want something from you.
-    | [It seems that] *mob_name wants something from you!
-    | [It seems that] *mob_name has a { request | problem }!
-    | *a_mob named *mob_name has a { request | problem }!
-    | *mob_name seems to have a { request | problem }!
+    { *mob_name [*mob_him *mob] requiert votre aide.
+    | Il semble que *mob_name [*mob_him *mob] a besoin de votre aide.
+    | *a_mob qui s'appelle *mob_name requiert votre aide.
+    | *mob_name semble avoir besoin de quelque chose de votre part.
+    | [Il semble que] *mob_name veut vous demander quelque chose!
+    | [Il semble que] *mob_name a { une requête | un problème }!
+    | *a_mob qui s'appelle *mob_name a { une requête | un problème }!
+    | *mob_name semble avoir { une requête | un problème }!
     }
   </speech>
 
   <speech id="he_needs_your_help">
-    { *mob_he needs your help.
-    | It seems that *mob_he needs you help.
-    | *mob_he needs your help.
-    | *mob_he seems to want something from you.
-    | [It seems that] *mob_he wants something from you!
-    | [It seems that] *mob_he has a { request | problem }!
-    | *mob_he seems to have a { request | problem }!
+    { *mob_he a besoin de votre aide.
+    | Il semble que *mob_he requiert votre aide.
+    | *mob_he a besoin de vous.
+    | *mob_he semble avoir besoin de quelque chose de votre part.
+    | [Il semble que] *mob_he veut vous demander quelque chose!
+    | [Il semble que] *mob_he a { une requête | un problème }!
+    | *mob_he semble avoir { une requête | un problème }!
     }
   </speech>
+
+  <!-- @GHOMERR -->
 
   <speech id="you_should_look_for_npc">
     { You should { search | look } for *mob_name. | It would be best to { search | look } for *mob_name {!|.} | You { must | have to } find *mob_name! }
@@ -5628,31 +5628,31 @@
   </speech>
 
   <speech id="take_it">
-    { [You should] Take *item_le! | [You should] Pick *item_le up! }
+    { [Vous devriez] Take *item_le! | [Vous devriez] Pick *item_le up! }
   </speech>
 
   <speech id="use_the_item">
-    [You should] Use the *item!
+    [Vous devriez] Use the *item!
   </speech>
 
   <speech id="use_the_items">
-    [You should] Use the *items!
+    [Vous devriez] Use the *items!
   </speech>
 
   <speech id="use_it">
-    [You should] Use *item_le!
+    [Vous devriez] Use *item_le!
   </speech>
 
   <speech id="use_them">
-    [You should] Use them!
+    [Vous devriez] Use them!
   </speech>
 
   <speech id="read_the_item">
-    [You should] Read the *item!
+    [Vous devriez] Read the *item!
   </speech>
 
   <speech id="read_it">
-    [You should] Read *item_le!
+    [Vous devriez] Read *item_le!
   </speech>
 
   <speech id="find_the_item">
@@ -5660,7 +5660,7 @@
   </speech>
 
   <speech id="take_the_item">
-    { [You should] Take the *item! | [You should] Pick the *item up! }
+    { [Vous devriez] Take the *item! | [Vous devriez] Pick the *item up! }
   </speech>
 
   <speech id="with_the_found_item_you_can_open_the_object">
@@ -6031,7 +6031,7 @@
 
   <speech id="npc_has_sprained_his_ankle">
     { *mob_name { has | seems to have } sprained his ankle.
-    | It seems that *mob_name has sprained his ankle.
+    | Il semble que *mob_name has sprained his ankle.
     }
   </speech>
 
@@ -6160,7 +6160,7 @@
   </speech>
 
   <speech id="gather_some">
-    [You should] gather some.
+    [Vous devriez] gather some.
   </speech>
 
   <speech id="help_me_gather_some">
@@ -6168,7 +6168,7 @@
   </speech>
 
   <speech id="gather_some_items">
-    [You should] gather some *items.
+    [Vous devriez] gather some *items.
   </speech>
 
   <speech id="i_need_them_to_make_an_item">
@@ -7016,7 +7016,7 @@
   </speech>
 
   <speech id="oh_you_already_have_the_item">
-    [ Oh {!|,} ] { [so] you [already] have [ { found | obtained | discovered } ] *the_item? | { #item_p are those | is that } *an_item? | [ [it] looks like] you have [found] *the_item! }
+    [ Oh {!|,} ] { [so] you [already] have [ { found | obtained | discovered } ] *item? | { #item_p are those | is that } *an_item? | [ [it] looks like] you have [found] *item! }
   </speech>
 
   <speech id="nice">
@@ -7129,7 +7129,7 @@
   </speech>
 
   <speech id="havent_you_found_the_item_yet">
-    { [Alors] vous n'avez pas encore trouvé | [Alors] vous n'avez pas encore réussi à trouver | Toujours pas trouvé | Pas encore trouvé } *the_item?
+    { [Alors] vous n'avez pas encore trouvé | [Alors] vous n'avez pas encore réussi à trouver | Toujours pas trouvé | Pas encore trouvé } *item?
   </speech>
 
   <speech id="havent_you_found_the_gnome_yet">
