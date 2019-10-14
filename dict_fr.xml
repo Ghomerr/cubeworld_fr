@@ -3,7 +3,7 @@
 <root>
 
   <name id="Wizard" tags="m">
-    { #plural Magiciens | Magicien }
+    { #plural Mages | Mage }
   </name>
 
   <name id="Sorcerer" tags="m">
@@ -106,8 +106,8 @@
     { #plural Lions | Lion }
   </name>
 
-  <name id="LionFemale" tags="m">
-    { #plural Lions | Lion }
+  <name id="LionFemale" tags="f">
+    { #plural Lionnes | Lionne }
   </name>
 
   <name id="SnowLionMale" tags="m">
@@ -144,7 +144,7 @@
   </name>
 
   <name id="LeafRunner" tags="m">
-    { #plural Coureurs des Canopées | Coureur des Canopées }
+    { #plural Coureurs des Bois | Coureur des Bois }
   </name>
 
   <name id="SnowRunner" tags="m">
@@ -220,7 +220,7 @@
   </name>
 
   <name id="BarkBeetle" tags="m">
-    { #plural Scolytes | Scolyte }
+    { #plural Scarabées Arboricoles | Scarabée Arboricole }
   </name>
 
   <name id="Caterpillar" tags="f">
@@ -236,15 +236,15 @@
   </name>
   
   <name id="SnoutBeetle" tags="m">
-    { #plural Curculionides | Curculionide }
+    { #plural Scarabées Renifleurs | Scarabée Renifleur }
   </name>
 
   <name id="LemonBeetle" tags="m">
-    { #plural Bostryches | Bostryche }
+    { #plural Scarabées Citrons | Scarabée Citron }
   </name>
 
   <name id="FireBeetle" tags="m">
-    { #plural Xylocendres | Xylocendre }
+    { #plural Scarabées de Feu | Scarabée de Feu }
   </name>
 
   <name id="LemonFish" tags="m">
@@ -313,7 +313,7 @@
   </name>
 
   <name id="Penguin" tags="m">
-    { #plural Manchots | Manchot }
+    { #plural Pingouins | Pingouin }
   </name>
 
   <name id="OrcMale" tags="m an">
@@ -569,19 +569,19 @@
   </name>
 
   <name id="GreenSlime" tags="m">
-    { #plural Slimes | Slime }
+    { #plural Vases | Vase }
   </name>
 
   <name id="PinkSlime" tags="m">
-    { #plural Slimes | Slime }
+    { #plural Vases | Vase }
   </name>
 
   <name id="YellowSlime" tags="m">
-    { #plural Slimes | Slime }
+    { #plural Vases | Vase }
   </name>
 
   <name id="BlueSlime" tags="m">
-    { #plural Slimes | Slime }
+    { #plural Vases | Vase }
   </name>
 
   <name id="Witch" tags="f">
@@ -4935,7 +4935,7 @@
   </speech>
 
   <speech id="hello">
-    { Bonjour | Oh, bonjour | Bien le bonjour | Salut | Salutations | Hé | Hello } {!|.|...}
+    { Bonjour | Oh, bonjour | Bien le bonjour | Salut | Salutations | Hé } {!|.|...}
   </speech>
 
   <speech id="my_name_is">
@@ -5030,7 +5030,7 @@
   </speech>
 
   <speech id="im_looking_for_an_artifact">
-    Je { recherche | suis en quête d' | suis en mission pour trouver | cherche | tente de trouver } un { { artefact $realm } *realm_adjective { ancien | antique | magique | puissant | de grande valeur | inestimable | mystérieux | perdu }  | { artefact $realm } *from_named_realm } {.|!|...}
+    Je { recherche | suis en quête d' | suis en mission pour trouver | cherche | tente de trouver } un { { artéfact $realm } *realm_adjective { ancien | antique | magique | puissant | de grande valeur | inestimable | mystérieux | perdu }  | { artéfact $realm } *from_named_realm } {.|!|...}
   </speech>
 
   <speech id="i_wonder_where_it_could_be">
@@ -5104,7 +5104,7 @@
 
 
   <speech id="you_can_find_realm_ruins_everywhere">
-    { Vous pouvez { trouver | découvrir } | Il existe } des *realm_adjective { ruines | bâtiments | structures | sanctuaires | vestiges | reliques } { partout | dans plusieurs lieux | tout autour de [the place] | n'importe où | ici et là }.
+    { Vous pouvez { trouver | découvrir } | Il existe } des { ruines | bâtiments | structures | sanctuaires | vestiges | reliques } de *realm_adjective { partout | dans plusieurs lieux | tout autour de [the place] | n'importe où | ici et là }.
   </speech>
 
   <speech id="you_can_still_find_realm_ruins_everywhere">
@@ -5872,147 +5872,147 @@
     { Attendez... | J'ai trouvé! | J'ai une idée! }
   </speech>
 
-  <!-- @GHOMERR -->
-
   <speech id="maybe_you_can_find_the_item_in_boss_object">
-    { { Maybe | Perhaps } you can find *item_le *item in *mob_names *mob2!
-    | { Maybe | Perhaps } *item_le *item is in *mob_names *mob2!
-    | The *item {could | might} be in *mob_names *mob2!
+    { Vous pouvez { Peut-être | Eventuellement } trouver *item_le *item dans { #mob2_f la | #mob2_m le } *mob2 de *mob_name!
+    | *item_le *item se trouve { Peut-être | Eventuellement } dans { #mob2_f la | #mob2_m le } *mob2 de *mob_name!
+    | *item_le *item pourrait { être | se trouver }  dans { #mob2_f la | #mob2_m le } *mob2 de *mob_name!
     }
   </speech>
 
   <speech id="maybe_you_can_find_the_item_in_it">
-    { { Maybe | Perhaps } you can find *item_le *item in it!
-    | { Maybe | Perhaps } *item_le *item is in it!
-    | The *item {could | might} be in it!
+    { Vous pouvez { Peut-être | Eventuellement } trouver *item_le *item à l'intérieur!
+    | *item_le *item est { Peut-être | Eventuellement } à l'intérieur!
+    | *item_le *item pourrait { être | se trouver } à l'intérieur!
     }
   </speech>
 
   <speech id="maybe_you_can_open_it_with_the_item">
-    { Maybe | Perhaps | I think | Possibly | I guess } you can open *mob_him with *item_le *item {!|.|...}    
+    { Peut-être que | Eventuellement, | Je pense que | Potentiellement, | Je crois que } vous pouvez l'ouvrir avec *item_le *item {!|.|...}
   </speech>
 
   <speech id="probably_boss_has_the_item">
-    Probably *mob_name, the leader of les *mobs, has *item_le *item!
+    Il est probable que *mob_name, le chef des *mobs, ait en sa possession *item_le *item!
   </speech>
 
   <speech id="probably_he_has_the_item">
-    Probably *mob_he has *item_le *item!
+    *mob_he a probablement *item_le *item!
   </speech>
 
   <speech id="he_should_be_close_to_the_camp">
-    *mob_he { should be | is probably } [ rôdent ] [somewhere] { close to the camp $zone }
+    *mob_he { devrait être | est probablement } en train de [rôder] [quelque part] { tout près du camp $zone }
   </speech>
 
   <speech id="he_should_be_close_to_the-zone">
-    *mob_he { should be | is probably } [ rôdent ] [somewhere ] close to *the_zone.
+    *mob_he { devrait être | est probablement } [ rôdent ] [quelque part ] près de *the_zone.
   </speech>
 
 
   <speech id="you_discovered_a_monster">
-    You { avez trouvé | avez découvert | êtes tombé sur } a dangerous *mob!
+    Vous { avez trouvé | avez découvert | êtes tombé sur } { #mob_f une | un } *mob { #mob_f dangereuse | dangereux }!
   </speech>
 
   <speech id="you_discovered_a_boss">
-    You { avez trouvé | avez découvert | êtes tombé sur } a dangerous *mob named *mob_name!
+    Vous { avez trouvé | avez découvert | êtes tombé sur }  { #mob_f une | un } *mob { #mob_f dangereuse | dangereux } qui s'appelle *mob_name!
   </speech>
 
   <speech id="you_discovered_dungeon_boss">
-    You { avez trouvé | avez découvert | êtes tombé sur } *mob_name, the leader of *the_zone {.|!}
+    Vous { avez trouvé | avez découvert | êtes tombé sur } *mob_name, chef de *the_zone {.|!}
   </speech>
 
   <speech id="you_discovered_an_object">
-    You { found | discovered } *a_mob.
+    Vous avez { trouvé | découvert } *a_mob.
   </speech>
 
   <speech id="you_found_the_object">
-    You found *mob_him *mob.
+    Vous avez trouvé *mob_him *mob.
   </speech>
 
   <speech id="you_should_examine_the_object">
-    Vous devriez examine *mob_him *mob {!|.}
+    Vous devriez examiner *mob_him *mob {!|.}
   </speech>
 
   <speech id="you_should_examine_the_objects">
-    Vous devriez examine les *mobs {!|.}
+    Vous devriez examiner les *mobs {!|.}
   </speech>
 
   <speech id="over_there">
-    [Over] there!
+    [Là]-bas!
   </speech>
 
   <speech id="free_me">
-    [{ Please | Vous {must | have to}}] free me!
+    { [S'il vous plait], aidez-moi | [Vous devez] me libérer} !
   </speech>
 
   <speech id="the_creatures_want_to_cook_me">
-    { The | Those } *mobs { want to | wanna } cook me!
+    { Les | Ces } *mobs { veulent | vont } me manger!
   </speech>
 
   <speech id="the_creatures_shackled_me">
-    { The | Those } *mobs shackled me!
+    { Les | Ces } *mobs m'ont enchaîné!
   </speech>
 
   <speech id="hurry">
-    Hurry [up]!
+    Dépêchez-[vous]!
   </speech>
 
   <speech id="you_should_use_the_object">
-    Vous devriez use *mob_him *mob {!|.}
+    Vous devriez utiliser *mob_him *mob {!|.}
   </speech>
 
   <speech id="use_the_object">
-    { Use *mob_him *mob! | The *mob! Use *mob_him! }
+    { Utilisez *mob_him *mob! | *mob_him *mob! Utilisez *mob_him! }
   </speech>
 
   <speech id="there_must_be_an_object_somewhere">
-    There { must | should | has to } be *a_mob somewhere!
+    Il { doit | devrait } y avoir *a_mob quelque part!
   </speech>
 
   <speech id="you_should_use_the_object">
-    Vous devriez use *mob_him *mob {!|.}
+    Vous devriez utiliser *mob_him *mob {!|.}
   </speech>
 
   <speech id="you_should_examine_it">
-    Vous devriez examine *mob_him {!|.}
+    Vous devriez examiner *mob_him {!|.}
   </speech>
 
   <speech id="you-should-open-it">
-    [{ Maybe | Perhaps}] { you should | it would be best to } open *mob_him {!|.}
+    [{ Peut-être | Eventuellement}], { vous devriez l'ouvrir | il serait préférable de l'ouvrir} {!|.}
   </speech>
 
   <speech id="i_was_trapped_in_this_object">
-    { {I was | I'm} trapped in this *mob!
+    { { J'étais | J'ai été } enfermé dans { #mob_f cette | ce } *mob!
   </speech>
 
   <speech id="boss_trapped_me">
-    { *a_mob { trapped | captured } me! *mob_his name is *mob_name!
-    | *a_mob named *mob_name { trapped | captured } me!
-    | i was { trapped | captured } by *a_mob named *mob_name!
+    { *a_mob m'a { enfermé | capturé }! *mob_his nom est *mob_name!
+    | *a_mob qui s'appelle *mob_name m'a { enfermé | capturé } me!
+    | J'ai été { enfermé | capturé } par *mob_name!
     }
   </speech>
 
   <speech id="boss_banished_me_with_this_object">
-    { *a_mob banished me with this *mob2! *mob_his name is *mob_name.
-    | *a_mob named *mob_name banished me with this *mob2!
-    | I was banished with this *mob2 by *a_mob named *mob_name!
+    { *a_mob m'a banni avec { #mob2_f cette | ce } *mob2! *mob_his nom est *mob_name.
+    | *a_mob qui s'appelle *mob_name m'a banni avec { #mob2_f cette | ce } *mob2!
+    | J'ai été banni avec { #mob2_f cette | ce } *mob2 par *mob_name!
     }
   </speech>
 
   <speech id="boss_trapped_npc">
-    { *a_mob { trapped | captured } *mob2_name! *mob_his name is *mob_name.
-    | *a_mob named *mob_name { trapped | captured } *mob2_name!
-    | *mob2_name was { trapped | captured } by *a_mob named *mob_name!
+    { *a_mob a { enfermé | capturé } *mob2_name! *mob_his nom est *mob_name.
+    | *a_mob qui s'appelle *mob_name a { enfermé | capturé } *mob2_name!
+    | *mob2_name a été { enfermé | capturé } par *mob_name!
     }
   </speech>
 
   <speech id="boss_banished_npc_with_an_object">
-    { *a_mob banished *mob2_name with *a_mob3! *mob_his name is *mob_name.
-    | *a_mob named *mob_name banished *mob2_name with *a_mob3!
-    | *mob2_name was banished *with *a_mob3 by *a_mob named *mob_name!
+    { *a_mob a banni *mob2_name avec *a_mob3! *mob_his nom est *mob_name.
+    | *a_mob qui s'appelle *mob_name a banni *mob2_name avec *a_mob3!
+    | *mob2_name a été banni avec *a_mob3 par *mob_name!
     }    
   </speech>
   
+  <!-- @GHOMERR -->
+
   <speech id="you_have_freed_npc">
     { Vous have freed *mob_name. | Vous { could | were able to } free *mob_name! }
   </speech>  
@@ -6076,11 +6076,11 @@
   </speech>
 
   <speech id="maybe_he_can_give_you_an_item">
-    [{ Perhaps | Maybe }] { *mob_he { can | might } give you *an_item | you { can | could | might } { get | obtain } *an_item from *mob_him }.
+    [{ Eventuellement | Peut-être }] { *mob_he { can | might } give you *an_item | you { can | could | might } { get | obtain } *an_item from *mob_him }.
   </speech>
 
   <speech id="maybe_he_can_give_it_to_you">
-    [{ Perhaps | Maybe }] { *mob_he { can | might } give *item_le to you | you { can | could | might } { get | obtain } *item_le from *mob_him }.
+    [{ Eventuellement | Peut-être }] { *mob_he { can | might } give *item_le to you | you { can | could | might } { get | obtain } *item_le from *mob_him }.
   </speech>
 
   <speech id="an_item_can_be_made_from_ingredients">
@@ -6124,7 +6124,7 @@
   </speech>
 
   <speech id="there_should_be_an_item_in_bosses_object">
-    { There should be *an_item in *mob_names *mob2. | Vous { can | should } find *an_item in *mob_names *mob2. }
+    { There should be *an_item in { #mob2_f la | #mob2_m le } *mob2 de *mob_name. | Vous { can | should } find *an_item in { #mob2_f la | #mob2_m le } *mob2 de *mob_name. }
   </speech>
 
   <speech id="items_can_be_found_direction_of_here">
@@ -6152,7 +6152,7 @@
   </speech>
 
   <speech id="maybe_enemies_have_some">
-    { Maybe | Perhaps } { *mobs have some | you can get some from *mobs }.
+    { Peut-être | Eventuellement } { *mobs have some | you can get some from *mobs }.
   </speech>
 
   <speech id="please_gather_some">
@@ -6318,7 +6318,7 @@
   </speech>
 
   <speech id="maybe_you_can_find_some_objects_nearby">
-    Maybe you can find some *mobs nearby.
+    Peut-être you can find some *mobs nearby.
   </speech>
 
   <speech id="the_object_leads_to_direction">
@@ -6371,7 +6371,7 @@
   </speech>
 
   <speech id="you_found_npcs_pet">
-    You found *mob_names *mob2.
+    You found { #mob2_f la | #mob2_m le } *mob2 de *mob_name.
   </speech>
 
   <speech id="you_should_bring_him_to_npc">
@@ -6434,7 +6434,7 @@
   </speech>
 
   <speech id="maybe_it_is_useful">
-    { { Maybe | Perhaps | Possibly } *item_it is | *item_it { might | could } be } [somehow] { useful | valuable | helpful } [to you].
+    { { Peut-être | Eventuellement | Possibly } *item_it is | *item_it { might | could } be } [somehow] { useful | valuable | helpful } [to you].
   </speech>
 
   <speech id="an_item">
@@ -6615,7 +6615,7 @@
   </speech>
 
   <speech id="you_should_throw_the_items_into_the_object">
-    [{Maybe | Perhaps | I think}] you should throw *item_le *items into *mob_him *mob!
+    [{Peut-être | Eventuellement | I think}] you should throw *item_le *items into *mob_him *mob!
   </speech>
 
   <speech id="there_is_a_zone_direction_of_here">
@@ -7341,11 +7341,11 @@
   </speech>
 
   <speech id="RulerWizard" tags="m">
-    Magicien
+    Mage
   </speech>
 
   <speech id="RulerWitch" tags="f">
-    Magicienne
+    Mage
   </speech>
 
   <speech id="RulerSorcerer" tags="m">
@@ -7842,7 +7842,7 @@
   </speech>
   
   <speech id="there_is_a_mighty_artifact">
-    { À ce qu'on raconte, | D'après la légende, | La légende raconte qu'} il existe un { artefact *realm_adjective | artefact { puissant | magique | arcanique | miraculeux | rare } { | venant | provenant } *from_named_realm }: { #item_f la | #item_m le | les } *item.
+    { À ce qu'on raconte, | D'après la légende, | La légende raconte qu'} il existe un { artéfact *realm_adjective | artéfact { puissant | magique | arcanique | miraculeux | rare } { | venant | provenant } *from_named_realm }: { #item_f la | #item_m le | les } *item.
     
   </speech>
   
