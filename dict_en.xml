@@ -5654,7 +5654,7 @@
   </speech>
 
   <speech id="find_the_item">
-    { [Vous { devirez | devez }] { trouver | chercher } *item_le *item! | [Vous devez] find *item_le *item! }
+    { [Vous { devirez | devez }] { trouver | chercher } *item_le *item! | [Vous devez] trouver *item_le *item! }
   </speech>
 
   <speech id="take_the_item">
@@ -5794,7 +5794,7 @@
   </speech>
 
   <speech id="the_object_is_protected_by_enemies">
-    *mob_him *mob is { protected | guarded } by [{ multiple | a few | some }] *mobs2 {.|!}
+    *mob_him *mob is { protected | guarded } by [{ multiple | quelques | some }] *mobs2 {.|!}
   </speech>
 
   <speech id="they_are_protecting_the_object">
@@ -6010,283 +6010,281 @@
     | *mob2_name a été banni avec *a_mob3 par *mob_name!
     }    
   </speech>
-  
-  <!-- @GHOMERR -->
 
   <speech id="you_have_freed_npc">
-    { Vous have freed *mob_name. | Vous { could | were able to } free *mob_name! }
+    { Vous avez libéré *mob_name. | Vous { avez réussi à | avez été capable de } libérer *mob_name! }
   </speech>  
 
   <speech id="ouch">
-    { Ouch! | Darn! | Ah! | Ow... }
+    { Aïe! | Zut! | Ah! | Oh... }
   </speech>
 
   <speech id="huh">
-    { Huh? | What? | Uhm... }
+    { Hein? | Quoi? | Ahem... }
   </speech>
 
   <speech id="i_have_sprained_my_ankle">
-    { I [think I] have sprained my ankle {.|!} | My ankle! [I think] it's sprained! }
+    { Je [crois que je] me sous foulé la cheville {.|!} | Ma cheville! [Je pense] qu'elle est foulée! }
   </speech>
 
   <speech id="npc_has_sprained_his_ankle">
-    { *mob_name { has | seems to have } sprained his ankle.
-    | Il semble que *mob_name has sprained his ankle.
+    { *mob_name { s'est | semble s'être } foulé sa cheville.
+    | Il semble que *mob_name s'est foulé la cheville.
     }
   </speech>
 
   <speech id="i_was_poisoned">
-    [{It seems | I think}] { I was | I'm } poisoned!
+    [{ Il semble | Je pense } que] { J'ai été | Je suis } empoisonné!
   </speech>
 
   <speech id="i_have_headache">
-    { I have headache! | My head is hurting [so much]! | My head! It's hurting [so much]! }
+    { J'ai une migraine! | Ma tête me fait [tellement] mal! | Ma tête! J'ai [tellement] mal! }
   </speech>
 
   <speech id="i_have_bellyache">
-    { I have bellyache! | My belly is hurting [so much]! | My belly! It's hurting [so much]! } 
+    { J'ai des colliques! | Mon vente me fait [tellement] mal! | Mon ventre! J'ai [tellement] mal! }
   </speech>
 
   <speech id="im_so_exhausted">
-    { { I'm | I feel } { so | really | very } exhausted! | I'm { beat | wiped out} ! }
+    { { Je suis | Je me sens } { si | tellement | très } épuisé! | Je suis { vanné | complètement éreinté } ! }
   </speech>
 
   <speech id="im_so_tired">
-    { Zzz... % } { I'm | I feel } { so | really | very } tired {...|!} { % Zzz... }
+    { Zzz... % } { Je suis | Je me sens } { si | tellement | très } fatigué {...|!} { % Zzz... }
   </speech>
 
   <speech id="i_cant_walk_anymore">
-    { I { can't | cannot } | I'm not able to } walk anymore!
+    { Je { ne peux plus | ne peux pas } du tout marcher | Je ne suis plus du tout capable de marcher } !
   </speech>
 
   <speech id="i_need_an_item">
-    { *an_item {!|...} { I need one | That's what I need }  | I need *an_item [ { urgently | desperately } ] } {!|.}
+    { *an_item {!|...} { J'en veux *item_one | C'est ce dont j'ai besoin }  | J'ai [ { urgemment | désespérément } ] besoin d'*an_item  } {!|.}
   </speech>
 
   <speech id="so_you_need_an_item">
-    { So you need *an_item {.|...|?|!} | [you say] you need *an_item ? | *an_item? }
+    { Donc vous avez besoin d'*an_item {.|...|?|!} | [Vous dites] que vous avez besoin d'*an_item ? | *an_item? }
   </speech>
 
   <speech id="npc_needs_an_item">
-    *mob_name needs *an_item [ { urgently | desperately } ].
+    *mob_name a besoin d'*an_item [ { urgemment | désespérément } ].
   </speech>
 
   <speech id="he_needs_an_item">
-    *mob_he needs *an_item [ { urgently | desperately } ].
+    *mob_he a besoin d'*an_item [ { urgemment | désespérément } ].
   </speech>
 
   <speech id="maybe_he_can_give_you_an_item">
-    [{ Eventuellement | Peut-être }] { *mob_he { can | might } give you *an_item | you { can | could | might } { get | obtain } *an_item from *mob_him }.
+    [{ Eventuellement, | Peut-être qu' }] { *mob_he { peut | pourrait } vous donner *an_item | Vous { pouvez | pourriez | avez la possibilité } { de récupérer | d'obtenir } *an_item de sa part }.
   </speech>
 
   <speech id="maybe_he_can_give_it_to_you">
-    [{ Eventuellement | Peut-être }] { *mob_he { can | might } give *item_le to you | you { can | could | might } { get | obtain } *item_le from *mob_him }.
+    [{ Eventuellement, | Peut-être qu' }] { *mob_he { peut | pourrait } vous *item_le donner | Vous { pouvez | pourriez | avez la possibilité } de {  *item_le récupérer | l'obtenir } de sa part }.
   </speech>
 
   <speech id="an_item_can_be_made_from_ingredients">
-    { Vous can { craft | make } *an_item from *items2. | *an_item can be { crafted | made } from *items2. | Vous need *items2 to { craft | make } *an_item. }
+    { Vous pouvez { fabriquer | créer } *an_item à partir des *items2. | *an_item peut être { fabriqué | créé } à partir des *items2. | Vous avez besoin des *items2 pour { fabriquer | créer } *an_item. }
   </speech>
 
   <speech id="it_can_be_made_from_ingredients">
-    { Vous can { craft | make } *item_le from *items2. | *item_it can be { crafted | made } from *items2. | Vous need *items2 to { craft | make } *an_item. }
+    { Vous pouvez *item_le { fabriquer | créer } à partir des *items2. | *item_it peut être { fabriqué | créé } à partir des *items2. | Vous avez besoin des *items2 pour { fabriquer | créer } *an_item. }
   </speech>
 
   <speech id="you_can_craft_an_item_from_them">
-    { Vous { pouvez | devriez être capable } { craft | make } *an_item from them. | { They can be used | Vous can use them } to { craft | make } *an_item. }
+    { Vous { pouvez | devriez être capable de } { fabriquer | créer } *an_item à partir d'eux. | { They peut être used | Vous can use them } to { fabriquer | créer } *an_item. }
   </speech>
 
   <speech id="an_item_can_be_made_from_ingredient">
-    { Vous can { craft | make } *an_item from *an_item2. | *an_item can be { crafted | made } from *an_item2. | Vous need *an_item2 to { craft | make } *an_item. }
+    { Vous pouvez { fabriquer | créer } *an_item à partir d'*an_item2. | *an_item peut être { fabriqué | créé } à partir d'*an_item2. | Vous avez besoin d'*an_item2 pour { fabriquer | créer } *an_item. }
   </speech>
 
   <speech id="it_can_be_made_from_ingredient">
-    { Vous can { craft | make } *item_le from *an_item2. | *item_it can be { crafted | made } from *items2. | Vous need *an_item2 to { craft | make } *an_item. }
+    { Vous pouvez { fabriquer | créer } *item_le à partir d'*an_item2. | *item_it peut être { fabriqué | créé } à partir des *items2. | Vous avez besoin d'*an_item2 pour { fabriquer | créer } *an_item. }
   </speech>
 
   <speech id="you_can_craft_an_item_from_it">
-    { Vous { pouvez | devriez être capable } { craft | make } *an_item from it. | { It can be used | Vous can use them } to { craft | make } *an_item. }
+    { Vous { pouvez | devriez être capable de } { fabriquer | créer } *an_item à partir de cela. | { Il peut être utilisé | Vous pouve les utiliser } pour { fabriquer | créer } *an_item. }
   </speech>
 
   <speech id="npc_wants_to_craft_an_item">
-    *mob_name { wants to | is planning to | would like to } { make | craft } *an_item.
+    *mob_name { veut | prévoie de | voudrait bien } { créer | fabriquer } *an_item.
   </speech>
 
   <speech id="you_must_craft_an_item">
-    You { devez | devriez } { make | craft } *an_item.
+    Vous { devez | devriez } { créer | fabriquer } *an_item.
   </speech>
 
   <speech id="there_should_be_an_item_in_my_object">
-    { There should be *an_item in my *mob! | Vous { can | should } find *an_item in my *mob! }
+    { Il devrait y avoir *an_item dans { #mob_f ma | mon } *mob! | Vous { pouvez | pourriez } trouver *an_item in my *mob! }
   </speech>
 
   <speech id="there_should_be_an_item_in_his_object">
-    { There should be *an_item in *mob_his *mob2. | Vous { can | should } find *an_item in *mob_his *mob2. }
+    { Il devrait y avoir *an_item dans { #mob2_f sa | son } *mob2. | Vous { pouvez | pourriez } trouver *an_item dans { #mob2_f sa | son } *mob2. }
   </speech>
 
   <speech id="there_should_be_an_item_in_bosses_object">
-    { There should be *an_item in { #mob2_f la | #mob2_m le } *mob2 de *mob_name. | Vous { can | should } find *an_item in { #mob2_f la | #mob2_m le } *mob2 de *mob_name. }
+    { Il devrait y avoir *an_item dans { #mob2_f la | #mob2_m le } *mob2 de *mob_name. | Vous { pouvez | pourriez } trouver *an_item dans { #mob2_f la | #mob2_m le } *mob2 de *mob_name. }
   </speech>
 
   <speech id="items_can_be_found_direction_of_here">
-    { [A few] *items can be found *direction_of_here. | There are [a few] *items *direction_of_here. | Vous { pouvez | devez [être capable de] } find [a few] *items *direction_of_here. }
+    { [Quelques] *items peuvent être trouvés *direction_of_here. | Il y a [quelques] *items *direction_of_here. | Vous { pouvez | devez [être capable de] } trouver [quelques] *items *direction_of_here. }
   </speech>
 
   <speech id="items_are_growing_direction_of_here">
-    { [A few] *items are growing *direction_of_here. | [a few] *items are growing *direction_of_here. | Vous { pouvez | devez [être capable de] } find [a few] *items *direction_of_here. }
+    { [Quelques] *items poussent *direction_of_here. | [quelques] *items poussent *direction_of_here. | Vous { pouvez | devez [être capable de] } trouver [quelques] *items *direction_of_here. }
   </speech>
 
   <speech id="you_can_get_items_from_creatures">
-    You { can | might | should } { obtain | get | gather } [{some | a few}] *items from *mobs. | [a few] *items are growing. | Vous { pouvez | devez [être capable de] } find [a few] *items.
+    Vous { pouvez | avez la possibilité de | pourriez } { obtenir | récupérer | recueillir } [{des | quelques}] *items des *mobs. | [quelques] *items poussent. | Vous { pouvez | devez [être capable de] } trouver [quelques] *items.
   </speech>
 
   <speech id="you_can_get_items_from_creatures_direction_of_here">
-    You { can | might | should } { obtain | get | gather } [{some | a few}] *items from *mobs *direction_of_here. | [a few] *items are growing *direction_of_here. | Vous { pouvez | devez [être capable de] } find [a few] *items *direction_of_here.
+    You { pouvez | avez la possibilité de | pourriez } { obtenir | récupérer | recueillir } [{des | quelques}] *items des *mobs *direction_of_here. | [quelques] *items poussent *direction_of_here. | Vous { pouvez | devez [être capable de] } trouver [quelques] *items *direction_of_here.
   </speech>
 
   <speech id="boss_might_have_an_item">
-    { { *a_mob named *mob_name | *mob_name, *mob_him *mob, } might have *an_item. | Vous devriez be able to { get | obtain } *an_item from { *a_mob named *mob_name | *mob_name, *mob_him *mob } {.|...}
+    { { *a_mob qui s'appelle *mob_name | *mob_name, *mob_him *mob, } pourrait avoir *an_item. | Vous devriez être capable de { récupérer | obtenir } *an_item { d'*a_mob qui s'appelle *mob_name | de *mob_name, *mob_him *mob } {.|...}
   </speech>
 
   <speech id="you_should_gather_some_items">
-    { Vous devriez | Ce serait mieux de } gather { some | a few } *items.
+    { Vous devriez | Ce serait mieux de } récupérer { des | quelques } *items.
   </speech>
 
   <speech id="maybe_enemies_have_some">
-    { Peut-être | Eventuellement } { *mobs have some | you can get some from *mobs }.
+    { Peut-être que | Eventuellement, } { des *mobs en ont | vous pourriez en récupérer sur des *mobs }.
   </speech>
 
   <speech id="please_gather_some">
-    { Please { gather | find | get } some [, quickly] ! | Could you [please] { gather | find | get } some? }
+    { S'il vous plait, { récupérez-en | trouvez-en | cherchez-en } [, rapidement] ! | Pourriez-vous, [s'il vous plait], en { récupérer | trouver | chercher } ? }
   </speech>
 
   <speech id="gather_some">
-    [Vous devriez] gather some.
+    [Vous devriez] en récupérer.
   </speech>
 
   <speech id="help_me_gather_some">
-    { Could | Can } you [please] help me gather some [of them] ?
+    { Pourriez-vous | Pouvez-vous }, [s'il vous plait], m'aider à en récupérer [sur eux] ?
   </speech>
 
   <speech id="gather_some_items">
-    [Vous devriez] gather some *items.
+    [Vous devriez] récupérer quelques *items.
   </speech>
 
   <speech id="i_need_them_to_make_an_item">
-    I need them to { make | craft } *an_item2.
+    J'ai besoin qu'ils { créent | fabriquent } *an_item2.
   </speech>
 
   <speech id="i_need_ingredients_to_make_an_item">
-    I need *items to { make | craft } *an_item2.
+    J'ai besoin de *items pour { créer | fabriquer } *an_item2.
   </speech>
 
   <speech id="so_you_gathered_enough_items">
-    { So you { gathered | found | got | obtained } { enough | the } *items? | These *items { are | should be } enough! }
+    { Donc vous avez { récupéré | trouvé | eu | obtenu } { assez de | les } *items? | Ces *items { sont | devraient être } suffisants! }
   </speech>
 
   <speech id="you_gathered_enough_items">
-    { Vous { gathered | found | got | obtained } { enough | the } *items. | The *items { are | should be } enough! }
+    { Vous avez { récupéré | trouvé | eu | obtenu } { assez de | les } *items. | Les *items { sont | devraient être } suffisants! }
   </speech>
 
   <speech id="wait">
-    { Wait [a { moment | second }] ! | { Just | Give me } a { moment | second } [please]! }
+    { Attendez [{ un moment | une seconde }] ! | { Juste | Donnez-moi } { un moment | une seconde }, [s'il vous plait]! }
   </speech>
 
   <speech id="let_me_make_the_item">
-    { Let me { make | craft } *item_le *item [quickly]... | I'm { making | crafting } *item_le *item [quickly]... | The *item! I'm { making | crafting } it [quickly]... }
+    { Laissez-moi { créer | fabriquer } *item_le *item [rapidement]... | Je suis en train de { créer | fabriquer } *item_le *item [rapidement]... | *item_le *item! Je suis en train de *item_le { créer | fabriquer } [rapidement]... }
   </speech>
 
   <speech id="you_should_craft_the_item">
-    { Vous devriez { make | craft } *item_le *item [quickly] | { Make | craft } *item_le *item [quickly] | The *item! You { must | should } { make | craft } it [quickly] }!
+    { Vous devriez { créer | fabriquer } *item_le *item [rapidement] | { créer | fabriquez } *item_le *item [rapidement] | *item_le *item! Vous { devea | devriez } *item_le { créer | fabriquer } [rapidement] }!
   </speech>
 
 
   <speech id="take_this_item">
-    { [Here!] Take this *item! | Here [we go]! The *item! | Take it! The *item! | The *item! Take it! }
+    { [Par ici!] Prenez { #item_f cette | ce } *item! | Et [voilà]! *item_le *item! | Prenez-*item_le! *item_le *item! | *item_le *item! Prenez-*item_le! }
   </speech>
 
 
   <speech id="npc_has_made_the_item">
-    *mob_name has { made | crafted } *item_le *item.
+    *mob_name a { créé | fabriqué } *item_le *item.
   </speech>
 
   <speech id="you_have_made_the_item">
-    You have { made | crafted } *item_le *item.
+    Vous ave { créé | fabriqué } *item_le *item.
   </speech>
 
   <speech id="you_obtained_the_item">
-    You { got | obtained | received } *item_le *item.
+    Vous { trouvez | obtenez | recevez } *item_le *item.
   </speech>
 
   <speech id="you_should_cure_npc_with_it">
-    Vous devriez cure *mob_name with it.
+    Vous devriez soigner *mob_name avec cela.
   </speech>
 
   <speech id="lets_see_if_the_item_is_working">
-    { Let's see if | I hope [that] | Hopefully } *item_le *item is working...    
+    { Voyons-voir si | J'espère [que] | Espérons que } *item_le *item fonctionne...    
   </speech>
 
   <speech id="i_feel_better">
-    I feel { much } better { now } {!|.}
+    Je me sens { bien } mieux { maintenant } {!|.}
   </speech>
 
   <speech id="get_out_of_my_sight">
-    Get out of my sight!
+    Hors de ma vue!
   </speech>
 
   <speech id="may_the_light_illuminate_your_path">
-    May the light illuminate your path.
+    Que la lumière éclaire votre chemin.
   </speech>
 
   <speech id="hey_boss">
-    [Hey] boss!
+    [Hé] chef!
   </speech>
 
   <speech id="whats_the_matter">
-    What's the matter?
+    Quel est le problème?
   </speech>
 
   <speech id="i_captured_npc">
-    { The *mob! I captured *mob_him. | I captured *mob_him *mob! }
+    { *mob_him *mob! Je l'ai { #mob_f capturée | capturé }. | J'ai capturé *mob_him *mob! }
   </speech>
 
   <speech id="i_captured_npc_in_zone">
-    { The *mob! I captured *mob_him *in_the_zone. | I captured *mob_him *mob *in_the_zone! }
+    { *mob_him *mob! J'ai capturé *mob_him *in_the_zone. | J'ai capturé *mob_him *mob *in_the_zone! }
   </speech>
 
   <speech id="i_will_take_care_of_him">
-    I'll take care of *mob_him...
+    Je vais prendre soin { #mob_f d'elle | de lui }...
   </speech>
 
   <speech id="suddenly_a_creature_appeared">
-    Suddenly *a_mob appeared.
+    Soudain, *a_mob apparaît.
   </speech>
 
   <speech id="it_seems_he_is_a_ghost">
-    *mob_he seems to be a {ghost $stress}!
+    *mob_he semble être un {fantôme $stress}!
   </speech>
 
   <speech id="something_inside_the_object_is_moving">
-    Something inside *mob_him *mob is moving.
+    Quelque chose bouge à l'intérieur { #mob_f de la | du } *mob.
   </speech>
 
   <speech id="i_was_exploring_this_area_with_my_pet">
-    I was exploring this area with my *mob.
+    J'étais en train d'explorer cette région avec { #mob_f ma | mon } *mob.
   </speech>
 
   <speech id="i_was_on_the_move_with_my_object">
-    I was on the move with my *mob.
+    J'étais en chemin avec { #mob_f ma | mon } *mob.
   </speech>
 
   <speech id="they_have_stolen_all_my_objects">
-    Ils ont stolen all my *mobs2.
+    Ils ont volé tous mes *mobs2.
   </speech>
 
   <speech id="can_you_bring_them_back">
-    [Please!] Can you bring them back?
+    [S'il vous plait!] Pouvez-vous me les rapporter?
   </speech>
 
   <speech id="you_should_bring_them_back">
-    You { should | must | have to } bring them back {.|!}
+    Vous { devriez | devez | avez le devoir de } me les ramener {.|!}
   </speech>
 
   <speech id="now_my_pet_is_gone">
@@ -6294,41 +6292,43 @@
   </speech>
 
   <speech id="you_must_find_npc">
-    { Vous must | Vous have to | Please } { find | look for | search for } *mob_name!
+    { Vous devez | Vous avez le devoir de | Je vous prie de } { trouver | chercher | rechercher } *mob_name!
   </speech>
 
   <speech id="you_must_find_the_creature">
-    { Vous must | Vous have to | Please } { find | look for | search for } *mob_him *mob!
+    { Vous devez | Vous avez le devoir de | Je vous prie de } { trouver | chercher | rechercher } *mob_him  *mob!
   </speech>
 
   <speech id="you_must_find_him">
-    { Vous must | Vous have to | Please } { find | look for | search for } *mob_him!
+    { Vous devez | Vous avez le devoir de | Je vous prie de } *mob_him { trouver | chercher | rechercher } !
   </speech>
 
   <speech id="you_must_open_the_object">
-    { Vous must | Vous have to | Please } { find | look for | search for } *mob_him *mob!
+    { Vous devez | Vous avez le devoir de | Je vous prie de } { trouver | chercher | rechercher } *mob_him *mob!
   </speech>
 
   <speech id="you_must_open_the_objects">
-    { Vous must | Vous have to | Please } { find | look for | search for } les *mobs!
+    { Vous devez | Vous avez le devoir de | Je vous prie de } { trouver | chercher | rechercher } les *mobs!
   </speech>
 
   <speech id="suddenly_i_was_ambushed_by_enemies">
-    Suddenly I was { attacked | ambushed } by { a few | some | a couple of | a gang of } *mobs!
+    J'ai été subitement { attaqué | agressé } par { quelques | des | un couple de | un groupe de } *mobs!
   </speech>
 
   <speech id="maybe_you_can_find_some_objects_nearby">
-    Peut-être you can find some *mobs nearby.
+    Peut-être pouvez-vous trouver des *mobs aux alentours.
   </speech>
 
   <speech id="the_object_leads_to_direction">
-    The *mob { #mob_p lead | leads }
-    { east #east | north #north | west #west | south #south | northeast #northeast | northwest #northwest | southeast #southeast | southwest #southwest | to a nearby location }.
+    *mob_him *mob { #mob_p mènent | mène }
+    { à l'est #east | au nord #north | à l'ouest #west | au sud #south | au nord-est #northeast | au nord-ouest #northwest | au sud-est #southeast | au sud-ouest #southwest | à un endroit proche }.
   </speech>
 
   <speech id="are_you_looking_for_the_creature">
-    { Are you { looking | searching } for *mob_him *mob? | { It seems | Seems like | I guess | I bet | So } you're { looking | searching } for *mob_him *mob! }
+    { Est-ce que vous { cherchez | rercherche } *mob_him *mob? | { Il semble que | Il semblerait que | Je crois que | Je parie que | Donc, } vous { cherchez | recherchez } *mob_him *mob! }
   </speech>
+
+  <!-- @GHOMERR -->
 
   <speech id="im_concerned_about_my_friend_npc">
     I'm { concerned | worried } about my friend *mob_name.
@@ -6537,7 +6537,7 @@
   </speech>
 
   <speech id="you_will_never_find_him">
-    [No, ] You will never find *mob_him {!|.}
+    [No, ] You will never trouver *mob_him {!|.}
   </speech>
 
   <speech id="these_are_creature_footprints">
@@ -6627,12 +6627,12 @@
   </speech>
 
   <speech id="the_zone_is_direction_of_here">
-    { Vous can find *the_zone | *the_zone { #zone_p are | is } [located] } *direction_of_here.
+    { Vous can trouver *the_zone | *the_zone { #zone_p are | is } [located] } *direction_of_here.
   </speech>
 
 
   <speech id="a_zone_is_direction_of_here">
-    { Vous can find *a_zone | *a_zone { #zone_p are | is } [located] } *direction_of_here.
+    { Vous can trouver *a_zone | *a_zone { #zone_p are | is } [located] } *direction_of_here.
   </speech>
 
   <speech id="there_is_a_zone_direction_of_this_zone2">
@@ -6640,7 +6640,7 @@
   </speech>
   
   <speech id="zone_it_is_direction_of_this_zone2">
-    { Vous can find *zone_it | *zone_it { #zone_p are | is } [located] } *direction_of_this_zone2.
+    { Vous can trouver *zone_it | *zone_it { #zone_p are | is } [located] } *direction_of_this_zone2.
   </speech>
 
 
@@ -6692,31 +6692,31 @@
   </speech>
 
   <speech id="where_can_i_find_the_zone">
-    Where can I find *the_zone?
+    Where can I trouver *the_zone?
   </speech>
 
   <speech id="where_can_i_find_that_zone">
-    Where can I find *that_zone?
+    Where can I trouver *that_zone?
   </speech>
   
   <speech id="where_can_i_find_the_zones">
-    Where can I find the {@zone(plural) $zone}?
+    Where can I trouver the {@zone(plural) $zone}?
   </speech>  
 
   <speech id="where_can_i_find_the_first_zone">
-    Where can I find the first {@zone() $zone}?
+    Where can I trouver the first {@zone() $zone}?
   </speech>
 
   <speech id="where_can_i_find_the_second_zone">
-    Where can I find the second {@zone() $zone}?
+    Where can I trouver the second {@zone() $zone}?
   </speech>
 
   <speech id="where_can_i_find_the_third_zone">
-    Where can I find the third {@zone() $zone}?
+    Where can I trouver the third {@zone() $zone}?
   </speech>
 
   <speech id="where_can_i_find_the_fourth_zone">
-    Where can I find the fourth {@zone() $zone}?
+    Where can I trouver the fourth {@zone() $zone}?
   </speech>
 
   <speech id="i_dont_know">
@@ -6852,7 +6852,7 @@
   </speech>
 
   <speech id="let_me_fuse_them">
-    {Wait!} {Just} Let me {quickly} fuse them...
+    {Wait!} {Just} Let me {rapidement} fuse them...
   </speech>
 
   <speech id="i_created_an_something_for_you">
@@ -6860,7 +6860,7 @@
   </speech>
 
   <speech id="description_treasure_spirit">
-    It will help you to find treasures *in_the_land!
+    It will help you to trouver treasures *in_the_land!
   </speech>
 
   <speech id="description_hang_glider">
@@ -7040,7 +7040,7 @@
   </speech>
 
   <speech id="how_does_it_feel_to_fly">
-    { I wonder how it feels to [be able to] { fly | take it to skies } {.|...|!} | How does it feel to [be able to] { fly | take it to skies }? }
+    { I wonder how it feels to [être capable de] { fly | take it to skies } {.|...|!} | How does it feel to [être capable de] { fly | take it to skies }? }
   </speech>
 
   <speech id="i_wish_i_could_fly">
@@ -7052,7 +7052,7 @@
   </speech>
 
   <speech id="i_wonder_whats_on_the_other_side_of_the_ocean">
-    { I wonder | Sometimes I ask myself | Vous need to find out } what's on the other side of the ocean {!|...}
+    { I wonder | Sometimes I ask myself | Vous need to trouver out } what's on the other side of the ocean {!|...}
   </speech>
 
   <speech id="i_wish_you_a_safe_journey">
@@ -7092,7 +7092,7 @@
   </speech>
 
   <speech id="i_wish_i_could_ride">
-    I wish I { could | was able to | would be able to | could learn how to } ride {!|...}
+    I wish I { could | was able to | would être capable de | could learn how to } ride {!|...}
   </speech>
 
   <speech id="i_would_ride_through_the_land">
@@ -7212,11 +7212,11 @@
   </speech>
 
   <speech id="you_can_find_some_in_the_location">
-    You can find some *in_the_zone *direction_of_here {!|.}
+    You can trouver some *in_the_zone *direction_of_here {!|.}
   </speech>
 
   <speech id="you_can_find_items_in_the_location">
-    You can { find | gather | obtain | get } *items *in_the_zone *direction_of_here {!|.}
+    You can { trouver | gather | obtain | get } *items *in_the_zone *direction_of_here {!|.}
   </speech>
 
 
@@ -7629,7 +7629,7 @@
   </speech>
   
   <speech id="after_some_years_he_founded_the_realm">
-    { After { some | many | a few } years | { some | many | a few | } years later } { *mob_he { founded | established | formed | created } *the_named_realm | *the_named_realm { #realm_p were | was } { founded | established | formed | created } by *mob_him }.
+    { After { some | many | quelques } years | { some | many | quelques | } years later } { *mob_he { founded | established | formed | created } *the_named_realm | *the_named_realm { #realm_p were | was } { founded | established | formed | created } by *mob_him }.
   </speech>
   
   <speech id="there_are_many_legends_about_his_adventures">
