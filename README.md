@@ -14,5 +14,5 @@ Topic dédié sur le forum Steam : https://steamcommunity.com/app/1128000/discus
 # Contenu 
 * **dict_fr.xml** : traductions en français (à renommer dict_en.xml si vous souhaitez l'utiliser pour tester)
 * **dict_fr_petfood.xml** : traductions en français le nom des animaux à côté des appâts (idem)
-* **dict_en.xml** : copie du fichier dict_en.xml pour faciliter son utilisation
+* **dict_en.xml** : copie du fichier dict_fr.xml pour faciliter son utilisation
 * **dict_en_original.xml** : ce fichier est là pour comparer d'éventuels changements avec la source originale.
