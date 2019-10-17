@@ -6328,113 +6328,111 @@
     { Est-ce que vous { cherchez | rercherche } *mob_him *mob? | { Il semble que | Il semblerait que | Je crois que | Je parie que | Donc, } vous { cherchez | recherchez } *mob_him *mob! }
   </speech>
 
-  <!-- @GHOMERR -->
-
   <speech id="im_concerned_about_my_friend_npc">
-    I'm { concerned | worried } about my friend *mob_name.
+    { Je suis préoccupé | Je suis inquiet } à propos de mon { #mob_f amie | ami } *mob_name.
   </speech>
 
   <speech id="we_are_looking_for_our_friend">
-    { We are | We're } { looking | searching } for our friend *mob_name.
+    Nous { cherchons | recherchons } notre  { #mob_f amie | ami } *mob_name.
   </speech>
 
   <speech id="he_went_to_the_zone_direction_of_here">
-    *mob_he went to *the_zone *direction_of_here.
+    *mob_he est { #mob_f allée | allé } dans *the_zone *direction_of_here.
   </speech>
 
   <speech id="he_wanted_to_expore_a_cave_direction_of_here">
-    *mob_he wanted to explore a {cave $zone} *direction_of_here.
+    *mob_he souhaitait explorer une {cave $zone} *direction_of_here.
   </speech>
 
   <speech id="he_went_direction_of_here">
-    *mob_he went *direction_of_here.
+    *mob_he venait de *direction_of_here.
   </speech>
 
   <speech id="now_he_is_missing">
-    Now *mob_he { is | seems to be } missing!
+    Maintenant, *mob_he { a | semble avoir } disparu!
   </speech>
 
   <speech id="npcs_friend_is_missing">
-    *mob_names friend *mob2_name { is | seems to be } missing!
+    *mob2_name, { #mob2_f l'amie | l'ami } de *mob_name, { a | semble avoir } disparu!
   </speech>
 
   <speech id="you_helped_npcs_friend">
-    You { helped | could help | were able to help } *mob_names friend *mob2_name.
+    Vous { avez aidé | avez réussi à aider | êtes venu en aide } *mob2_name, { #mob2_f l'amie | l'ami } de *mob_name.
   </speech>
 
   <speech id="so_npc_is_doing_well">
-    So *mob_name is doing well {!|?}
+    Donc, *mob_name va bien {!|?}
   </speech>
 
   <speech id="you_should_return_to_npc">
-    Vous devriez return to *mob_name.
+    Vous devriez retourner voir *mob_name.
   </speech>
 
   <speech id="you_found_npcs_pet">
-    You found { #mob2_f la | #mob2_m le } *mob2 de *mob_name.
+    Vous avez trouvé { #mob2_f la | #mob2_m le } *mob2 de *mob_name.
   </speech>
 
   <speech id="you_should_bring_him_to_npc">
-    Vous devriez bring *mob_him to *mob2_name.
+    Vous devriez l'amener à *mob2_name.
   </speech>
 
   <speech id="there_is_an_inscription_on_the_object">
-    Il y a an inscription on *mob_him *mob:
+    Il y a une inscription sur *mob_him *mob:
   </speech>
 
   <speech id="npc_is_resting_here">
-    *mob_name is resting here.
+    *mob_name se repose ici.
   </speech>
 
   <speech id="he_was_a_hero_of_the_faction">
-    *mob_he was a hero of *the_faction.
+    *mob_he était { #mob_f une héroïne | un héros } de *the_faction.
   </speech>
 
   <speech id="he_was_defeated_in_zone">
-    *mob_he { was defeated | fell | passed away } *in_the_zone.
+    *mob_he { fut vaincu | tomba au combat | péri } *in_the_zone.
   </speech>
 
   <speech id="he_was_defeated_by_boss_in_zone">
-    *mob_he was defeated by { *a_mob2 named *mob2_name | *mob2_name, *mob_him *mob2, } *in_the_zone.
+    *mob_he fut vaincu par { *a_mob2 { #mob_f nommée | nommé } *mob2_name | *mob2_name, *mob_him *mob2, } *in_the_zone.
   </speech>
   
   <speech id="his_beloved_item_might_be_lost_forever">
-    *mob_his { beloved  | sacred | holy | precious | trusty } *item might be lost forever.
+    *mob_his *item { { #mob_f chérie | chéri } | { #mob_f sacrée | sacré } | { #mob_f sainte | saint } | { #mob_f précieuse | précieux } | { #mob_f loyale | loyal } } pourrait être { #mob_f perdue | perdu } pour toujours.
   </speech>
 
   <speech id="the_entrance_is_sealed_with_an_object">
-    The entrance is sealed with *a_mob.
+    L'entrée est scellée par *a_mob.
   </speech>
 
   <speech id="have_you_seen_the_npc">
-    Have you [already] { seen | noticed | run into } { *mob_him *mob named *mob_name | *mob_name *mob_him *mob } ?
+    Avez-vous [déjà] { vu | remarqué | rencontré } { *mob_him *mob { #mob_f nommée | nommé } *mob_name | *mob_name *mob_him *mob } ?
   </speech>
 
   <speech id="there_is_an_npc">
-    Il y a *a_mob named *mob_name.
+    Il y a *a_mob { #mob_f nommée | nommé } *mob_name.
   </speech>
 
   <speech id="he_looks_suspicious">
-    [{ I think | In my opinion, }]
-    { { *mob_he | something about *mob_him } { looks | seems to be } { important | special | peculiar | striking | ominous | suspicous | strange }  {!|.|...}
-    | Il y a something { important | special | peculiar | striking | ominous | suspicous | strange } about *mob_him  {!|.|...}
+    [{ Je pense { qu'*mob_he | que quelque chose à propos de *mob_him } | À mon avis, { *mob_he | quelque chose à propos de *mob_him } }]
+    { { paraît | semble être } { important | spécial | particulier | frappant | menaçant | suspicieux | étrange }  {!|.|...}
+    | Il y a quelque chose { d'important | de spécial | de particulier | de frappant | de menaçant | de suspicieux | d'étrange } à propos de *mob_him  {!|.|...}
     }
   </speech>
 
   <speech id="its_suspicious">
-    [{That's | It's }] [{quite | very | really}] { peculiar | striking | ominous | suspicous | strange }  {{!|.|...} | , isn't it?}
+    [{ Ceci est | C'est }] [{plutôt | très | vraiment}] { particulier | frappant | menaçant | suspicieux | étrange }  {{!|.|...} | , n'est-ce pas?}
   </speech>
 
   <speech id="look_what_i_have_found">
-    { Look what { I have | I've } found! | Look at this! I just found it! }
+    { Regardez ce que j'ai trouvé! | Regardez ça! Je viens juste de le trouver! }
   </speech>
 
   <speech id="i_just_found_this_item">
-    { Look what { I have | I've } found! *an_item! | [Look at this!] I just found this *item! }
+    { Regardez ce que j'ai trouvé! *an_item! | [Regardez ça!] Je viens juste de trouver { #item_f cette | ce } *item! }
   </speech>
 
   <speech id="maybe_it_is_useful">
-    { { Peut-être | Eventuellement | Possibly } *item_it is | *item_it { might | could } be } [somehow] { useful | valuable | helpful } [to you].
+    { { Peut-être qu'*item_it | Eventuellement, *item_it | Potentiellement, *item_it } [vous] serait | *item_it { peut | pourrait } [vous] être } { utile | précieux | d'une grande aide }, [en quelque sorte].
   </speech>
 
   <speech id="an_item">
@@ -6443,73 +6441,73 @@
 
 
   <speech id="have_you_seen_the_creature">
-    Have you [already] { seen | noticed | run into } *mob_him *mob?
+    Avez-vous [déjà] { vu | remarqué | rencontré } *mob_him *mob?
   </speech>
 
   <speech id="have_you_seen_the_creatures_direction_of_here">    
-    Have you [already] { seen | noticed | run into } les *mobs *direction_of_here?
+    Avez-vous [déjà] { vu | remarqué | rencontré } les *mobs *direction_of_here?
   </speech>
 
   <speech id="have_you_seen_the_creatures_in_zone">
-    Have you [already] { seen | noticed | run into } les *mobs *in_the_zone?
+    Avez-vous [déjà] { vu | remarqué | rencontré } les *mobs *in_the_zone?
   </speech>  
   
   <speech id="have_you_seen_the_boss_direction_of_here">
-    Have you [already] { seen | noticed | run into } { *mob_him *mob named *mob_name | *mob_name *mob_him *mob } *direction_of_here?
+    Avez-vous [déjà] { vu | remarqué | rencontré } { *mob_him *mob{ #mob_f nommée | nommé } *mob_name | *mob_name *mob_him *mob } *direction_of_here?
   </speech>
 
   <speech id="have_you_seen_the_boss_in_zone">
-    Have you [already] { seen | noticed | run into } { *mob_him *mob named *mob_name | *mob_name *mob_him *mob } *in_the_zone?
+    Avez-vous [déjà] { vu | remarqué | rencontré } { *mob_him *mob{ #mob_f nommée | nommé } *mob_name | *mob_name *mob_him *mob } *in_the_zone?
   </speech>
 
   <speech id="he_seems_to_be_dangerous">
-    { *mob_he { seems to be | could be } | I think *mob_he { is | could be } } [{really|very}] dangerous!
+    { *mob_he { semble être | pourrait être } | Je pense qu'*mob_he { est | pourrait être } } [{vraiment|très}] { #mob_f dangereuse | dangereux }!
   </speech>
 
   <speech id="they_seem_to_be_dangerous">
-    { They { seem to be | could be } | I think they { are | could be } } [{really|very}] dangerous!
+    { #mob_p_f Elles | Ils } { semblent être | pourraient être } | Je pense { #mob_p_f qu'elles |qu'ils } { sont | pourraient être } } [{vraiment|très}] { #mob_p_f dangereuses | dangereux } !
   </speech>
 
   <speech id="the_object_seems_to_be_important">
-    [Something about] The *mob { seems to be | could be | is } [{really|very}] { important | significant | meaningful | striking | notable | remarkable}.
+    [Quelque chose à propos] { #mob_f de la | du } *mob { semble être | pourrait être | est } [{vraiment|très}] { important | considérable | sensé | frappant | notable | remarquable }.
   </speech>
 
   <speech id="it_is_direction_of_here">
-    It is *direction_of_here {.|!}
+    Il est *direction_of_here {.|!}
   </speech>
 
 
   
    <speech id="there_are_creatures_in_zone">
-    There are *mobs *in_the_zone!
+    Il y a des *mobs *in_the_zone!
   </speech>
   
    <speech id="there_are_creatures_everywhere">
-    There are *mobs { { everywhere | all over the place } $shake }!
+    Il y a des *mobs { { partout | de tous les côtés } $shake }!
   </speech>
 
   <speech id="you_defeated_the_creature">
-    You defeated *mob_him *mob.
+    Vous avez vaincu *mob_him *mob.
   </speech>
 
   <speech id="you_defeated_the_creatures">
-    You defeated les *mobs.
+    Vous avez vaincu les *mobs.
   </speech>
   
    <speech id="you_defeated_the_creatures_in_zone">
-    You defeated les *mobs *in_the_zone.
+    Vous avez vaincu les *mobs *in_the_zone.
   </speech>
 
   <speech id="you_destroyed_the_object">
-    You destroyed *mob_him *mob.
+    Vous avez détruit *mob_him *mob.
   </speech>
   
   <speech id="you_destroyed_the_objects_in_zone">
-    You destroyed les *mobs *in_the_zone.
+    Vous avez détruit les *mobs *in_the_zone.
   </speech>
   
    <speech id="you_defeated_boss">
-    You defeated *mob_name.
+    Vous avez vaincu *mob_name.
   </speech>
 
   <speech id="there_is_a_creature_in_zone_direction_of_here">
@@ -6525,150 +6523,150 @@
   </speech>
 
   <speech id="there_is_a_creature_in_a_cave_direction_of_here">
-    {  { Il y a | Il existe } *a_mob | *a_mob { #mob_f située | situé } } { in a cave $zone } *direction_of_here.
+    {  { Il y a | Il existe } *a_mob | *a_mob { #mob_f située | situé } } { dans la cave $zone } *direction_of_here.
   </speech>
 
   <speech id="there_is_a_creature_near_the_river_direction_of_here">
-    {  { Il y a | Il existe } *a_mob | *a_mob { #mob_f située | situé } } { near the river $zone } *direction_of_here.
+    {  { Il y a | Il existe } *a_mob | *a_mob { #mob_f située | situé } } { près de la rivière $zone } *direction_of_here.
   </speech>
 
   <speech id="the_creature">
-    The *mob?
+    *mob_him *mob?
   </speech>
 
   <speech id="you_will_never_find_him">
-    [No, ] You will never trouver *mob_him {!|.}
+    [Non, ] Vous ne *mob_him trouverez jamais{!|.}
   </speech>
 
   <speech id="these_are_creature_footprints">
-    { { I think these could be | These are } *mob footprints | These footprints are from *a_mob } {!|.|...}
+    { { Je pense que cela pourrait être | Ce sont } des empreintes de *mob | Ces empreintes proviennent d'*a_mob } {!|.|...}
   </speech>
 
   <speech id="the_item_says">
-    The *item says:
+    { #item_f La | Le } *item dit:
   </speech>
 
   <speech id="i_have_hidden_the_item_in_an_object">
-    I have hidden *item_le *item in *a_mob.
+    J'ai caché *item_le *item dans *a_mob.
   </speech>
 
   <speech id="attention_enemies">
-    { Attention | Look out | Caution } {!|,} *mobs!
+    { Attention | Faites attention | Prudence } {!|,} des *mobs!
   </speech>
 
   <speech id="eavesdrop_on_npc_and_npc2">
-   [ You { should | must | have to } ] eavesdrop on @mob_name and @mob2_name.
+   [ Vous { devriez | devez | aller devoir } ] écouter @mob_name et @mob2_name, sans vous faire prendre.
   </speech>
 
   <speech id="listen_to_npc">
-    [ You { should | must | have to } ] listen to @mob_name.
+    [ Vous { devriez | devez | aller devoir } ] écouter @mob_name.
   </speech>
 
   <speech id="listen_to_npc_and_npc2">
-    [ You { should | must | have to } ] listen to @mob_name and @mob2_name.
+    [ Vous { devriez | devez | aller devoir } ] écouter @mob_name et @mob2_name.
   </speech>
 
   <speech id="bring_objects_to_npc">
-    [ You { should | must | have to } ] { bring les *mobs | pick les *mobs up and bring them } to @mob2_name.
+    [ Vous { devriez | devez | aller devoir } ] { apporter les *mobs | prendre les *mobs et les apporter } à @mob2_name.
   </speech>
 
   <speech id="carry_npc_to_npc2">
-    Carry *mob_name to *mob2_name.
+    Conduisez *mob_name à *mob2_name.
   </speech>
 
   <speech id="carry_me_to_npc">
-    { {please | you must | you have to } carry me to *mob_name!
-    | { Can you | could you } {please} carry me to *mob_name?
+    { { S'il vous plait | vous devez | vous allez devoir } me conduire à *mob_name!
+    | { Pouvez-vous | Pourriez-vous } {s'il vous palit} me conduire à *mob_name?
     }
   </speech>
 
   <speech id="carry_creature_to_npc">
-    Carry *mob_him *mob to *mob2_name.
+    Conduisez *mob_him *mob à *mob2_name.
   </speech>
 
   <speech id="carry_creatures_to_npc">
-    Carry les *mobs to *mob2_name.
+    Conduisez les *mobs à *mob2_name.
   </speech>
 
   <speech id="im_exploring_the_zone">
-    I'm { exploring | studying } *the_zone.
+     { J'explore | J'étudie } *the_zone.
   </speech>
 
   <speech id="im_exploring_this_place">
-    I'm { exploring | studying } this place.
+    { J'explore | J'étudie } cet endroit.
   </speech>
 
   <speech id="the_zone_is_interesting">
-    *the_zone { #zone_p are | is } { {very | quite | really | so} { interesting | fascinating } | { an interesting | a fascinating } place }!
+    *the_zone { #zone_p sont | est } { {très | plutôt | vraiment | tellement} { { #zone_p_f intéressantes | #zone_p intéressants | #zone_f intéressante | intéressant } | { #zone_p_f fascinantes | #zone_p fascinants | #zone_f fascinante | fascinant } } | un endroit { intéressant | fascinant } }!
   </speech>
 
   <speech id="there_are_items_lying_about_everywhere">
-    { There are *items | *items are } lying about everywhere!
+    { Il y a des *items | Des *items sont } partout au sol !
   </speech>
 
   <speech id="thats_interesting">
-   [That's] [{really | very}] { interesting | fascinating | astonishing | amazing } {!|...}
+   [C'est] [{vraiment | très}] { intéressant | fascinant | étonnant | surprenant } {!|...}
   </speech>
 
   <speech id="oh_really">
-    { Really? | For real? | No kidding! | Vous don't say [so]! | Duh! }
+    { Vraiment? | Pour de vrai? | Sans blague! | Vous m'en direz [tant]! | Han! }
   </speech>
 
   <speech id="you_should_throw_the_items_into_the_object">
-    [{Peut-être | Eventuellement | I think}] you should throw *item_le *items into *mob_him *mob!
+    [{Peut-être | Eventuellement | Je pense que}] vous devriez jeter *item_le *items dans *mob_him *mob!
   </speech>
 
   <speech id="there_is_a_zone_direction_of_here">
-    There { #zone_p are | is } *a_zone *direction_of_here.
+    Il y a *a_zone *direction_of_here.
   </speech>
   
   <speech id="there_is_a_zone_direction_of_here">
-    There { #zone_p are | is } *a_zone *direction_of_here.
+    Il y a *a_zone *direction_of_here.
   </speech>
 
   <speech id="the_zone_is_direction_of_here">
-    { Vous can trouver *the_zone | *the_zone { #zone_p are | is } [located] } *direction_of_here.
+    { Vous pouvez trouver *the_zone | *the_zone se { #zone_p [trouvent] | [trouve] } } *direction_of_here.
   </speech>
 
 
   <speech id="a_zone_is_direction_of_here">
-    { Vous can trouver *a_zone | *a_zone { #zone_p are | is } [located] } *direction_of_here.
+    { Vous pouvez trouver *a_zone | *a_zone se { #zone_p [trouvent] | [trouve] } } *direction_of_here.
   </speech>
 
   <speech id="there_is_a_zone_direction_of_this_zone2">
-    There { #zone_p are | is } *a_zone *direction_of_this_zone2.
+    Il y a *a_zone *direction_of_this_zone2.
   </speech>
   
   <speech id="zone_it_is_direction_of_this_zone2">
-    { Vous can trouver *zone_it | *zone_it { #zone_p are | is } [located] } *direction_of_this_zone2.
+    { Vous pouvez trouver *zone_it | *zone_it se { #zone_p [trouvent] | [trouve] } } *direction_of_this_zone2.
   </speech>
 
 
   <speech id="there_is_a_zone_in_zone2">
-    There { #zone_p are | is } *a_zone *in_the_zone2.
+    Il y a *a_zone *in_the_zone2.
   </speech>
   
   <speech id="its_distance_away">
-    It's [about] {@distance $number} away [from here].
+    C'est à [environ] {@distance $number} [d'ici].
   </speech>
 
   <speech id="its_not_far_away">
-    { #zone_p they are | it is } { not far away $stress } !
+    { #zone_p_f Elles ne sont | #zone_p Ils ne sont | #zone_f Elle n'est | Il n'est } { pas loin $stress } !
   </speech>
 
   <speech id="its_far_away">
-    { #zone_p they are | it is } { far away $stress } {.|...}
+    { #zone_p_f Elles sont | #zone_p Ils sont | #zone_f Elle est | Il est } { loin $stress } {.|...}
   </speech>
 
   <speech id="its_further_away">
-    { #zone_p they are | it is } { further away $stress } {.|...}
+    { #zone_p_f Elles sont | #zone_p Ils sont | #zone_f Elle est | Il est }  { plus loin $stress } {.|...}
   </speech>
 
   <speech id="there_is_a_zone_in_land_direction_of_here">
-    There { #zone_p are | is } *a_zone *in_the_land *direction_of_here!
+    Il y a *a_zone *in_the_land *direction_of_here!
   </speech>
   
-  
+  <!-- @GHOMERR -->
 
 
   <speech id="i_lived_in_that_zone">
@@ -6684,7 +6682,7 @@
   </speech>
 
   <speech id="place_object_on_object">
-    [ You { should | must | have to } ] place *mob_him *mob on *mob_him *mob2.
+    [ You { devriez | devez | aller devoir } ] place *mob_him *mob on *mob_him *mob2.
   </speech>
 
   <speech id="tell_me_about_zone">
@@ -6732,19 +6730,19 @@
   </speech>
   
   <speech id="there_is_a_zone_in_this_zone2">
-    There { #zone_p are | is } *a_zone *in_this_zone2.
+    Il y a *a_zone *in_this_zone2.
   </speech>
   
   <speech id="there_are_two_zones_in_this_zone2">
-    There are two {@zone(plural) $zone} *in_this_zone2.
+    Il y a des two {@zone(plural) $zone} *in_this_zone2.
   </speech>
   
    <speech id="there_are_three_zones_in_this_zone2">
-     There are three {@zone(plural) $zone} *in_this_zone2.
+     Il y a des three {@zone(plural) $zone} *in_this_zone2.
    </speech>
   
    <speech id="there_are_four_zones_in_this_zone2">
-     There are three {@zone(plural) $zone} *in_this_zone2.
+     Il y a des three {@zone(plural) $zone} *in_this_zone2.
    </speech>
   
   <speech id="this_zone_might_have_to_do_with_all_the_creatures">
@@ -6814,7 +6812,7 @@
 
   <speech id="pedestal">
     The Chronicles of Cyphera: Part 3  %
-    Long time ago, there was a young woman named { Cyphera $name}. %
+    Long time ago, there was a young woman{ #mob_f nommée | nommé }{ Cyphera $name}. %
     She wanted to become a healer to help others. %
     She travelled from land to land to seek the legendary { Druids of Mana $stress}.
   </speech>
@@ -6914,7 +6912,7 @@
   </speech>
   
   <speech id="description_magic_barriers">
-    You destroyed all { Magic Crystals $creature } *in_the_land!
+    Vous avez détruit all { Magic Crystals $creature } *in_the_land!
     %
     All { Magic Barriers $stress } are now deactivated!
   </speech>
@@ -6932,25 +6930,25 @@
   </speech>
   
    <speech id="description_mana_pumps">
-    You destroyed a { Mana Pump $stress}!
+    Vous avez détruit a { Mana Pump $stress}!
     %
     The { mana absorption $stress } effect was reduced.
   </speech>
   
    <speech id="description_mana_pump">
-    You destroyed the { Mana Pump $stress}!
+    Vous avez détruit the { Mana Pump $stress}!
     %
     You freed *the_land from the { mana absorption $stress } effect!
   </speech>
   
   <speech id="description_demon_portal">
-    You destroyed the { Demon Portal $stress}!
+    Vous avez détruit the { Demon Portal $stress}!
     %
     Now the { demons $creatures } can no longer { possess $stress } the residents of *the_land!
   </speech>
 
   <speech id="description_witch">
-    You defeated the { witch $creature}!
+    Vous avez vaincu the { witch $creature}!
     %
     Her curse has been broken and the { villagers $creature } of *the_zone are no longer { petrified $stress }!    
   </speech>
@@ -7633,7 +7631,7 @@
   </speech>
   
   <speech id="there_are_many_legends_about_his_adventures">
-    { There are { many | countless } { legends | tales | songs } | { many | countless } { legends | tales | songs } are told} about *mob_his adventures.
+    { Il y a des { many | countless } { legends | tales | songs } | { many | countless } { legends | tales | songs } are told} about *mob_his adventures.
   </speech>
   
    <speech id="he_was_a_warrior">
@@ -7900,15 +7898,15 @@
   </speech>
   
   <speech id="the_location_is_full_of_creatures">
-      { The { @zone() $zone } is full of *mobs! | There are so many *mobs *in_the_unnamed_zone! | The { @zone() $zone } is in danger! *mobs are attacking! | *mobs have invaded the { @zone() $zone }! }
+      { The { @zone() $zone } is full of *mobs! | Il y a des so many *mobs *in_the_unnamed_zone! | The { @zone() $zone } is in danger! *mobs are attacking! | *mobs have invaded the { @zone() $zone }! }
   </speech>
   
    <speech id="the_location_is_full_of_plant_creatures">
-      { The { @zone() $zone } is full of { plant creatures $creature}! | There are so many { plant creatures $creature} *in_the_unnamed_zone! | The { @zone() $zone } is in danger! { plant creatures $creature} are attacking! | { plant creatures $creature} have invaded the { @zone() $zone }! }
+      { The { @zone() $zone } is full of { plant creatures $creature}! | Il y a des so many { plant creatures $creature} *in_the_unnamed_zone! | The { @zone() $zone } is in danger! { plant creatures $creature} are attacking! | { plant creatures $creature} have invaded the { @zone() $zone }! }
   </speech>
 
    <speech id="the_location_is_full_of_insects">
-      { The { @zone() $zone } is full of { insects $creature}! | There are so many { insects $creature} *in_the_unnamed_zone! | The { @zone() $zone } is in danger! { insects $creature} are attacking! | { insects $creature} have invaded the { @zone() $zone }! }
+      { The { @zone() $zone } is full of { insects $creature}! | Il y a des so many { insects $creature} *in_the_unnamed_zone! | The { @zone() $zone } is in danger! { insects $creature} are attacking! | { insects $creature} have invaded the { @zone() $zone }! }
   </speech>
 
 
