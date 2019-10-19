@@ -6665,68 +6665,65 @@
   <speech id="there_is_a_zone_in_land_direction_of_here">
     Il y a *a_zone *in_the_land *direction_of_here!
   </speech>
-  
-  <!-- @GHOMERR -->
-
 
   <speech id="i_lived_in_that_zone">
-    I [once] { used to live | lived } in *that_zone {.|!}
+    [Autrefois], { j'habitais | je vivais } dans *that_zone {.|!}
   </speech>
 
   <speech id="its_now_called_zone_name">
-    { #zone_p They're | It's } now called *the_zone {.|...}
+    { Ce lieu | Cet endroit } s'appelle maintenant *the_zone {.|...}
   </speech>
 
   <speech id="meet_me_there">
-    { let's meet | [Please] meet me } there {!|.}
+    { Rencontrons-nous | [S'il vous plait], venez me voir } là-bas {!|.}
   </speech>
 
   <speech id="place_object_on_object">
-    [ You { devriez | devez | aller devoir } ] place *mob_him *mob on *mob_him *mob2.
+    [ Vous { devriez | devez | aller devoir } ] placer *mob_him *mob sur *mob_him *mob2.
   </speech>
 
   <speech id="tell_me_about_zone">
-    Tell me about *the_zone.
+    Parlez-moi de *the_zone.
   </speech>
 
   <speech id="where_can_i_find_the_zone">
-    Where can I trouver *the_zone?
+    Où puis-je trouver *the_zone?
   </speech>
 
   <speech id="where_can_i_find_that_zone">
-    Where can I trouver *that_zone?
+    Où puis-je trouver *that_zone?
   </speech>
   
   <speech id="where_can_i_find_the_zones">
-    Where can I trouver the {@zone(plural) $zone}?
+    Où puis-je trouver les {@zone(plural) $zone}?
   </speech>  
 
   <speech id="where_can_i_find_the_first_zone">
-    Where can I trouver the first {@zone() $zone}?
+    Où puis-je trouver { #zone_f la première | le premier } {@zone() $zone}?
   </speech>
 
   <speech id="where_can_i_find_the_second_zone">
-    Where can I trouver the second {@zone() $zone}?
+    Où puis-je trouver { #zone_f la | le } deuxième {@zone() $zone}?
   </speech>
 
   <speech id="where_can_i_find_the_third_zone">
-    Where can I trouver the third {@zone() $zone}?
+    Où puis-je trouver { #zone_f la | le } troisième {@zone() $zone}?
   </speech>
 
   <speech id="where_can_i_find_the_fourth_zone">
-    Where can I trouver the fourth {@zone() $zone}?
+    Où puis-je trouver { #zone_f la | le } quatrième {@zone() $zone}?
   </speech>
 
   <speech id="i_dont_know">
-    [Sorry, ] I don't know {!|...}
+    [Désolé, ] je ne sais pas{!|...}
   </speech>
 
   <speech id="you_cleared_the_zone">
-    You cleared *the_zone.
+    Vous avez nettoyé *the_zone.
   </speech>
 
   <speech id="so_you_found_the_zone">
-    { So | It seems [that] | apparently } you found *the_zone!
+    { Donc, | Il semble [que] | Apparemment, } vous avez trouvé *the_zone!
   </speech>
   
   <speech id="there_is_a_zone_in_this_zone2">
@@ -6734,228 +6731,227 @@
   </speech>
   
   <speech id="there_are_two_zones_in_this_zone2">
-    Il y a des two {@zone(plural) $zone} *in_this_zone2.
+    Il y a deux {@zone(plural) $zone} *in_this_zone2.
   </speech>
   
    <speech id="there_are_three_zones_in_this_zone2">
-     Il y a des three {@zone(plural) $zone} *in_this_zone2.
+     Il y a trois {@zone(plural) $zone} *in_this_zone2.
    </speech>
   
    <speech id="there_are_four_zones_in_this_zone2">
-     Il y a des three {@zone(plural) $zone} *in_this_zone2.
+     Il y a quatre {@zone(plural) $zone} *in_this_zone2.
    </speech>
   
   <speech id="this_zone_might_have_to_do_with_all_the_creatures">
-    This {@zone() $zone} might { have to do with | be the reason for } all les *mobs!
+    { #zone_f Cette | ce } {@zone() $zone} doit { avoir un lien avec | être la raison de } la présence de { #mob_p_f toutes | tous } ces *mobs!
   </speech>
   
  <speech id="these_zones_might_have_to_do_with_all_the_creatures">
-   These {@zone(plural) $zone} might { have to to with | be the reason for } { all les *mobs $shake }!
+   Ces {@zone(plural) $zone} doivent { avoir un lien avec | être la raison de } la présence de { { #mob_p_f toutes | tous } ces *mobs $shake }!
  </speech>
 
   <speech id="you_learned_a_new_skill">
-    You learned a new skill: {@skill() $stress}!
+    Vous avez appris une nouvelle compétence: {@skill() $stress}!
   </speech>
 
   <speech id="your_skill_increased_to_level">
-    Your {@skill() $stress} skill has increased to level @level!
+    Votre compétence {@skill() $stress} a atteint le niveau @level!
   </speech>
   
   <speech id="shrine">
-    I shall grant you a gift. Choose wisely, traveller.
+    Je vais vous accorder un cadeau. Choisissez avec sagesse, voyageur.
   </speech>
 
   <speech id="there_is_no_way_to_fan_the_flame">
-    Il y a no way to fan the flame.
+    Il n'y a aucun moyen d'éteindre la flamme.
   </speech>
 
   <speech id="you_use_the_item_to_fan_the_flame">
-    You use *item_le *item to fan the flame.
+    Vous utilisez *item_le *item pour éteindre la flamme.
   </speech>
 
   <speech id="suddenly_you_hear_a_loud_voice">
-    Suddenly, you hear a loud voice...
+    Soudain, vous entendez une voix puissante...
   </speech>
 
   <speech id="gift_of_strength">
-    
-    { Vous shall be granted the gift of strength. $stress $shake }
+    { Vous allez être récompensé du cadeau de puissance. $stress $shake }
   </speech>
 
   <speech id="i_already_granted_you_my_gift">
-    { I already granted you my gift. $stress $shake }
+    { Je vous ai déjà offert mon cadeau. $stress $shake }
   </speech>
 
   <speech id="increase_vitality">
-    Increase vitality.
+    Augmenter la vitalité.
   </speech>
   <speech id="increase_strength">
-    Increase strength.
+    Augmenter la force.
   </speech>
   <speech id="increase_dexterity">
-    Increase dexterity.
+    Augmenter la dextérité.
   </speech>
   <speech id="increase_intelligence">
-    Increase intelligence.
+    Augmenter l'intelligence.
   </speech>
   <speech id="leave">
-    Leave.
+    Partir.
   </speech>
 
   <speech id="your_level_increased_to">
-    Your level increased to @level!
+    Vous avez atteint le niveau @level!
   </speech>  
 
   <speech id="you_are_not_intelligent_enough_to_read_this">
-    Your are not intelligent enough to read this.
+    Votre intelligence n'est pas suffisante pour lire ceci.
   </speech>
 
   <speech id="pedestal">
-    The Chronicles of Cyphera: Part 3  %
-    Long time ago, there was a young woman{ #mob_f nommée | nommé }{ Cyphera $name}. %
-    She wanted to become a healer to help others. %
-    She travelled from land to land to seek the legendary { Druids of Mana $stress}.
+    Les Chroniques de Cyphera: Partie 3 %
+    Il y a fort longtemps, vivait une jeune femme nommée { Cyphera $name}. %
+    Elle souhaitait devenir guérisseuse afin d'aider les autres. %
+    Elle voyagea de contrée en contrée à la recherche des légendaires { Druides de Mana $stress}.
   </speech>
 
   <speech id="lets_see_what_you_got">
-    [Okay, ] { let's see what you got. | let me see... }
+    [Okay, ] { voyons-voir ce que vous avez. | laisse-moi voir... }
   </speech>
 
   <speech id="you_found_one_item">
-    You found one *item.
+    Vous avez trouvé *item_one *item.
   </speech>
 
   <speech id="you_found_n_items">
-    You found { @number $number } *items.
+    Vous avez trouvé { @number $number } *items.
   </speech>
 
   <speech id="your_reward_is_n_gold_and_an_item">
-    Your reward is { @number gold $yellow} and *an_item!
+    Votre récompense est de { @number pièces d'or $yellow} et *an_item!
   </speech>
   
   <speech id="it_seems_like_you_dont_have_any_rewards_to_claim">
-    { It } seems like you don't have any rewards to claim { this time }.
+    { Il } semble que vous n'ayez aucune récompense à récupérer { cette fois }.
   </speech>
 
   <speech id="hehehe">
-    { Hehehe... $shake }
+    { Eheheh... $shake }
   </speech>
 
   <speech id="bring_me_n_items_and_i_will_give_you_something_special">
-    Bring me { @number $number } *items and I will give you something special!
+    Apportez-moi { @number $number } *items et je vous donnerai quelque chose de spécial!
   </speech>
 
   <speech id="you_brought_enough_items">
-    { Well, | Well well... | Good! | Oh! } you brought enough *items {...|.|!}
+    { Bien, | Bien bien... | Excellent! | Oh! } vous avez apporté *items {...|.|!}
   </speech>
 
   <speech id="let_me_fuse_them">
-    {Wait!} {Just} Let me {rapidement} fuse them...
+    {Attendez!} Laissez-moi {juste} les assembler {rapidement}...
   </speech>
 
   <speech id="i_created_an_something_for_you">
-    I created something for you!
+    J'ai créé quelque chose pour vous!
   </speech>
 
   <speech id="description_treasure_spirit">
-    It will help you to trouver treasures *in_the_land!
+    Ceci vous aidera à trouver des trésors *in_the_land!
   </speech>
 
   <speech id="description_hang_glider">
-    Take it to the skies of *the_land!
+    Plannez dans les airs de *the_land!
   </speech>
 
   <speech id="description_boat">
-   You are now ready to sail the waters of *the_land!
+    Vous pouvez maintenant naviguer dans les eaux de *the_land!
   </speech>
 
   <speech id="description_climbing_spikes">
-    Climb even the steepest walls throughout *the_land!
+    Grimpez même sur les parois les plus escarpées à travers *the_land!
   </speech>
 
   <speech id="description_reins">
-    They enable you to ride with your pets throughout *the_land!
+    Ils vous permettent de voyager sur le dos de vos compagnons partout dans *the_land!
   </speech>
 
   <speech id="description_harp">
-    Play the { divine tune $stress } to access { sealed areas $stress } in *the_land!
+    Jouez la { mélodie divine } pour accéder à des { endroits scellés $stress } dans *the_land!
   </speech>
 
   <speech id="description_whistle">
-    Play the { sky song $stress } to reach locations { high above $stress } in *the_land!
+    Jouez la { chanson céleste $stress } pour atteindre des lieux { en hauteur $stress } dans *the_land!
   </speech>
 
   <speech id="description_bell">
-    { The { spirit world $stress } awaits you! $shake }
+    { Le { monde des esprits $stress } vous attend! $shake }
   </speech>
 
   <speech id="description_crafting_book1">
-     You can now craft { magic equipment $green } *in_the_land!
+     Vous pouvez maintenant fabriquer de { l'équipement magique $green } *in_the_land!
   </speech>
 
   <speech id="description_crafting_book2">
-    You can now craft { rare equipment $blue } *in_the_land!
+    Vous pouvez maintenant fabriquer de { l'équipment rare $blue } *in_the_land!
   </speech>
 
   <speech id="description_crafting_book3">
-    You can now craft { epic equipment $purple } *in_the_land!
+    Vous pouvez maintenant fabriquer de { l'équipment épique $purple } *in_the_land!
   </speech>
 
   <speech id="description_crafting_book4">
-    You can now craft { legendary equipment $legendary } *in_the_land!
+    Vous pouvez maintenant fabriquer de { l'équipment légendaire $legendary } *in_the_land!
   </speech>
   
   <speech id="description_supplier_gnome">
-    You helped the { Supplier Gnome $creature }!
+    Vous avez aidé le { Gnome Ravitailleur $creature }!
     %
-    Now he can supply the shops *in_the_land with better { items $stress }!
+    Maintenant, il peut approvisionner les magasins *in_the_land avec de meilleurs { articles $stress }!
   </speech>
   
   <speech id="description_magic_barriers">
-    Vous avez détruit all { Magic Crystals $creature } *in_the_land!
+    Vous avez détruit tous les { Cristaux Magiques $creature } *in_the_land!
     %
-    All { Magic Barriers $stress } are now deactivated!
+    Toutes les { Barrières Magiques $stress } sont maintenant désactivées!
   </speech>
   
    <speech id="description_flame_of_power">
-    You ignited the { Flame of Power $stress}!
+    Vous avez allumé la { Flamme de Puissance $stress}!
     %
-    Your { power $stress } is now increased throughout *the_land!
+    Votre { puissance $stress } est maintenant augmentée partout dans *the_land!
   </speech>
   
    <speech id="description_mana_absorption">
-    You are weakened by { mana absorption $stress} which reduces your mana generation!
+    Vous êtes affaibli par { l'absorption de mana $stress} qui réduit votre génération de mana! 
     %
-    It is caused by big { Mana Pumps $stress } *in_the_land.
+    Ceci est provoqué par l'énorme { Pompe à Mana $stress } *in_the_land.
   </speech>
   
    <speech id="description_mana_pumps">
-    Vous avez détruit a { Mana Pump $stress}!
+    Vous avez détruit la { Pompe à Mana $stress}!
     %
-    The { mana absorption $stress } effect was reduced.
+    L'effet de { l'absorption de mana $stress } a été réduit.
   </speech>
   
    <speech id="description_mana_pump">
-    Vous avez détruit the { Mana Pump $stress}!
+    Vous avez détruit la { Pompe à Mana $stress}!
     %
-    You freed *the_land from the { mana absorption $stress } effect!
+    Vous avez libéré *the_land de l'effet de { l'absorption de mana $stress }!
   </speech>
   
   <speech id="description_demon_portal">
-    Vous avez détruit the { Demon Portal $stress}!
+    Vous avez détruit le { Portail Démoniaque $stress}!
     %
-    Now the { demons $creatures } can no longer { possess $stress } the residents of *the_land!
+    Maintenant, les { démons $creatures } ne peuvent plus { prendre possession $stress } des habitants de *the_land!
   </speech>
 
   <speech id="description_witch">
-    Vous avez vaincu the { witch $creature}!
+    Vous avez vaincu la { sorcière $creature}!
     %
-    Her curse has been broken and the { villagers $creature } of *the_zone are no longer { petrified $stress }!    
+    Sa malédiction a été levée et les { villageois $creature } de *the_zone ne sont plus { pétrifiés $stress }! 
   </speech>
 
 
   <speech id="claim_rewards?">
-    I want to claim my rewards.
+    Je veux récupérer mes récompenses.
   </speech>
 
   <speech id="change_specialization?">
@@ -6963,7 +6959,7 @@
   </speech>
 
   <speech id="i_want_to_improve_my_skills?">
-    I want to improve my skills.
+    Je veux améliorer mes compétences.
   </speech>
 
   <speech id="your_specialization_is_now">
@@ -6975,14 +6971,14 @@
   </speech>
   
   <speech id="you_can_rest_here_between_six_and_six">
-    You can rest in our inn between { 18=:=00 $number } in the evening and { 6=:=00 $number } in the morning.
+    Vous pouvez vos reposer dans notre auberge entre { 18=:=00 $number } dans la soirée et { 6=:=00 $number } dans la matinée.
   </speech>
 
   
   <speech id="you_dont_have_enough_gold_to_rest_here">
-    { Sorry, but | Excuse me, but | } you don't have enough gold to rest here.
+    { Désolé, mais | Excusez-moi, mais | } vous n'avez pas assez d'or pour vous reposer ici.
     %
-    A night in our inn costs { @number ® $yellow}.
+    Une nuit dans notre auberge coûte { @number ® $yellow}.
   </speech>
 
   <speech id="goodbye?">
@@ -6990,11 +6986,11 @@
   </speech>
 
   <speech id="i_was_exploring_the_location">
-    { Hier | Récemment | Il y a quelques jours | Avant-hier } { j'explorais *the_zone | je visitais *the_zone | je me promenais *in_the_zone | je suis allé *in_the_zone }  *direction_of_here.
+    { Hier | Récemment | Il y a quelques jours | Avant-hier }, { j'explorais *the_zone | je visitais *the_zone | je me promenais *in_the_zone | je suis allé *in_the_zone }  *direction_of_here.
   </speech>
 
   <speech id="i_was_gathering_ingredients_in_the_location">
-    { Hier | Récemment | Il y a quelques jours | Avant-hier } je { récoltais | cherchais } { $stress { des champignons | des Fleurs-cœurs | des Orchidées de Mana | des Champignons Scintillants | des Racines de Dragon | des Pépites de Fer | des Pépites d'Argent | des Pépites d'Or | des Émeraudes | des Saphirs | des Rubis | des Diamants | des Capsules de Coton | des Fibres Végétales | des Rondins de Bois | des Toiles d'Araignées | des Gouttes de Rosée | du Ginseng | des Ingrédients }}  *in_the_zone *direction_of_here.
+    { Hier | Récemment | Il y a quelques jours | Avant-hier }, je { récoltais | cherchais } { $stress { des champignons | des Fleurs-cœurs | des Orchidées de Mana | des Champignons Scintillants | des Racines de Dragon | des Pépites de Fer | des Pépites d'Argent | des Pépites d'Or | des Émeraudes | des Saphirs | des Rubis | des Diamants | des Capsules de Coton | des Fibres Végétales | des Rondins de Bois | des Toiles d'Araignées | des Gouttes de Rosée | du Ginseng | des Ingrédients }}  *in_the_zone *direction_of_here.
   </speech>
 
   <speech id="i_saw_an_item">
@@ -7014,19 +7010,19 @@
   </speech>
 
   <speech id="oh_you_already_have_the_item">
-    [ Oh {!|,} ] { [so] you [already] have [ { trouvé | obtenu | discovered } ] *item? | { #item_p are those | is that } *an_item? | [ [it] looks like] you have [found] *item! }
+    [ Oh {!|,} ] { [Donc] vous avez [déjà] [ { trouvé | obtenu | découvert } ] *item? | { #item_p | Est-ce } *an_item? | [ [Il] semble que] vous avez [trouvé] *item! }
   </speech>
 
   <speech id="nice">
-    { [That's] nice! | [That's] great! | [That's] awesome! | [That's] amazing! | Nice work! | Good work! | Nice job! | Good job! | Not bad! | Wow! }
+    { [C'est] bien! | [C'est] super! | [C'est] génial! | [C'est] incroyable! | Beau travail! | Bon travail! | Beau boulot! | Bon boulot! | Pas mal! | Wow! }
   </speech>
   
   <speech id="im_jealous">
-    I'm { really | so | } jealous!
+    Je suis { vraiment | si | } jaloux!
   </speech>
   
   <speech id="nice_equipment_item">
-    [{ Wow! | Woah! | Hey! | Yay! | Oh! }] You have { #item_p | a } [really] { nice [looking] | good | well-made | high quality } { @item() $item}!
+    [{ Wow! | Ouah! | Hé! | Super! | Oh! }] Vous avez { #item_p des | #item_f une | un } { @item() $item} [vraiment] { #item_fp { [élégantes] | belles | bien faites | exceptionnelles } | #item_p { [élégants] | beaux | bien faits | exceptionnels } | #item_f { { [élégante] | belle | bien faite | exceptionnelle } } | { [élégant] | beau | bien fait | exceptionnel } }  !
   </speech>
 
   <speech id="what_a_shame">
@@ -7034,36 +7030,38 @@
   </speech>
 
   <speech id="im_curious_what_you_will_craft_with_it">
-    { I'm { [{ really | so | already}] { curious | excited } | wondering } what you will craft with it! | What are you going to craft with it [next}]? }
+    { { Je suis [{ vraiment | si | déjà }] { curieux | excité } de savoir | Je me demande } ce que vous allez fabriquer avec ça! | Qu'allez-vous fabriquer avec cela [ensuite}]? }
   </speech>
 
   <speech id="how_does_it_feel_to_fly">
-    { I wonder how it feels to [être capable de] { fly | take it to skies } {.|...|!} | How does it feel to [être capable de] { fly | take it to skies }? }
+    { Je me demande ce que l'on peut ressentir [d'être capable de] { voler | planner dans les airs } {.|...|!} | Que ressent-on [d'être capable de] { voler | planner dans les air }? }
   </speech>
 
   <speech id="i_wish_i_could_fly">
-    { I'm dreaming of being able to | I wish I could | My dream is to be able | I dreamed that I { could | was able to }} fly {!|...}
+    { Je rêve d'être capable de | Si seulement je pouvais | Mon rêve est de pouvoir | J'ai rêvé que { je pouvais | j'étais capable de }} voler {!|...}
   </speech>
 
   <speech id="arent_you_afraid_of_heights">
-    { Aren't you { afraid | scared } of heights? $shake }
+    { { Vous n'avez pas le vertige? | Vous n'avez pas peur du vide? } $shake }
   </speech>
 
   <speech id="i_wonder_whats_on_the_other_side_of_the_ocean">
-    { I wonder | Sometimes I ask myself | Vous need to trouver out } what's on the other side of the ocean {!|...}
+    { Je me demande | Parfois je me questionne sur | Vous avez besoin de savoir } ce qui se trouve de l'autre côté de l'océan {!|...}
   </speech>
 
   <speech id="i_wish_you_a_safe_journey">
-    [ I wish you a ] safe journey!
+    [ Je vous souhaite ] un voyage sans danger!
   </speech>
 
   <speech id="id_love_to_sail_from_island_to_island">
-    { I'd love to | I wish I could | If I was you, I would } { travel | sail } from island to island!
+    { J'adorerai | Si seulement je pouvais | Si j'étais vous, je voudrais } { voyager | naviguer } d'île en île!
   </speech>
 
   <speech id="my_relative_was_a_sailor">
-    My { dad | mom | uncle | aunt | grandpa | gramdma | father | mother | grandfather | grandmother } was a sailor!
+    { Mon papa | Ma maman | Mon oncle | Ma tante | Mon papi | Ma mamie | Mon frère | Ma mère | Mon grand-père | Ma grand-mère } était marin!
   </speech>
+
+  <!-- @GHOMERR -->
 
   <speech id="whats_the_tallest_mountain_that_you_climbed">
     [ I wonder] { what's | which is} the { tallest | highest } mountain that you climbed?
