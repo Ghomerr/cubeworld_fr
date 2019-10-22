@@ -4261,11 +4261,15 @@
   </macro>
 
   <macro id="mob_him">
-    { #mob_f la | #mob_m le | #mob_p les | les }
+    { #mob_f la | #mob_m le | #mob_p les | #mob_v l' | les }
   </macro>
 
   <macro id="mob_his">
-    { #mob_f sa | #mob_m son | #mob_p leur | leurs }
+    { #mob_f sa | #mob_m son | #mob_v son | #mob_p leur | leurs }
+  </macro>
+
+  <macro id="mob_my">
+    { #mob_f ma | #mob_m mon | #mob_v mon | #mob_p mes }
   </macro>
   
   <macro id="mob_name">
@@ -4293,11 +4297,15 @@
   </macro>
 
   <macro id="mob2_him">
-    { #mob2_f elle | #mob2_m lui }
+    { #mob2_f la | #mob2_v l' | le }
   </macro>
 
   <macro id="mob2_his">
-    { #mob2_f sa | #mob2_m son | son }
+    { #mob2_f sa | #mob2_v son | #mob2_p mes | son }
+  </macro>
+
+  <macro id="mob2_my">
+    { #mob2_f ma | #mob2_m mon | #mob2_v mon | #mob2_p mes | mon }
   </macro>
 
   <macro id="mob2_name">
@@ -4325,11 +4333,15 @@
   </macro>
 
   <macro id="mob3_him">
-    { #mob3_f le | #mob3_m la }
+    { #mob3_f la | #mob3_v l' | le }
   </macro>
 
   <macro id="mob3_his">
-    { #mob3_f sa | #mob3_m son | son }
+    { #mob3_f sa | #mob3_v son | #mob3_p ses | son }
+  </macro>
+
+  <macro id="mob3_my">
+    { #mob3_f ma | #mob3_v mon | #mob3_p mes | mon }
   </macro>
 
   <macro id="mob3_name">
@@ -5822,7 +5834,7 @@
   </speech>
 
   <speech id="thats_my_object">
-    { [Que faites-vous?] C'est { #mob_f ma | mon } *mob! |  { #mob_f Cette | ce } *mob m'appartient! | Que faites-vous avec { #mob_f ma | mon } *mob? }
+    { [Que faites-vous?] C'est *mob_my *mob! |  { #mob_f Cette | ce } *mob m'appartient! | Que faites-vous avec *mob_my *mob? }
   </speech>
 
   <speech id="you_will_pay">
@@ -6114,11 +6126,11 @@
   </speech>
 
   <speech id="there_should_be_an_item_in_my_object">
-    { Il devrait y avoir *an_item dans { #mob_f ma | mon } *mob! | Vous { pouvez | pourriez } trouver *an_item in my *mob! }
+    { Il devrait y avoir *an_item dans *mob_my *mob! | Vous { pouvez | pourriez } trouver *an_item in my *mob! }
   </speech>
 
   <speech id="there_should_be_an_item_in_his_object">
-    { Il devrait y avoir *an_item dans { #mob2_f sa | son } *mob2. | Vous { pouvez | pourriez } trouver *an_item dans { #mob2_f sa | son } *mob2. }
+    { Il devrait y avoir *an_item dans *mob2_my *mob2. | Vous { pouvez | pourriez } trouver *an_item dans *mob2_his *mob2. }
   </speech>
 
   <speech id="there_should_be_an_item_in_bosses_object">
@@ -6268,11 +6280,11 @@
   </speech>
 
   <speech id="i_was_exploring_this_area_with_my_pet">
-    J'étais en train d'explorer cette région avec { #mob_f ma | mon } *mob.
+    J'étais en train d'explorer cette région avec *mob_my *mob.
   </speech>
 
   <speech id="i_was_on_the_move_with_my_object">
-    J'étais en chemin avec { #mob_f ma | mon } *mob.
+    J'étais en chemin avec *mob_my *mob.
   </speech>
 
   <speech id="they_have_stolen_all_my_objects">
@@ -7061,58 +7073,56 @@
     { Mon papa | Ma maman | Mon oncle | Ma tante | Mon papi | Ma mamie | Mon frère | Ma mère | Mon grand-père | Ma grand-mère } était marin!
   </speech>
 
-  <!-- @GHOMERR -->
-
   <speech id="whats_the_tallest_mountain_that_you_climbed">
-    [ I wonder] { what's | which is} the { tallest | highest } mountain that you climbed?
+    [Je me demande] { quelle est | quelle fut } la plus { grande | haute } montagne que vous avez escaladé?
   </speech>
 
   <speech id="be_careful_during_climbing">
-    [ Please ] be careful when climbing those { mountains | rocks | walls }!
+    [ S'il vous plait ], soyez prudent en escaladant ces { montagnes | rocs | murs }!
   </speech>
 
   <speech id="i_wonder_if_the_bird_statues_have_to_do_with_it">
-    I wonder if the { bird statues $stress } have [ { something | anything } ] to do with it {.|!|...}
+    Je me demande si les { Statues d'Oiseaux $stress } ont { quelque chose à voir | un lien } avec ça {.|!|...}
   </speech>
 
   <speech id="it_has_a_nice_sound">
-    { It has a nice sound! | It sounds nice! | J'{ adore | aime } its sound! }
+    { Ça a un joli son! | Ça sonne bien! | J'{ adore | aime } ce son! }
   </speech>
 
   <speech id="it_looks_so_nice">
-    [ I think ] it looks { really | very | so } { nice | pretty | beautiful }!
+    [Je pense] que ça a l'air { vraiment | très | si } { joli | mignon | magnifique }!
   </speech>
 
   <speech id="whats_your_favorite_pet_to_ride">
-    { What is | what is } your favourite pet to ride?
+    Quel animal est votre monture préférée?
   </speech>
 
   <speech id="i_wish_i_could_ride">
-    I wish I { could | was able to | would être capable de | could learn how to } ride {!|...}
+    Si seulement { je pouvais me servir d'une monture | je savais monter un animal | j'étais en mesure d'utiliser une monture | je pouvais apprendre monter un animal } {!|...}
   </speech>
 
   <speech id="i_would_ride_through_the_land">
-    { I'd love to | I wish I could | If I was you, I would | I would } ride through the { jungle | deadlands | firelands | desert | savannah | mountains | snowlands}!
+    { J'adorerais | Si seulement je pouvais | Si j'étais vous, je voudrais | Je voudrais } chevaucher à travers { la jungle | les terres désolées | les terres arides | le désert | la savanne | les montagnes | les terres enneigées }!
   </speech>
 
   <speech id="how_fast_can_you_ride">
-    How fast can you ride?
+    À quelle vitesse pouvez-vous chevaucher ?
   </speech>
 
   <speech id="how_far_can_you_fly">
-    How far can you { fly | glide } ?
+    Sur quelle distance pouvez-vous { volez | planner }?
   </speech>
 
   <speech id="how_high_can_you_fly">
-    How high can you { fly | glide } ?
+    À quelle hauteur pouvez-vous { voler | planner }?
   </speech>
 
   <speech id="where_will_you_ride_next">
-   Where will you ride next?
+   Où allez-vous chevaucher, ensuite?
   </speech>
 
   <speech id="spooky">
-    { Spooky! $shake}
+    { Ça me donne la chair de poule! $shake}
   </speech>
 
 
@@ -7141,42 +7151,42 @@
   </speech>
 
   <speech id="i_wish_you_good_luck_finding_that_monster_in_the_location">
-    I wish you [{good | all the }] luck { fighting | defeating | battling } that *mob *in_the_zone {!|.}
+    Je vous souhaite [bonne] chance pour { combattre | vaincre | lutter } { #mob_f cette | ce } *mob *in_the_zone {!|.}
   </speech>
 
 
   <speech id="i_wish_you_good_luck_rescuing_the_gnome_in_the_location">
-    [I wish you] [{good | all the }] luck { rescuing | helping | freeing } the { [supplier] gnome $creature } *in_the_zone {!|.}
+    [Je vous souhaite] [bonne] chance pour { secourir | aider | libérer } le { Gnome [Ravitailleur] $creature } *in_the_zone {!|.}
   </speech>
 
   <speech id="so_you_defeated_that_monster_in_the_location">
-    [{So | What? | Huh?}] you { defeated | could defeat | were able to defeat } that {{ huge | dangerous | big | terrible } *mob $shake} *in_the_zone?
+    [{Donc, | Quoi? | Hein?}] Vous avez { vaincu | pu vaincre | réussi à vraincre } { #mob_f cette | ce } *mob {{ énorme | { #mob_f dangereuse | dangereux } | { #mob_f grande | grand } | terrible } $shake} *in_the_zone?
   </speech>
 
   <speech id="i_found_one_in_the_location">
-    { [{Je crois que | Peut-être que | Je pense que | Je suppose que }] j'en ai { vu | découvert | trouvé } | [{ Je crois | Peut-être | Je pense | Je suppose }] qu'il { y en a | devrait y en avoir | pourrait y en avoir }} *item_one *in_the_zone *direction_of_here {!|.|...}
+    { [{Je crois que | Peut-être que | Je pense que | Je suppose que }] j'ai { vu | découvert | trouvé } | [{ Je crois | Peut-être | Je pense | Je suppose }] qu'il { y a | devrait y avoir | pourrait y avoir }} *item_one *in_the_zone *direction_of_here {!|.|...}
   </speech>
 
   <speech id="my_friend_found_an_item_in_the_location">
-    {  [I think] my friend [*mob_name] | my friend [*mob_name] told me [that] *mob_he } { saw | discovered | found } *an_item *in_the_zone *direction_of_here {!|.|...}
+    {  [Je pense que] mon { #mob_f amie | ami } [*mob_name] | Mon { #mob_f amie | ami } [*mob_name] m'a dit [{ #mob_f qu'elle | qu'il }] } a { vu | découvert | trouvé } *an_item *in_the_zone *direction_of_here {!|.|...}
   </speech>
   
 
   <speech id="my_friend_found_one_in_the_location">
-    {  [I think] my friend [*mob_name] | my friend [*mob_name] told me [that] *mob_he } { saw | discovered | found } *item_one *in_the_zone *direction_of_here {!|.|...}
+    {  [Je pense que] mon { #mob_f amie | ami } [*mob_name] | Mon { #mob_f amie | ami } [*mob_name] m'a dit [{ #mob_f qu'elle | qu'il }] } a { vu | découvert | trouvé } *item_one *in_the_zone *direction_of_here {!|.|...}
   </speech>
 
   <speech id="my_friend_is_an_adventurer">
-    { Mon { #mob_f amie | #mob_m ami } [*mob_name] | J'ai { #mob_f une amie | #mob_m un ami } [{ #mob_f appelée | #mob_m appelé } *mob_name] qui } est { aventurier | explorateur | cueilleur | archéologue | chercheur | guerrier | rogue | mage | ranger }.
+    { Mon { #mob_f amie | #mob_m ami } [*mob_name] | J'ai { #mob_f une amie | #mob_m un ami } [{ #mob_f appelée | #mob_m appelé } *mob_name] qui } est { { #mob_f aventurière | aventurier } | { #mob_f exploratrice | explorateur } | { #mob_f cueilleuse | cueilleur } | archéologue | { #mob_f chercheuse | chercheur } | { #mob_f guerrière | guerrier } | rogue | mage | ranger }.
   </speech>
 
   <speech id="when_he_was_exploring_the_location_he_found_an_item">
-    Pendant qu' *mob_he { explorait *the_zone | visitait *the_zone } *direction_of_here, *mob_he { a vu | a découvert | a trouvé } { quelque chose! % *an_item! | *an_item! }
+    Pendant { #mob_f qu'elle | qu'il } { explorait *the_zone | visitait *the_zone } *direction_of_here, *mob_he a { vu | découvert | trouvé } { quelque chose! % *an_item! | *an_item! }
   </speech>
 
 
   <speech id="i_dont_know_if_its_true_but">
-    { I don't know | I'm not sure | Nobody knows } if { it's | it is | the { rumors | stories | reports } are } true, but...
+    {  Je ne suis pas certain que { ce soit vrai | ces { rumeurs | histoires | reports } soient vraies } | { Je ne sais pas | Personne ne sait } si { c'est vrai | cela est vrai | ces { rumeurs | histoires | reports } sont vraies } }, mais...
   </speech>
 
   <speech id="there_are_rumors_about_an_item_in_the_location">
@@ -7188,7 +7198,7 @@
   </speech>
 
   <speech id="he_was_captured_by_creatures">
-    [{ Je pense qu' | À mon avis, | Je suppose qu' | on dirait [bien] qu' | peut-être qu' | Selon moi, }] { il a été capturé par *some_mobs ! | *some_mobs l'ont capturé! }
+    [{ Je pense qu'il | À mon avis, il | Je suppose qu'il | on dirait [bien] qu'il | peut-être qu'il | Selon moi, il}] { a été capturé par *some_mobs ! | *some_mobs l'ont capturé! }
   </speech>
 
   <speech id="i_hope_someone_is_going_to_help_him">
@@ -7200,24 +7210,24 @@
   </speech>
 
   <speech id="so_you_already_helped_the_gnome_in_location">
-    [{So | Looks like| Seems like}] you already { helped | rescued | freed } the { supplier gnome $creature } *in_the_zone {?|!}
+    [{ { Donc, |  On dirait que } vous avez | Il semble que vous ayez }] { aidé | secouru | libéré } le { Gnome Ravitailleur $creature } *in_the_zone {?|!}
   </speech>
 
   <speech id="are_you_looking_for_items">
-    { Are you looking for | Are you searching for | Do you need | Do you want to gather | Do you require } *items?
+    { Est-ce que vous { cherchez | recherchez | voulez } des | Avez-vous besoin de | Voulez-vous récupérer des } *items?
   </speech>
 
   <speech id="you_can_find_some_in_the_location">
-    You can trouver some *in_the_zone *direction_of_here {!|.}
+    Vous pouvez en trouver *in_the_zone *direction_of_here {!|.}
   </speech>
 
   <speech id="you_can_find_items_in_the_location">
-    You can { trouver | gather | obtain | get } *items *in_the_zone *direction_of_here {!|.}
+    Vous pouvez { trouver | récupérer | obtenir | avoir } des *items *in_the_zone *direction_of_here {!|.}
   </speech>
 
 
   <speech id="a_monster_was_sighted_in_the_location">
-    A {{ huge | dangerous | big | terrible } *mob $shake}  { was sighted | was seen | was discovered | appeared } *in_the_zone *direction_of_here!
+    *a_mob {{ énorme | { #mob_f dangereuse | dangereux } | { #mob_f grande | grand } | terrible } *mob $shake}  { a été { #mob_f aperçue | aperçu } | a été { #mob_f vue | vu } | a été { #mob_f découverte | découverte } | est { #mob_f apparue | apparu } } *in_the_zone *direction_of_here!
   </speech>
   
   <speech id="suffix:ia">
@@ -7277,7 +7287,7 @@
   </speech>
 
   <speech id="RealmFactionRealm" tags="the">
-    Domaine{de #named *realmname }
+    Domaine {de #named *realmname }
   </speech>
 
   <speech id="RealmFactionRealmOf" tags="the">
@@ -7329,7 +7339,7 @@
   </speech>
 
   <speech id="RulerLord" tags="m title">
-    Lord
+    Seigneur
   </speech>
 
   <speech id="RulerLady" tags="f title">
@@ -7439,6 +7449,8 @@
   <macro id="the_year">
     l'an { @number $number }
   </macro>
+
+  <!-- @GHOMERR -->
 
   <speech id="the_realm_exists_since_the_year">
     { Legend has it that | According to legend, | }
