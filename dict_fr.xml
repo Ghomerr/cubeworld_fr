@@ -6042,7 +6042,7 @@
   </speech>
 
   <speech id="i_have_bellyache">
-    { J'ai des colliques! | Mon vente me fait [tellement] mal! | Mon ventre! J'ai [tellement] mal! }
+    { J'ai des colliques! | Mon ventre me fait [tellement] mal! | Mon ventre! J'ai [tellement] mal! }
   </speech>
 
   <speech id="im_so_exhausted">
@@ -6288,7 +6288,7 @@
   </speech>
 
   <speech id="now_my_pet_is_gone">
-    Now my *mob is { gone | missing }!
+    Mon *mob est désormais { parti | disparu }!
   </speech>
 
   <speech id="you_must_find_npc">
@@ -7441,12 +7441,12 @@
   </macro>
 
   <speech id="the_realm_exists_since_the_year">
-    { Legend has it that | According to legend, | }
-    { *the_named_realm { #realm_p exist | exists } since *the_year |
-    *the_named_realm { originated | came into existance | came into being } in *the_year |
-    *the_named_realm { #realm_p were | was } { formed | founded} *the_year |
-    In *the_year, *the_named_realm { #realm_p were | was } { formed | founded} |
-    the history *from_named_realm began in *the_year} .
+    { La légende dit que | D'après la légende, | }
+    { *the_named_realm { #realm_p existent | existe } depuis *the_year |
+    *the_named_realm { pris son origine | vint à l'existence } en *the_year |
+    *the_named_realm { #realm_p se sont | s'est } { formé | fondé} *the_year |
+    En *the_year, *the_named_realm { #realm_p se sont | s'est } { formé | fondé} |
+    l'histoire de *from_named_realm a commencé en *the_year} .
   </speech>
 
   <speech id="in_the_year_there_was_a_realm">
