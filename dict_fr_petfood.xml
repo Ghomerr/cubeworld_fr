@@ -78,7 +78,7 @@
     { #plural Castors | Castor }
   </name>
 
-  <name id="Moose" tags="m an">
+  <name id="Moose" tags="m v">
     { #plural Élans | Élan }
   </name>
 
@@ -90,7 +90,7 @@
     { #plural Zèbres | Zèbre }
   </name>
 
-  <name id="Elephant" tags="m an">
+  <name id="Elephant" tags="m v">
     { #plural Éléphants | Éléphant }
   </name>
 
@@ -126,7 +126,7 @@
     { #plural Lions Argentés | Lion Argenté }
   </name>
 
-  <name id="Ostrich" tags="f an">
+  <name id="Ostrich" tags="f v">
     { #plural Autruches | Autruche }
   </name>
 
@@ -191,7 +191,7 @@
     { #plural Mordeurs | Mordeur }
   </name>
 
-  <name id="Squirrel" tags="m an">
+  <name id="Squirrel" tags="m v">
     { #plural Écureuils | Écureuil }
   </name>
 
@@ -199,7 +199,7 @@
     { #plural Ratons-Laveurs | Raton-Laveur }
   </name>
 
-  <name id="Duckbill" tags="m an">
+  <name id="Duckbill" tags="m v">
     { #plural Ornithorynques | Ornithorynque }
   </name>
 
@@ -231,7 +231,7 @@
     { #plural Chenilles de Terre | Chenille de Terre }
   </name>
 
-  <name id="Snail" tags="m">
+  <name id="Snail" tags="m v">
     { #plural Escargots | Escargot }
   </name>
   
@@ -276,7 +276,7 @@
     { #plural Poissons-Globes | Poisson-Globe }
   </name>
 
-  <name id="Seahorse" tags="m">
+  <name id="Seahorse" tags="m v">
     { #plural Hippocampes | Hippocampe }
   </name>
   
@@ -284,7 +284,7 @@
     Vase @
   </name>
   
-  <name id="ArtifactAmulet" tags="f	">
+  <name id="ArtifactAmulet" tags="f	v">
     Amulette de @
   </name>
   
@@ -388,7 +388,7 @@
     { #plural Gisements de Saphir | Gisement de Saphir }
   </name>
 
-  <name id="Emerald" tags="f">
+  <name id="Emerald" tags="f v">
     { #plural Émeraudes | Émeraude }
   </name>
 
@@ -404,19 +404,19 @@
     { #plural Diamants | Diamant }
   </name>
 
-  <name id="HumanMale" tags="m">
+  <name id="HumanMale" tags="m v">
     { #plural Humains | Humain }
   </name>
 
-  <name id="HumanFemale" tags="f">
+  <name id="HumanFemale" tags="f v">
     { #plural Humaines | Humaine }
   </name>
 
-  <name id="ElfMale" tags="m an">
+  <name id="ElfMale" tags="m v">
     { #plural Elfes | Elfe }
   </name>
 
-  <name id="ElfFemale" tags="f an">
+  <name id="ElfFemale" tags="f v">
     { #plural Elfes | Elfe }
   </name>
 
@@ -448,11 +448,11 @@
     { #plural Vaches | Vache }
   </name>
 
-  <name id="Alpaca" tags="m an">
+  <name id="Alpaca" tags="m v">
     { #plural Alpagas | Alpaga }
   </name>
 
-  <name id="BrownAlpaca" tags="m an">
+  <name id="BrownAlpaca" tags="m v">
     { #plural Alpagas | Alpaga }
   </name>
 
@@ -460,7 +460,7 @@
     { #plural Taureaux-Crânes | Taureau-Crâne }
   </name>
 
-  <name id="Egg" tags="m an">
+  <name id="Egg" tags="m v">
     { #plural Œufs | Œuf }
   </name>
 
@@ -620,11 +620,11 @@
     { #plural Gnolls Polaires | Gnoll Polaire }
   </name>
 
-  <name id="Mermaid" tags="f an">
+  <name id="Mermaid" tags="f v">
     { #plural Ondines | Ondine }
   </name>
 
-  <name id="Merman" tags="m an">
+  <name id="Merman" tags="m v">
     { #plural Ondin | Ondin }
   </name>
 
@@ -636,7 +636,7 @@
     { #plural Soldates | Soldate }
   </name>
 
-  <name id="Empress" tags="f an">
+  <name id="Empress" tags="f v">
     { #plural Impératrices | Impératrice }
   </name>
 
@@ -644,7 +644,7 @@
     { #plural Demi-Démons | Demi-Démon }
   </name>
 
-  <name id="Archdruid" tags="m an">
+  <name id="Archdruid" tags="m v">
     { #plural Archidruides | Archidruide }
   </name>
 
@@ -656,7 +656,7 @@
     { #plural Paladins Légendaires | Paladin Légendaire }
   </name>
 
-  <name id="Angel" tags="m an">
+  <name id="Angel" tags="m v">
     { #plural Anges | Ange }
   </name>
 
@@ -741,7 +741,7 @@
     { #plural Démons Infernaux | Démon Infernal }
   </name>
 
-  <name id="Ogre" tags="m an">
+  <name id="Ogre" tags="m v">
     { #plural Ogres | Ogre }
   </name>
 
@@ -765,7 +765,7 @@
     { #plural Minotaures | Minotaure }
   </name>
 
-  <name id="Frightener" tags="m an">
+  <name id="Frightener" tags="m v">
     { #plural Épouvanteurs | Épouvanteur }
   </name>
 
@@ -793,7 +793,7 @@
     { #plural Bulbions | Bulbion }
   </name>
 
-  <name id="BabyElephant" tags="m an">
+  <name id="BabyElephant" tags="m v">
     { #plural Éléphanteaux | Éléphanteau }
   </name>
 
@@ -813,7 +813,7 @@
     { #plural Pousses de Radissions | Pousse de Radission }
   </name>
 
-  <name id="Onionling" tags="m an">
+  <name id="Onionling" tags="m v">
     { #plural Oignions | Oignion }
   </name>
 
@@ -861,7 +861,7 @@
     { #plural Purées de Symphorines | Purée de Symphorines }
   </name>
 
-  <name id="ThornTree" tags="m an">
+  <name id="ThornTree" tags="m v">
     { #plural Arbres Épineux | Arbre Épineux }
   </name>
 
@@ -925,7 +925,7 @@
     { #plural Broussailles de Feu | Broussaille de Feu }
   </name>
 
-  <name id="Scarecrow" tags="m an">
+  <name id="Scarecrow" tags="m v">
     { #plural Épouvantails | Épouvantail }
   </name>
 
@@ -977,7 +977,7 @@
     { #plural Maraudeurs Démoniaques | Maraudeur Démoniaque }
   </name>
 
-  <name id="FlyingEye" tags="m">
+  <name id="FlyingEye" tags="m v">
     { #plural Yeux Volants | Œil Volant }
   </name>
 
@@ -989,23 +989,23 @@
     { #plural Tablettes de Pierre | Tablette de Pierre }
   </name>
 
-  <name id="Artifact" tags="m">
+  <name id="Artifact" tags="m v">
     { #plural Artéfacts | Artéfact }
   </name>
 
-  <name id="Amulet" tags="f an">
+  <name id="Amulet" tags="f v">
     { #plural Amulettes | Amulette }
   </name>
 
-  <name id="Ring" tags="m an">
+  <name id="Ring" tags="m v">
     { #plural Anneaux | Anneau }
   </name>
 
-  <name id="Amulet1" tags="f an">
+  <name id="Amulet1" tags="f v">
     { #plural Amulettes | Amulette }
   </name>
 
-  <name id="Amulet2" tags="f an">
+  <name id="Amulet2" tags="f v">
     { #plural Amulettes | Amulette }
   </name>
 
@@ -1130,15 +1130,15 @@
     { #plural Tables de Nuit | Table de Nuit }
   </name>
 
-  <name id="MarketStand1" tags="m an">
+  <name id="MarketStand1" tags="m v">
     { #plural Étals | Étal }
   </name>
 
-  <name id="MarketStand2" tags="m an">
+  <name id="MarketStand2" tags="m v">
     { #plural Étals | Étal }
   </name>
 
-  <name id="MarketStand3" tags="m an">
+  <name id="MarketStand3" tags="m van">
     { #plural Étals | Étal }
   </name>
 
@@ -1158,11 +1158,11 @@
     { #plural Sacs | Sac }
   </name>
 
-  <name id="Shelter" tags="m an">
+  <name id="Shelter" tags="m v">
     { #plural Abris | Abri }
   </name>
 
-  <name id="Cupboard" tags="f an">
+  <name id="Cupboard" tags="f v">
     { #plural Armoires | Armoire }
   </name>
 
@@ -1174,15 +1174,15 @@
     { #plural Comptoirs | Comptoir }
   </name>
 
-  <name id="Shelf1" tags="f an">
+  <name id="Shelf1" tags="f v">
     { #plural Étagères | Étagère }
   </name>
 
-  <name id="Shelf2" tags="f an">
+  <name id="Shelf2" tags="f v">
     { #plural Étagères | Étagère }
   </name>
 
-  <name id="Shelf3" tags="f an">
+  <name id="Shelf3" tags="f v">
     { #plural Étagères | Étagère }
   </name>
 
@@ -1239,7 +1239,7 @@
     { #plural Fourneaux | Fourneau }
   </name>
 
-  <name id="Anvil" tags="f">
+  <name id="Anvil" tags="f v">
     { #plural Enclumes | Enclume }
   </name>
 
@@ -1255,11 +1255,11 @@
     { #plural Scies | Scie }
   </name>
 
-  <name id="Workbench" tags="m an">
+  <name id="Workbench" tags="m v">
     { #plural Établis | Établi }
   </name>
 
-  <name id="CustomizationBench" tags="m an">
+  <name id="CustomizationBench" tags="m v">
     { #plural Établis de Personnalisation | Établi de Personnalisation }
   </name>
 
@@ -1403,7 +1403,7 @@
     { #plural Statues Pleureuses |  Statue Pleureuse }
   </name>
 
-  <name id="Eagle" tags="m">
+  <name id="Eagle" tags="m v">
     { #plural Aigles | Aigle }
   </name>
 
@@ -1447,7 +1447,7 @@
     { #plural Bandits | Bandit }
   </name>
 
-  <name id="Assassin" tags="m an">
+  <name id="Assassin" tags="m v">
     { #plural Assassins | Assassin }
   </name>
 
@@ -1472,7 +1472,7 @@
     Spallières
   </name>
 
-  <name id="Sword" tags="f">
+  <name id="Sword" tags="f v">
     { #plural Épées | Épée }
   </name>
 
@@ -1496,7 +1496,7 @@
     { #plural Arcs | Arc }
   </name>
 
-  <name id="Crossbow" tags="f">
+  <name id="Crossbow" tags="f v">
     { #plural Arbalètes | Arbalète }
   </name>
 
@@ -1544,7 +1544,7 @@
     { #plural Grandes Masses d'Armes | Grande Masse d'Armes }
   </name>
 
-  <name id="Longsword" tags="f an">
+  <name id="Longsword" tags="f v">
     { #plural Épées Longues | Épée Longue }
   </name>
 
@@ -1585,7 +1585,7 @@
   </name>
 
   <name id="Reins" tags="fp">
-    Rênes
+    des rênes
   </name>
 
   <name id="TamersWhistle" tags="m">
@@ -1600,7 +1600,7 @@
     { #plural Cubes de Mana | Cube de Mana }
   </name>
 
-  <name id="ManaSpirit" tags="m">
+  <name id="ManaSpirit" tags="m v">
     { #plural Esprits de Mana | Esprit de Mana }
   </name>
   
@@ -1672,7 +1672,7 @@
     { #plural Cookies | Cookie }
   </name>
 
-  <name id="Bait" tags="f an s">
+  <name id="Bait" tags="f v s">
     { #plural Appâts | Appât }
   </name>
 
@@ -1912,7 +1912,7 @@
     { #plural Citrouilles | Citrouille }
   </name>
 
-  <name id="Pineapple" tags="m an">
+  <name id="Pineapple" tags="m v">
     { #plural Ananas | Ananas }
   </name>
 
@@ -3818,7 +3818,7 @@
   <speech id="description:SkillHangGliding">
     {Deltaplane $stress}
     %
-    Permet l'utilisation de deltaplanes.
+    Permet l'utilisation du deltaplane.
   </speech>
 
   <speech id="details:SkillHangGliding">
@@ -5180,7 +5180,7 @@
   </speech>
 
   <speech id="are_you_a_good_climber">
-    { Êtes-vous { un bon {grimpeur $stress} | bon à {l'escalade $stress} }? | Aime-vous {l'escalade $stress}? }
+    { Êtes-vous { un bon {grimpeur $stress} | bon à {l'escalade $stress} }? | Aimez-vous {l'escalade $stress}? }
   </speech>
 
   <speech id="do_you_like_sailing">
@@ -6138,7 +6138,7 @@
   </speech>
 
   <speech id="you_can_get_items_from_creatures_direction_of_here">
-    You { pouvez | avez la possibilité de | pourriez } { obtenir | récupérer | recueillir } [{des | quelques}] *items des *mobs *direction_of_here. | [quelques] *items poussent *direction_of_here. | Vous { pouvez | devez [être capable de] } trouver [quelques] *items *direction_of_here.
+    Vous { pouvez | avez la possibilité de | pourriez } { obtenir | récupérer | recueillir } [{des | quelques}] *items des *mobs *direction_of_here. | [quelques] *items poussent *direction_of_here. | Vous { pouvez | devez [être capable de] } trouver [quelques] *items *direction_of_here.
   </speech>
 
   <speech id="boss_might_have_an_item">
@@ -7010,7 +7010,7 @@
   </speech>
 
   <speech id="oh_you_already_have_the_item">
-    [ Oh {!|,} ] { [Donc] vous avez [déjà] [ { trouvé | obtenu | découvert } ] *item? | { #item_p | Est-ce } *an_item? | [ [Il] semble que] vous avez [trouvé] *item! }
+    [ Oh {!|,} ] { [Donc] vous avez [déjà] [ { trouvé | obtenu | découvert } ] *item? | { #item_p | Est-ce } *an_item? | [Il semble que] vous ayez [trouvé] *item_le *item! }
   </speech>
 
   <speech id="nice">
