@@ -6288,7 +6288,7 @@
   </speech>
 
   <speech id="now_my_pet_is_gone">
-    Mon *mob est désormais { parti | disparu }!
+    { #mob_f Ma | Mon } *mob est désormais { { #mob_f partie | parti } | { #mob_f disparue  | disparu } }!
   </speech>
 
   <speech id="you_must_find_npc">
@@ -7443,18 +7443,18 @@
   <speech id="the_realm_exists_since_the_year">
     { La légende dit que | D'après la légende, | }
     { *the_named_realm { #realm_p existent | existe } depuis *the_year |
-    *the_named_realm { pris son origine | vint à l'existence } en *the_year |
-    *the_named_realm { #realm_p se sont | s'est } { formé | fondé} *the_year |
+    *the_named_realm { prit son origine | vint à l'existence } en *the_year |
+    *the_named_realm { #realm_p se sont | s'est } { { #realm_f formée | formé } | { #realm_f fondée | fondé } } *the_year |
     En *the_year, *the_named_realm { #realm_p se sont | s'est } { formé | fondé} |
     l'histoire de *from_named_realm a commencé en *the_year} .
   </speech>
 
   <speech id="in_the_year_there_was_a_realm">
-    En *the_year il y a { #realm_p eu } { *a_realm called *realmname | *the_named_realm }.
+    En *the_year il y a eu { *a_realm { #realm_f appelée | appelé } *realmname | *the_named_realm }.
   </speech>
 
   <speech id="once_there_was_a_realm">
-    { Une fois | Selon la légende, | la légende dit que | il y a longtemps | il y a beaucoup d'années | dans les anciens temps } il y a { #realm_p eu } { *a_realm called *realmname | *the_named_realm }.
+    { Une fois, | Selon la légende, | la légende dit que | il y a très longtemps, | il y a un certain nombre d'années, | dans les anciens temps, } il y a eu { *a_realm called *realmname | *the_named_realm }.
   </speech>
 
   <speech id="in_the_year_there_was_a_named_ruler">
@@ -7500,11 +7500,11 @@
   </speech>
 
   <speech id="here_rests_hero_of_the_realm">
-    { Ici repose { en paix | paisiblement | pour toujours | pour éternité | éternellement | } *mob_name | [ Ceci est la ] { tombe } of *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name },  [{légendaire | fameux | honorable}] héros *from_named_realm.
+    { Ici repose { en paix | paisiblement | pour toujours | pour l'éternité | éternellement | } *mob_name | [ Ceci est la ] { tombe } de *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name },  [{légendaire | fameux | honorable}] héros *from_named_realm.
   </speech>
 
   <speech id="here_rests_resident">
-    { Ici repose [{ en paix | paisiblement | pour toujours | pour éternité | éternellement }] *mob_name | [ Ceci est la ] { tombe } de *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name } [{ *the_resident | *mob_him *mob }].
+    { Ici repose [{ en paix | paisiblement | pour toujours | pour l'éternité | éternellement }] *mob_name | [ Ceci est la ] { tombe } de *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name } [{ *the_resident | *mob_him *mob }].
   </speech>
 
   <macro id="trait">
@@ -7546,7 +7546,7 @@
   </speech>
 
   <speech id="he_lived_for_years">
-    *mob_he a vécu @number [{ happy | fulfilled }] ans.
+    *mob_he a vécu @number [{ heureuses | joyeuses }] années.
   </speech>
   
   <speech id="he_died_in_the_war_against_the_faction">
