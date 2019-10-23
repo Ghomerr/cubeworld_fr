@@ -7588,7 +7588,7 @@
   </speech>
   
    <speech id="during_the_faction_war_he_had_to_flee_to_the_land">
-    { Pendant la [grande] guerre [ contre *the_faction ] | Quand la [grande] guerre [ contre *the_faction] { a débuté | a éclaté } } *mob_he a du fuir *the_land.
+    { Pendant la [grande] guerre [ contre *the_faction ] | Quand la [grande] guerre [ contre *the_faction] { a débuté | a éclaté } } *mob_he a dû fuir *the_land.
   </speech>
   
   <speech id="later_he_moved_to_the_land">
