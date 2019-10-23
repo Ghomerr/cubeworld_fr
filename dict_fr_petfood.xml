@@ -6054,7 +6054,7 @@
   </speech>
 
   <speech id="i_have_bellyache">
-    { J'ai des colliques! | Mon vente me fait [tellement] mal! | Mon ventre! J'ai [tellement] mal! }
+    { J'ai des colliques! | Mon ventre me fait [tellement] mal! | Mon ventre! J'ai [tellement] mal! }
   </speech>
 
   <speech id="im_so_exhausted">
@@ -6300,7 +6300,7 @@
   </speech>
 
   <speech id="now_my_pet_is_gone">
-    Now my *mob is { gone | missing }!
+    Mon *mob est désormais { parti | disparu }!
   </speech>
 
   <speech id="you_must_find_npc">
@@ -7450,51 +7450,49 @@
     l'an { @number $number }
   </macro>
 
-  <!-- @GHOMERR -->
-
   <speech id="the_realm_exists_since_the_year">
-    { Legend has it that | According to legend, | }
-    { *the_named_realm { #realm_p exist | exists } since *the_year |
-    *the_named_realm { originated | came into existance | came into being } in *the_year |
-    *the_named_realm { #realm_p were | was } { formed | founded} *the_year |
-    In *the_year, *the_named_realm { #realm_p were | was } { formed | founded} |
-    the history *from_named_realm began in *the_year} .
+    { La légende dit que | D'après la légende, | }
+    { *the_named_realm { #realm_p existent | existe } depuis *the_year |
+    *the_named_realm { pris son origine | vint à l'existence } en *the_year |
+    *the_named_realm { #realm_p se sont | s'est } { formé | fondé} *the_year |
+    En *the_year, *the_named_realm { #realm_p se sont | s'est } { formé | fondé} |
+    l'histoire de *from_named_realm a commencé en *the_year} .
   </speech>
 
   <speech id="in_the_year_there_was_a_realm">
-    En *the_year there { #realm_p were | was } { *a_realm called *realmname | *the_named_realm }.
+    En *the_year il y a { #realm_p eu } { *a_realm called *realmname | *the_named_realm }.
   </speech>
 
   <speech id="once_there_was_a_realm">
-    { Once | according to legend, | Legend has it that | a long time ago | many years ago | in the ancient times } there { #realm_p were | was } { *a_realm called *realmname | *the_named_realm }.
+    { Une fois | Selon la légende, | la légende dit que | il y a longtemps | il y a beaucoup d'années | dans les anciens temps } il y a { #realm_p eu } { *a_realm called *realmname | *the_named_realm }.
   </speech>
 
   <speech id="in_the_year_there_was_a_named_ruler">
-    In *the_year there { was | lived } *a_ruler called *mob_name.
+    En *the_year, { il y avait | vivait } *a_ruler { #mob_f appelée | appelé } *mob_name.
   </speech>
 
   <speech id="once_there_was_a_a_named_ruler">
-    { Once | according to legend, | Legend has it that | a long time ago | many years ago | in the ancient times } there { was | lived } *a_ruler called *mob_name.
+    { { Autrefois, | Selon la légende, | il y a longtemps, | de nombreuses années plus tôt, | dans les temps anciens, } { il y avait | vivait } | la légende raconte qu'il y avait } *a_ruler { #mob_f appelée | appelé } *mob_name.
   </speech>
 
   <speech id="he_founded_the_realm">
-    { *mob_he { founded | established | formed | created } *the_named_realm | *the_named_realm { #realm_p were | was } { founded | established | formed | created } by *mob_him }.
+    { *mob_he { fonda | établit | forma | créa } *the_named_realm | *the_named_realm { #realm_p furent | fut } { { #mob_p_f fondées | #mob_p fondés | #mob_f fondée | fondé } | { #mob_p_f établies | #mob_p établis | #mob_f établie | établi } | { #mob_p_f formées | #mob_p formés | #mob_f formée | formé } | { #mob_p_f créées | #mob_p créés | #mob_f créée | créé } } par { #mob_f elle | lui } }.
   </speech>
 
   <speech id="the_residents_had_a_ruler">
-    *the_residents were led by  *a_ruler.
+    *the_residents étaient dirigés par *a_ruler.
   </speech>
 
   <speech id="the_realm_was_ruled_by">
-    {*the_named_realm { #realm_p were | was } ruled | *the_residents were led } by { #ruler_title @ruler() *mob_name | { *a_ruler called *mob_name | *mob_name the @ruler() }} .
+    {*the_named_realm { #realm_p étaient gouvernés | était gouverné } | *the_residents étaient gouvernés } par { #ruler_title @ruler() *mob_name | { *a_ruler { #mob_f appelée | appelé } *mob_name | *mob_name *mob_him @ruler() }} .
   </speech>
 
   <speech id="the_realm_is_ruled_by">
-    {*the_named_realm { #realm_p are | is } ruled | *the_residents are led } by { #ruler_title @ruler() *mob_name | { *a_ruler called *mob_name | *mob_name the @ruler() }} .
+    {*the_named_realm { #realm_p sont gouvernés | est gouverné } | *the_residents sont gouvernés } par { #ruler_title @ruler() *mob_name | { *a_ruler { #mob_f appelée | appelé } *mob_name | *mob_name *mob_him @ruler() }} .
   </speech>
 
   <speech id="it_is_ruled_by">
-    { #realm_p They are | it is } ruled by { #ruler_title @ruler() *mob_name | { *a_ruler called *mob_name | *mob_name the @ruler() }} .
+    { #realm_p Ces lieux sont gourvernés | Ce lieu est gourverné } par { #ruler_title @ruler() *mob_name | { *a_ruler { #mob_f appelée | appelé } *mob_name | *mob_name *mob_him @ruler() }} .
   </speech>
 
   <speech id="realmname">
@@ -7502,21 +7500,21 @@
   </speech>
   
   <speech id="his_name_was">
-    { *mob_his name was | *mob_he was called } *mob_name.
+    { *mob_his nom était | *mob_he était { #mob_f appelée | appelé } } *mob_name.
   </speech>
 
   <speech id="npc_life_span">
-    {R.I.P.} *mob_name [{ *mob_him *mob | *the_resident }]
+    {Repose en Paix} *mob_name [{ *mob_him *mob | *the_resident }]
     %
-    { @number - @number2 Era of Gods $number }    
+    { @number - @number2 Ère des Dieux $number }    
   </speech>
 
   <speech id="here_rests_hero_of_the_realm">
-    { Here rests { in peace | peacefully | forever | in eternity | eternally | } *mob_name | [ This is the ] { grave | tomb | last resting-place } of *mob_name | Rest in peace, *mob_name | R.I.P. *mob_name },  [{legendary | famous | fallen | deceased | honored}] hero *from_named_realm.
+    { Ici repose { en paix | paisiblement | pour toujours | pour éternité | éternellement | } *mob_name | [ Ceci est la ] { tombe } of *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name },  [{légendaire | fameux | honorable}] héros *from_named_realm.
   </speech>
 
   <speech id="here_rests_resident">
-    { Here rests [{ in peace | peacefully | forever | in eternity | eternally }] *mob_name | [ This is the ] { grave | tomb | last resting-place } of *mob_name | Rest in peace, *mob_name | R.I.P. *mob_name } [{ *the_resident | *mob_him *mob }].
+    { Ici repose [{ en paix | paisiblement | pour toujours | pour éternité | éternellement }] *mob_name | [ Ceci est la ] { tombe } de *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name } [{ *the_resident | *mob_him *mob }].
   </speech>
 
   <macro id="trait">
@@ -7554,31 +7552,31 @@
   </speech>
 
   <speech id="he_lived_a_full_life">
-    *mob_he lived { a full life | a life of ease | a happy life | a long fulfilled life | a life full of happiness }.
+    *mob_he a vécu { une belle vie | une vie pleine de douceur | une vie heureuse | une longue vie remplie | une vie pleine de bonheur }.
   </speech>
 
   <speech id="he_lived_for_years">
-    *mob_he lived for @number [{ happy | fulfilled }] years.
+    *mob_he a vécu @number [{ happy | fulfilled }] ans.
   </speech>
   
   <speech id="he_died_in_the_war_against_the_faction">
-    *mob_he { fell | died | gave *mob_his life | lost *mob_his life | was killed | was defeated | was slain } { in | during } the war against *the_faction.
+    *mob_he { fell | est mort | a perdu *mob_his life | a été tué | a été vaincu } { pendant } le combat contre *the_faction.
   </speech>
 
   <speech id="he_was_killed_by_a_faction_member">
-    *mob_he { was killed | was defeated | was slain } by a member of *the_faction.
+    *mob_he { a été tué | a été vaincu } par un membre de *the_faction.
   </speech>
 
   <speech id="he_was_killed_by_npc">
-    *mob_he { was killed | was defeated | was slain } by *mob2_name [ *mob_him *mob2 ].
+    *mob_he { a été tué | a été vaincu } par *mob2_name [ *mob_him *mob2 ].
   </speech>
 
   <speech id="he_was_killed_by_a_monster">
-    *mob_he { was killed by | was defeated by | was slain by | lost a fight against | fell during a fight against }  *a_mob2.
+    *mob_he { a été tué | a été vaincu | a perdu le combat contre | est mort durant le combat contre }  *a_mob2.
   </speech>
 
   <speech id="he_was_poisoned_by_a_creature">
-    *mob_he was poisoned by *a_mob2.
+    *mob_he a été empoisonné *a_mob2.
   </speech>
   
    <speech id="npc">
@@ -7586,206 +7584,207 @@
   </speech>
   
   <speech id="npc_lived_in_a_location">
-    *mob_name  { was born | was [born and] raised | lived | spent *mob_his early life | grew up } { on {a small | an } island #island | in a [small] village #village | near the ocean #ocean | in the mountains #mountains | in the snowlands #snowlands | in the deadlands #deadlands | on a farm #farm | in a [big] #city | in a palace #palace }.
+    *mob_name  { est né | est [né et] a été élevé | vivait | a passé le début de sa vie | a grandi } { sur {une petite | une } île #island | dans un [petit] village #village | près de l'océan #ocean | dans les montagnes #mountains | dans les terres enneigées #snowlands | dans les terres des morts #deadlands | dans une ferme #farm | dans une [grande] #city | dans un palais #palace }.
   </speech>
   
    <speech id="during_the_faction_war_he_had_to_flee_to_the_land">
-    { During the [great] war [ against *the_faction ] | When the [great] war [ against *the_faction] { began | broke out } } *mob_he had to flee to *the_land.
+    { Pendant la [grande] guerre [ contre *the_faction ] | Quand la [grande] guerre [ contre *the_faction] { a débuté | a éclaté } } *mob_he a du fuir *the_land.
   </speech>
   
   <speech id="later_he_moved_to_the_land">
-    { Later | When *mob_he was older | As an adult } *mob_he { moved to | traveled to | made a jorney to } *the_land.
+    { Plus tard, | Quand *mob_he fut plus { #mob_f âgée | âgé }, | { #mob_f Devenue | devenu } adulte, } *mob_he { déménagea dans | voyagea vers | fit un voyage vers } *the_land.
   </speech>
   
   <speech id="one_day_he_explored_the_land">
-    One day *mob_he { decided to explore | explored | decided to travel to | traveled to | { decided to make | made} a journey to | discovered } *the_land.
+    Un jour, *mob_he { décida d'explorer | explora | décida de voyager vers | voyagea vers | { décida de faire | fit } un voyage | découvrit } *the_land.
   </speech>
   
   <speech id="there_he_fought_against_the_faction">
-    There *mob_he fought against *the_faction.
+    Là-bas, *mob_he combattit contre *the_faction.
   </speech>
   
   <speech id="there_he_explored_ancient_ruins_and_dungeons">
-    There *mob_he explored { ancient | forgotten | old } ruins and dungeons.
+    Là-bas, *mob_he explora { d'anciennes ruines | des ruines oubliées | de vielles ruines } et donjons.
   </speech>
   
   <macro id="realm_magic">
     {
     {
-    rune magic #rune_magic |
-    blood magic #blood_magic |
-    demonology #demonology |
-    gem magic #gem_magic |
-    dark magic #dark_magic |
-    black magic #black_magic |
-    unholy magic #unholy_magic |
-    holy magic #holy_magic |
-    divine magic #divine_magic |
-    life magic #life_magic |
-    death magic #death_magic |
-    mana transformation #mana_transformation |
-    matter transformation #matter_transformation |
-    mana infusion #mana_infusion |
-    particle fusion #particle_fusion |
-    advanced alchemy #advanced_alchemy
+    La Magie Runique #rune_magic |
+    La Magie du Sang #blood_magic |
+    La Démonologie #demonology |
+    La Magie des Gemmes #gem_magic |
+    La Magie des Ténèbres #dark_magic |
+    La Magie Noire #black_magic |
+    La Magie Impie #unholy_magic |
+    La Magie Sacrée #holy_magic |
+    La Magie Divine #divine_magic |
+    La Magie Vitale #life_magic |
+    La Nécromancie #death_magic |
+    La Transformation du Mana #mana_transformation |
+    La Transformation de la Matière #matter_transformation |
+    L'infusion de Mana #mana_infusion |
+    La Fusion des Particules #particle_fusion |
+    L'Alchimie Avancée #advanced_alchemy
     }
     $stress }
   </macro>
   
   <speech id="there_he_learned_about_realm_magic">
-    There *mob_he learned { about | the art of | the secrets of } *realm_magic.
+    Là-bas, *mob_he apprit { | l'art de | les secrets de } *realm_magic.
   </speech>
   
   <speech id="after_some_years_he_founded_the_realm">
-    { After { some | many | quelques } years | { some | many | quelques | } years later } { *mob_he { founded | established | formed | created } *the_named_realm | *the_named_realm { #realm_p were | was } { founded | established | formed | created } by *mob_him }.
+    { Après { des | plusieurs | quelques } années | { Des | Plusieurs | quelques | } années plus tard }, { *mob_he { fonda | établit | forma | créa } *the_named_realm | *the_named_realm { #realm_p furent | fut } { { #mob_p_f fondées | #mob_p fondés | #mob_f fondée | fondé } | { #mob_p_f établies | #mob_p établis | #mob_f établie | établi } | { #mob_p_f formées | #mob_p formés | #mob_f formée | formé } | { #mob_p_f créées | #mob_p créés | #mob_f créée | créé } } par { #mob_f elle | lui } }.
   </speech>
   
   <speech id="there_are_many_legends_about_his_adventures">
-    { Il y a des { many | countless } { legends | tales | songs } | { many | countless } { legends | tales | songs } are told} about *mob_his adventures.
+    { Il y a { de nombreuses | d'innombrables } { légendes | contes | chansons } | { De nombreuses | D'innombrables } { légendes sont racontées | contes sont racontés | chansons sont racontées } } sur ses aventures.
   </speech>
   
    <speech id="he_was_a_warrior">
-     *mob_he was a warrior.
+     *mob_he était { #mob_f une guerrière | une guerrier }.
   </speech>
   
   <speech id="he_was_a_ranger">
-     *mob_he was a ranger.
+     *mob_he était ranger.
   </speech>
   
   <speech id="he_was_a_rogue">
-     *mob_he was a rogue.
+     *mob_he était rogue.
   </speech>
   
   <speech id="he_was_a_mage">
-     *mob_he was a mage.
+     *mob_he était mage.
   </speech>
   
   <speech id="during_his_time_in_land_npc_discovered_wisdom">
-    { During *mob_his time *in_the_land | During *mob_his journeys *in_the_land | During *mob_his adventures *in_the_land | While *mob_he was *in_the_land, | While *mob_he explored *the_land, | While exploring *the_land | While traveling through *the_land | *in_the_land } *mob_name 
+    { À son époque *in_the_land | Pendant ses voyages *in_the_land | Durant ses aventures *in_the_land | Tandis qu'*mob_he était *in_the_land, | Tandis qu'*mob_he explorait *the_land, | Pendant l'exploration de *the_land | Pendant la traversée de *the_land | *in_the_land } *mob_name 
     {
-    { discovered | trouvé | obtenu } an ancient inscription #ancient_inscription |
-    { discovered | trouvé | obtenu } an old inscription #old_inscription |
-    { discovered | trouvé | obtenu } a magic inscription #magic_inscription |
-    { discovered | trouvé | obtenu } a stone tablet #stone_tablet |
-    { discovered | trouvé | obtenu } an inscribed tablet #inscribed_tablet |
-    { discovered | trouvé | obtenu } an ancient scroll #ancient_scroll |
-    { discovered | trouvé | obtenu } an old scroll #old_scroll |
-    { discovered | trouvé | obtenu } a magic scroll #magic_scroll |
-    { discovered | trouvé | obtenu } an ancient book #ancient_book |
-    { discovered | trouvé | obtenu } a magic book #magic_book |
-    { discovered | trouvé | obtenu } an old book #old_book |
-    { met | found } a witch #witch |
-    { met | found } a wise man #wise_man |
-    { met | found } a wise woman #wise_woman |
-    { met | found } a sorcerer #sorcerer |
-    { met | found } a sorceress #sorceress |
-    { met | found } a wizard #wizard |
-    { met | found } a ghost #ghost |
-    { met | found } a spirit #spirit |
-    { met | found } a vampire #vampire |
-    { met | found } a djinn #djinn |
-    { met | found } a demon #demon
+    { découvrit | trouva | obtint } une antique inscription #ancient_inscription |
+    { découvrit | trouva | obtint } une vieille inscription #old_inscription |
+    { découvrit | trouva | obtint } une inscription magique #magic_inscription |
+    { découvrit | trouva | obtint } une tablette de pierre #stone_tablet |
+    { découvrit | trouva | obtint } une tablette gravée #inscribed_tablet |
+    { découvrit | trouva | obtint } un antique parchemin #ancient_scroll |
+    { découvrit | trouva | obtint } un vieux parchemin #old_scroll |
+    { découvrit | trouva | obtint } un parchemin magique #magic_scroll |
+    { découvrit | trouva | obtint } un antique manuscrit #ancient_book |
+    { découvrit | trouva | obtint } un livre magique #magic_book |
+    { découvrit | trouva | obtint } un vieux livre #old_book |
+    { rencontra | trouva } une sorcière #witch |
+    { rencontra | trouva } un sage #wise_man |
+    { rencontra | trouva } une sage #wise_woman |
+    { rencontra | trouva } un ensorceleur #sorcerer |
+    { rencontra | trouva } une ensorceleuse #sorceress |
+    { rencontra | trouva } un mage #wizard |
+    { rencontra | trouva } un fantôme #ghost |
+    { rencontra | trouva } un esprit #spirit |
+    { rencontra | trouva } un vampire #vampire |
+    { rencontra | trouva } un djinn #djinn |
+    { rencontra | trouva } un démon #demon
     }
-    from which *mob_he learned { about | the art of | the secrets of } *realm_magic.
+    qui lui apprit { | l'art de | les secrets de } *realm_magic.
   </speech>
 
   <speech id="npc_used_his_realm_magic_skills_to_explore_dangerous_dungeons">
-    *mob_name used *mob_his *realm_magic skills to explore dangerous dungeons.
+    *mob_name utilisa ses compétences de *realm_magic pour explorer de dangereux donjons.
   </speech>
 
   <speech id="npc_used_his_realm_magic_skills_to_explore_the_land">
-    *mob_name used *mob_his *realm_magic skills to { explore [the {mysteries|secrets}] | travel to } *the_land.
+    *mob_name utilisa ses compétences de *realm_magic pour { percer [les {mystères|secrets}] | voyager dans } *the_land.
   </speech>
 
   <speech id="npc_used_his_realm_magic_skills_to_fight_the_faction">
-    *mob_name used *mob_his *realm_magic skills to fight *the_faction.
+    *mob_name utilisa ses compétences de *realm_magic pour combattre *the_faction.
   </speech>
 
   <speech id="using_realm_magic_npc_was_able_to_increase_his_power">
-    Using *realm_magic *mob_name
+    Grâce à *realm_magic, *mob_name
     {
-    was able to { increase | multiply } *mob_his { power | skills | might | wisdom } { by a large amount | by far | a lot | immensely } |
-    gained { immense | boundless | limitless | huge } { power | might | wisdom }
+    fut capable { d'augmenter | de multiplier } { son pouvoir | ses compétences | sa puissance | sa sagesse }  { de façon importante | bien au-delà | de beaucoup | immensément } |
+    gagna { un pouvoir | une puissance | une sagesse } { immense | sans limite | sans borne | énorme } 
     }.
   </speech>
 
   <speech id="npc_spent_a_lot_of_time_exploring_the_land">
-    *mob_name spent a lot of time { exploring [the {mysteries|secrets} of] } *the_land.
+    *mob_name passa beaucoup de temps à { explorer [les {mysètres|secrets} de] } *the_land.
   </speech>
   
   <speech id="he_is_a_master_of_realm_magic">
-    *mob_he is a master of *realm_magic.
+    *mob_he est un maître de *realm_magic.
   </speech>
 
   <speech id="he_was_a_master_of_realm_magic">
-    *mob_he was a master of *realm_magic.
+    *mob_he était un maître de *realm_magic.
   </speech>
   
   <speech id="some_residents_use_realm_magic">
-    { [Some] *residents { practicise | are practictioners of | are users of | are able to use | are masters of } *realm_magic |
-    *realm_magic is widely { practicised | used | mastered } in *the_named_realm }.
+    { [Des] *residents { pratiquent | sont pratiquants de | sont utilisateurs de | savent utiliser de | sont des maîtres de } *realm_magic |
+    *realm_magic est largement { pratiquée | utilisée | maîtrisée } dans *the_named_realm }.
   </speech>
   
   <speech id="some_residents_used_realm_magic">
-    { [Some] *residents { practicised | were practictioners of | were users of | were able to use | mastered } *realm_magic |
-    *realm_magic was widely { practicised | used | mastered } in *the_named_realm }.
+    { [Des] *residents { pratiquaient | étaient pratiquants de | étaient utilisateurs de | savaient utiliser de | maîtrisaient } *realm_magic |
+    *realm_magic était largement { pratiquée | utilisée | maîtrisée } dans *the_named_realm }.
   </speech>
 
   <speech id="the_residents_feared_their_ruler">
-    The *residents { feared | dreaded | were afraid of | were frightened of | were suppressed by } their *ruler.
+    Les *residents { craignaient | redoutaient | avaient peur de | était effrayés par | étaient opprimés par } leur *ruler.
   </speech>
   
   <speech id="praise_the_ruler">
-    Praise { [*mob_name] the *ruler | *mob_name }!
+    Gloire à { [*mob_name], { #ruler_f la | le } *ruler | *mob_name }!
   </speech>
   
   <speech id="the_residents_loved_their_ruler">
-    The *residents { loved | worshipped | admired | idolised } their *ruler.
+    Les *residents { adoraient | vénéraient | admiraient | idolâtraient } leur *ruler.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_called">
-    The capital *from_named_realm was called { @name $stress }.
+    La capitale *from_named_realm était appelée { @name $stress }.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_built_in_year">
-    { @name $stress }, the capital *from_named_realm, was built in [the year] { @number $number }.
+    { @name $stress }, la capitale *from_named_realm, fut construite en [l'an] { @number $number }.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_destroyed_during_a_war_against_the_faction">
-    { @name $stress }, the capital *from_named_realm, was destroyed { during the { war | battle } against *the_faction | by *the_faction }.
+    { @name $stress }, la capitale *from_named_realm, fut détruite durant la { guerre | bataille } contre *the_faction.
   </speech>
 
   <speech id="the_capital_of_the_realm_sunk_in_the_ocean">
-    { @name $stress }, the capital *from_named_realm, sunk in the { ocean $stress } { a long time ago | long ago | many years ago}.
+    { @name $stress }, la capitale *from_named_realm, sombra dans { l'océan $stress } { il y a fort longtemps | il y a longtemps | de nombreuses années plus tôt}.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_destroyed_by_a_meteor">
-    { @name $stress }, the capital *from_named_realm, was destroyed by a { meteor $stress }.
+    { @name $stress }, la capitale *from_named_realm, fut détruite par une { météorite $stress }.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_destroyed_by_an_earthquake">
-    { @name $stress }, the capital *from_named_realm, was destroyed by an { earthquake $stress }.
+    { @name $stress }, la capitale *from_named_realm, fut détruite par un { tremblement de terre $stress }.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_destroyed_by_a_volcanic_eruption">
-    { @name $stress }, the capital *from_named_realm, was destroyed by a { volcanic eruption $stress }.
+    { @name $stress }, la capitale *from_named_realm, fut détruite par une { éruption volcanique $stress }.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_destroyed_by_a_titan">
-    { @name $stress }, the capital *from_named_realm, was destroyed by a { titan $stress }.
+    { @name $stress }, la capitale *from_named_realm, fut détruite par un { titan $stress }.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_destroyed_by_a_megasaurian">
-    { @name $stress }, the capital *from_named_realm, was destroyed by a { megasaurian $stress }.
+    { @name $stress }, la capitale *from_named_realm, fut détruite par un { Lézard Géant $stress }.
   </speech>
 
   <speech id="the_capital_of_the_realm_was_destroyed_by_a_demon">
-    { @name $stress }, the capital *from_named_realm, was destroyed by a { demon $stress }.
+    { @name $stress }, la capitale *from_named_realm, fut détruite par un { démon $stress }.
   </speech>
 
+  <!-- @GHOMERR -->
 
   <speech id="archeologists_are_looking_for_the_ruins_of_the_capital_of_the_realm">
-    Archeologists { are [still] | have been } { searching | looking } for the { ruins | remains } of { @name $stress }, the capital *from_named_realm.
+    Archeologists { are [still] | have been } { searching | looking } for the { ruins | remains } of { @name $stress }, la capitale *from_named_realm.
   </speech>
 
   <speech id="until_now_their_efforts_were_useless">
