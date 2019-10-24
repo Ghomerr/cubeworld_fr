@@ -1,7 +1,7 @@
 # CubeWorld FR
-Traduction française du dictionnaire de Cube World (Toujours en cours).
+Traduction française du dictionnaire de Cube World (**100%**). N'hésitez pas à signaler les erreurs !
 
-Contributeurs : Hyeron, Ghomerr.
+Contributeurs : Hyeron, Ghomerr, [actionbrk](https://github.com/Ghomerr/cubeworld_fr/pulls?q=is%3Apr+author%3Aactionbrk).
 Topic dédié sur le forum Steam : https://steamcommunity.com/app/1128000/discussions/0/2733047810446545942/
 
 # Installation
