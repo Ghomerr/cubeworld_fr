@@ -6232,7 +6232,7 @@
   </speech>
 
   <speech id="lets_see_if_the_item_is_working">
-    { Voyons-voir si | J'espère [que] | Espérons que } *item_le *item fonctionne...    
+    { Voyons-voir si | J'espère que | Espérons que } *item_le *item fonctionne...    
   </speech>
 
   <speech id="i_feel_better">
@@ -6735,7 +6735,7 @@
   </speech>
 
   <speech id="so_you_found_the_zone">
-    { Donc, | Il semble [que] | Apparemment, } vous avez trouvé *the_zone!
+    { Donc, | Il semble que | Apparemment, } vous avez trouvé *the_zone!
   </speech>
   
   <speech id="there_is_a_zone_in_this_zone2">
