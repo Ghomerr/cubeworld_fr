@@ -3127,7 +3127,7 @@
   </name>
 
   <name id="Deadlands" tags="f p surles les">
-    Terres Mortes {de @ #named}
+    Terres Désolées {de @ #named}
   </name>  
 
   <name id="Ocean" tags="m surl l">
@@ -6300,7 +6300,7 @@
   </speech>
 
   <speech id="now_my_pet_is_gone">
-    Mon *mob est désormais { parti | disparu }!
+    { #mob_f Ma | Mon } *mob est désormais { { #mob_f partie | parti } | { #mob_f disparue | disparu } }!
   </speech>
 
   <speech id="you_must_find_npc">
@@ -7418,6 +7418,10 @@
     Prédicatrice
   </speech>
 
+  <macro id="the_ruler">
+    { #ruler_f la | le } { @ruler() $realm }
+  </macro>
+
   <macro id="a_ruler">
     { #ruler_f une | un } { @ruler() $realm }
   </macro>
@@ -7453,18 +7457,18 @@
   <speech id="the_realm_exists_since_the_year">
     { La légende dit que | D'après la légende, | }
     { *the_named_realm { #realm_p existent | existe } depuis *the_year |
-    *the_named_realm { pris son origine | vint à l'existence } en *the_year |
-    *the_named_realm { #realm_p se sont | s'est } { formé | fondé} *the_year |
-    En *the_year, *the_named_realm { #realm_p se sont | s'est } { formé | fondé} |
+    *the_named_realm { { #realm_p prirent leur origine | prit son origine } | { #realm_p furent formés | fut { #realm_f formée | formé } } | { #realm_p furent découverts | fut { #realm_f découverte | découvert } } } en *the_year |
+    *the_named_realm { #realm_p se sont | s'est } { { #realm_p formés | #realm_f formée | formé } | { #realm_p fondés | #realm_f fondée | fondé } } *the_year |
+    En *the_year, *the_named_realm { #realm_p se sont | s'est } { { #realm_p formés | #realm_f formée | formé } | { #realm_p fondés | #realm_f fondée | fondé } } |
     l'histoire de *from_named_realm a commencé en *the_year} .
   </speech>
 
   <speech id="in_the_year_there_was_a_realm">
-    En *the_year il y a { #realm_p eu } { *a_realm called *realmname | *the_named_realm }.
+    En *the_year, il y avait { *a_realm { #realm_f appelée | appelé } *realmname | *the_named_realm }.
   </speech>
 
   <speech id="once_there_was_a_realm">
-    { Une fois | Selon la légende, | la légende dit que | il y a longtemps | il y a beaucoup d'années | dans les anciens temps } il y a { #realm_p eu } { *a_realm called *realmname | *the_named_realm }.
+    { { Autrefois, | Selon la légende, | il y a longtemps, | de nombreuses années plus tôt, | dans les temps anciens, } { il y avait | existait } | la légende raconte qu'il y avait } *a_realm { #realm_f appelée | appelé } *the_named_realm.
   </speech>
 
   <speech id="in_the_year_there_was_a_named_ruler">
@@ -7510,11 +7514,11 @@
   </speech>
 
   <speech id="here_rests_hero_of_the_realm">
-    { Ici repose { en paix | paisiblement | pour toujours | pour éternité | éternellement | } *mob_name | [ Ceci est la ] { tombe } of *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name },  [{légendaire | fameux | honorable}] héros *from_named_realm.
+    { Ici repose { en paix | paisiblement | pour toujours | pour l'éternité | éternellement | } *mob_name | [ Ceci est la ] { tombe } de *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name },  [{légendaire | fameux | honorable}] héros *from_named_realm.
   </speech>
 
   <speech id="here_rests_resident">
-    { Ici repose [{ en paix | paisiblement | pour toujours | pour éternité | éternellement }] *mob_name | [ Ceci est la ] { tombe } de *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name } [{ *the_resident | *mob_him *mob }].
+    { Ici repose [{ en paix | paisiblement | pour toujours | pour l'éternité | éternellement }] *mob_name | [ Ceci est la ] { tombe } de *mob_name | Repose en paix, *mob_name | R.I.P. *mob_name } [{ *the_resident | *mob_him *mob }].
   </speech>
 
   <macro id="trait">
@@ -7556,7 +7560,7 @@
   </speech>
 
   <speech id="he_lived_for_years">
-    *mob_he a vécu @number [{ happy | fulfilled }] ans.
+    *mob_he a vécu @number années [{ heureuses | bien remplies }].
   </speech>
   
   <speech id="he_died_in_the_war_against_the_faction">
@@ -7588,7 +7592,7 @@
   </speech>
   
    <speech id="during_the_faction_war_he_had_to_flee_to_the_land">
-    { Pendant la [grande] guerre [ contre *the_faction ] | Quand la [grande] guerre [ contre *the_faction] { a débuté | a éclaté } } *mob_he a du fuir *the_land.
+    { Pendant la [grande] guerre [ contre *the_faction ] | Quand la [grande] guerre [contre *the_faction] { a débuté | a éclaté } } *mob_he a dû fuir *the_land.
   </speech>
   
   <speech id="later_he_moved_to_the_land">
@@ -7734,7 +7738,7 @@
   </speech>
   
   <speech id="praise_the_ruler">
-    Gloire à { [*mob_name], { #ruler_f la | le } *ruler | *mob_name }!
+    Gloire à { [*mob_name], *the_ruler *ruler | *mob_name }!
   </speech>
   
   <speech id="the_residents_loved_their_ruler">
@@ -7781,91 +7785,89 @@
     { @name $stress }, la capitale *from_named_realm, fut détruite par un { démon $stress }.
   </speech>
 
-  <!-- @GHOMERR -->
-
   <speech id="archeologists_are_looking_for_the_ruins_of_the_capital_of_the_realm">
-    Archeologists { are [still] | have been } { searching | looking } for the { ruins | remains } of { @name $stress }, la capitale *from_named_realm.
+    Les Archéologues { sont [encore] { à la recherche | en quête } | ont { recherché | cherché } } des { ruines | restes } de { @name $stress }, la capitale *from_named_realm.
   </speech>
 
   <speech id="until_now_their_efforts_were_useless">
-    { Until now | up to now } [all] their { endeaveours | efforts } were { vain | wasted | without avail | useless }.
+    { Jusqu'à maintenant | Jusqu'à présent } [tous] leurs { tentatives | efforts }  { furent vaines | échouèrent | furent sans résultat | furent inutiles }.
   </speech>
   
   <speech id="the_land_was_inhabited_by_residents">
-    { A long time ago | Long ago | Many years ago | in ancient times },
-    { *the_land { #land_p were | was } inhabited by *residents | *residents { lived in | inhabited } *the_land } .
+    { Il y a fort longtemps | Jadis | Il y a plusieurs années | Dans les temps anciens },
+    { *the_land { #land_p étaient habités | était { #land_f habitée | habitée } } par *residents | *residents { vivaient dans | habitait } *the_land } .
   </speech>
 
   <speech id="the_land_is_inhabited_by_residents_since_year">
-    { *the_land { #land_p are | is } inhabited by *residents since [the year] {  @number $number } | since [the year] { @number $number } *the_land { #land_p are | is } inhabited by *residents }.
+    { *the_land { #land_p sont habités | #land_f habitée | est habité } par *residents depuis [l'an] {  @number $number } | Depuis [l'an] { @number $number }, *the_land { #land_p sont habités | #land_f habitée | est habité } par *residents }.
   </speech>
 
   <speech id="the_land_was_populated_by_residents_in_year">
-    { *the_land { #land_p were | was } { populated | settled | colonized } by *residents in [the year] { @number $number } | In [the year] { @number $number }, *the_land { #land_p were | was } { populated | settled | colonized } by *residents }.
+    { *the_land { { #land_p furent peuplés | fut { #land_f peuplée | peuplé } } | { #land_p furent investis | fut { #land_f investie | investi } } | { #land_p furent colonisées | fut { #land_f colonisée | colonisé } } } par *residents in [the year] { @number $number } | In [the year] { @number $number }, *the_land { #land_p were | was } { populated | settled | colonized } by *residents }.
   </speech>
 
   <speech id="long_ago_there_was_a_war_in_the_land_between_the_realm_and_the_faction">
-    { A long time ago | Long ago | Many years ago | in ancient times }, there was a { fierce | long | } { war | battle } in *the_land between *the_named_realm and *the_faction.
+    { Il y a fort longtemps | Jadis | Il y a plusieurs années | Dans les temps anciens }, il y eut une { guerre | bataille } { féroce | longue | } dans *the_land entre *the_named_realm et *the_faction.
   </speech>
 
   <macro id="in_ruler_home">
-    { #temple in a { temple $stress }
-    | #pyramid in a { pyramid $stress }
-    | #palace in a { palace $stress }
-    | #grotto in a { grotto $stress }
-    | #cave in a { cave $stress }
-    | #citadel in a { citadel $stress }
-    | #castle in a { castle $stress }
-    | #cathedral in a { cathedral $stress }
-    | #fortress in a { fortress $stress }
-    | #fortress in a { tower $stress }
-    | #fortress on a { volcano $stress }
+    { #temple dans un { temple $stress }
+    | #pyramid dans une { pyramide $stress }
+    | #palace dans un { palais $stress }
+    | #grotto dans une { grotte $stress }
+    | #cave dans une { cave $stress }
+    | #citadel dans une { citadelle $stress }
+    | #castle dans un { château $stress }
+    | #cathedral dans une { cathédrale $stress }
+    | #fortress dans une { forteresse $stress }
+    | #fortress dans une { tour $stress }
+    | #fortress sur un { volcan $stress }
     }
 
-    { #island on an { island $stress }
-    | #mountains high in the { mountains $stress }
-    | #ocean near the { ocean $stress }
-    | #snowlands deep in the { snowlands $stress }
-    | #deadlands in the { deadlands $stress }
-    | #forest deep in the { forest $stress }
-    | #desert in the { desert $stress }
+    { #island sur une { île $stress }
+    | #mountains en haut dans les { montagnes $stress }
+    | #ocean près de { l'océan $stress }
+    | #snowlands dans les { terres enneigées $stress }
+    | #deadlands dans les { terres désolées $stress }
+    | #forest dans la { forêt $stress }
+    | #desert dans le { désert $stress }
     }
   </macro>
 
   <speech id="the_ruler_lives_in">
-    { *mob_name, the *ruler *from_named_realm, | the *ruler *from_named_realm | *mob_name [the *ruler] } { lives | resides } *in_ruler_home.
+    { *mob_name, *the_ruler *ruler *from_named_realm, | *the_ruler *ruler *from_named_realm | *mob_name [*the_ruler *ruler] } { vivait | résidait } *in_ruler_home.
   </speech>
 
 
   <speech id="the_ruler_was_buried_in">
-    { { *mob_name, the *ruler *from_named_realm, | the *ruler *from_named_realm | *mob_name [the *ruler] } was buried | { *mob_names { grave | tomb } |  the { grave | tomb } of { *mob_name, the *ruler *from_named_realm, | the *ruler *from_named_realm | *mob_name [the *ruler] }} is [located] } *in_ruler_home.
+    { { *mob_name, *the_ruler *ruler *from_named_realm, | *the_ruler *ruler *from_named_realm | *mob_name [*the_ruler *ruler] } fut { #ruler_f enterrée | enterré } | { La { sépulture | tombe } de *mob_names | La { sépulture | tombe } de { *mob_name, *the_ruler *ruler *from_named_realm, | *the_ruler *ruler *from_named_realm | *mob_name [*the_ruler *ruler] }} est [située] } *in_ruler_home.
   </speech>
 
 
   <speech id="there_is_a_legend_about_an_artifact">
-    { { Il y a a { legend | tale } | { legends | tales } are told } about { an ancient | an old | a magic | a mighty | a rare } { *realm_adjective artifact | artifact *from_named_realm }: *item_le *item.
-    | { An old | a common | a popular | a traditional } *realm_adjective { legend | tale } tells about { an ancient | an old | a magic | a mighty | a rare } artifact: *item_le *item.
-    | The { legend | tale } of *item_le *item was often told { in *the_named_realm | among *residents }.   }
+    { { Il y a { une légende | un conte } | { Des légendes sont racontées | Des contes sont narrés } } à propos d'un { artéfact *realm_adjective  | artéfact { antique | ancien | magique | puissant | rare } *from_named_realm }: *item_le *item.
+    | { Une légende { ancienne | commune | populaire | traditionnelle } | Un conte { ancien | commun | populaire | traditionnel } } *realm_adjective parle d'un artéfact { antique | ancien | magique | puissant | rare } : *item_le *item.
+    | { La légende | L'histoire } { #item_p des | #item_f de la | du } *item était souvent racontée { dans *the_named_realm | parmi *residents }.   }
   </speech>
   
   <speech id="there_is_a_mighty_artifact">
-    { À ce qu'on raconte, | D'après la légende, | La légende raconte qu'} il existe un { artéfact *realm_adjective | artéfact { puissant | magique | arcanique | miraculeux | rare } { | venant | provenant } *from_named_realm }: { #item_f la | #item_m le | les } *item.
+    { À ce qu'on raconte, | D'après la légende, | La légende raconte qu'} il existe un { artéfact *realm_adjective | artéfact { puissant | magique | arcanique | miraculeux | rare } { | venant | provenant } *from_named_realm }: *item_le *item.
     
   </speech>
   
   <speech id="the_item_was_a_mighty_artifact">
-    { The *item is { a powerful | a mighty | a magic | an arcane | a miracoulus | a rare } { *realm_adjective artifact | artifact { of | that comes from | [stemming] from } *from_named_realm }. 
-    | The *item is an artifact with { magic | supernatural | arcane  | miracoulus } powers { that comes from | [stemming] from } *from_named_realm. }
+    { *item_le *item est un { artéfact { puissant | de force | magique | arcanique | miraculeux | rare } *realm_adjective | artéfact { puissant | de force | magique | arcanique | miraculeux | rare } { | qui vient | [provenant] } *from_named_realm }. 
+    | *item_le *item est un artéfact avec des pouvoirs { magiques | surnaturels | arcaniques | miraculeux } { qui viennent | [provenant] } *from_named_realm. }
   </speech>
   
   
   
   <speech id="it_is_said_to_be_located_in_the_dungeon">
-    { It is said to be | Allegedly, it is | Presumably, it is | Supposedly, it is | It is supposed to be } { located | hidden } { deep in | in the depths of | down in | deep inside }  the *zone.
+    { On raconte qu'il serait | À ce qu'on dit, il est | Il est probablement | Il est soi-disant | Il est censé être } { situé | caché } { profondément dans | dans les profondeurs | en bas dans | pronfondément à l'intérieur de } *the_zone *zone.
   </speech>
   
   <speech id="it_is_said_to_be_located_in_the_location">
-    { It is said to be | Allegedly, it is | Presumably, it is | Supposedly, it is | It is supposed to be } { located | hidden } [somewhere] *in_the_zone.
+    { On raconte qu'il serait | À ce qu'on dit, il est | Il est probablement | Il est soi-disant | Il est censé être } { situé | caché } [quelque part] *in_the_zone.
   </speech>
 
 
@@ -7873,15 +7875,15 @@
   <!-- Quests -->
   
   <speech id="he_is_petrified">
-    *mob_he est { petrified $stress}.
+    *mob_he est { { #mob_f pétrifiée | pétrifié } $stress}.
   </speech>
   
    <speech id="so_you_defeated_the_witch">
-    [Ainsi] vous avez { vaincu | réussi à vaincre | pu vaincre } la { sorcière $creature }?
+    [Ainsi], vous avez { vaincu | réussi à vaincre | pu vaincre } la { sorcière $creature }?
   </speech>
   
   <speech id="so_you_destroyed_the_demon_portal">
-    [Ainsi] vous avez { détruit | réussi à détruire | pu détruire | fermé | réussi à fermer } le { portail démoniaque $creature }?
+    [Ainsi], vous avez { détruit | réussi à détruire | pu détruire | fermé | réussi à fermer } le { portail démoniaque $creature }?
   </speech>
   
   <speech id="a_witch_lives_in_location_direction_of_here">
@@ -7899,23 +7901,23 @@
   </speech>
   
   <speech id="a_demon_portal_was_seen_in_location_direction_of_here">
-    Un { grand | énorme | gigantesque } { portail démoniaque $creature } a été { vu | trouvé | découvert }  *in_the_zone *direction_of_here!
+    Un { grand | énorme | gigantesque } { portail démoniaque $creature } a été { vu | trouvé | découvert } *in_the_zone *direction_of_here!
   </speech>
   
   <speech id="the_demons_are_possessing_the_residents_of_the_land">
-   Les { démons $creature } { possèdent $stress } les résidents *from_the_land!
+   Les { démons $creature } { prennent possession $stress } des résidents *from_the_land!
   </speech>
   
   <speech id="the_location_is_full_of_creatures">
-      { The { @zone() $zone } is full of *mobs! | Il y a des so many *mobs *in_the_unnamed_zone! | The { @zone() $zone } is in danger! *mobs are attacking! | *mobs have invaded the { @zone() $zone }! }
+      { *the_zone { @zone() $zone } est { #zone_f remplie | rempli } de *mobs! | Il y a tellement de *mobs *in_the_unnamed_zone! | *the_zone { @zone() $zone } est en danger! *mobs attaquent! | *mobs ont envahi *the_zone { @zone() $zone }! }
   </speech>
   
    <speech id="the_location_is_full_of_plant_creatures">
-      { The { @zone() $zone } is full of { plant creatures $creature}! | Il y a des so many { plant creatures $creature} *in_the_unnamed_zone! | The { @zone() $zone } is in danger! { plant creatures $creature} are attacking! | { plant creatures $creature} have invaded the { @zone() $zone }! }
+      { *the_zone { @zone() $zone } est { #zone_f remplie | rempli } de { créatures végétales $creature}! | Il y a tellement de { créatures végétales $creature} *in_the_unnamed_zone! | *the_zone { @zone() $zone } est en danger! Des { créatures végétales $creature} attaquent! | Des { créatures végétales $creature} ont envahi *the_zone { @zone() $zone }! }
   </speech>
 
    <speech id="the_location_is_full_of_insects">
-      { The { @zone() $zone } is full of { insects $creature}! | Il y a des so many { insects $creature} *in_the_unnamed_zone! | The { @zone() $zone } is in danger! { insects $creature} are attacking! | { insects $creature} have invaded the { @zone() $zone }! }
+      { *the_zone { @zone() $zone } est { #zone_f remplie | rempli } { d'insectes $creature}! | Il y a tellement { d'insectes $creature} *in_the_unnamed_zone! | *the_zone { @zone() $zone } est en danger! Des { insectes $creature} attaquent! | Des { insectes $creature} ont envahi *the_zone { @zone() $zone }! }
   </speech>
 
 
